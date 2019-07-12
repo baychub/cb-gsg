@@ -163,7 +163,7 @@ tag events produced by the gateway, raw RFID tag data, and other RSP system info
 
 The RSP web portal displays many of the available MQTT topics (specific sets of data you can subscribe to) in the Upstream and Downstream panes of the Dashboard page, e.g., "rfid/gw/alerts". The RSP gateway divides its MQTT topics into two groups:
 - Downstream: data the gateway pulls from or sends to the sensors
-- Upstream (processed data the gateway makes available out on the network to go into a database, management app, etc.)
+- Upstream: processed data the gateway makes available out on the network to go into a database, management app, etc.
 
 1. To see RSP data over MQTT from a terminal window:
 ```
