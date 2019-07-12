@@ -96,7 +96,7 @@ sudo apt-get install default-jdk git gradle
 sudo apt-get install mosquitto mosquitto-clients avahi-daemon ntp ssh
 ```
 ### Clone gateway repository (not needed for RDK)
-1. Run these commands to clone the RSP gateway repository in a new directory. This guide assume you've used the ~/projects directory, but you can change the path to wherever you want to clone the directory where you see the projects directory in later steps.
+1. Run these commands to clone the RSP gateway repository in a new directory. This guide assumes you've used the ~/projects directory, but you can change the path to wherever you want to clone the directory where you see the projects directory in later steps.
 ```
 #-- create expected directories for the use case examples and documentation
 mkdir -p ~/projects
