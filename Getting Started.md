@@ -148,6 +148,7 @@ The gateway provides, as sample software, a web-based administration interface f
 
 1. Open the web portal from the gateway PC by going to http://localhost:8080/web-admin/ in a browser.
 2. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
+
 ![enter image description here](add-screenshot-URL-here)
 
 ## Viewing RFID data in other ways
