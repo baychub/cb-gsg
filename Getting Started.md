@@ -12,23 +12,23 @@ Other than the web portal, all the software pieces installed in this getting sta
 
 ## Contents
 - System Overview
-	o Solution Structure
-	o Network Map for Getting Started
+	- Solution Structure
+	- Network Map for Getting Started
 - System Requirements
-	o Hardware
-	o Software
+	- Hardware
+	- Software
 - Setting up the Hardware
 - Installing and Running the Gateway on Windows
 - Installing the Gateway on Linux
-	o Install prerequisites (not needed for RDK)
-	o Clone gateway repository (not needed for RDK)
-	o Build and deploy (not needed for RDK) 
+	- Install prerequisites (not needed for RDK)
+	- Clone gateway repository (not needed for RDK)
+	- Build and deploy (not needed for RDK) 
 - Running the Gateway on Linux
-	o Start gateway software
-	o Open the web portal
+	- Start gateway software
+	- Open the web portal
 - View RFID data in other ways
-	o Subscribe to MQTT topics
-	o Explore the command-line interface
+	- Subscribe to MQTT topics
+	- Explore the command-line interface
 - Next Steps
 
 <a id="system_overview">
