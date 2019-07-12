@@ -141,6 +141,7 @@ cd ~/deploy/rsp-sw-toolkit-gw
 The RSP sensors listen for messages from the gateway and initiate a connection with it. As the sensors connect, by default the gateway schedules them to activate in round-robin sequence, one at a time. You can watch the terminal output to see connections taking place and RFID tags being read.
 
 You can run the web portal (next section) at any time after starting the gateway software because the dashboard refreshes automatically. The web portal dashboard will be ready to display RFID data when you see a screen like the following:
+
 ![enter image description here](add-screenshot-URL-here)
 
 ### Open the web portal
