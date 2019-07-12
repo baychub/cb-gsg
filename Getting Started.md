@@ -81,7 +81,7 @@ Instructions for build and installation in a Windows environment are in the [Gat
 
 ## Installing the Gateway on Linux (Recommended)
 This section assumes an Ubuntu 18.04 installation, preinstalled on the RDK, but but other Linux distributions compatible with JRE 8+ should also be compatible.
-1. If you have the Intel RSP Developer Kit (RDK), skip ahead to "[Run gateway software](#run_gateway_linux)" because the software is preinstalled. 
+1. If you have the Intel RSP Developer Kit (RDK), the software is preinstalled. Skip ahead to "[Run gateway software](#run_gateway_linux)". 
 2. If you provided your own gateway PC, carry out all of the following steps.
 
 ### Install prerequisites (not needed for RDK)
