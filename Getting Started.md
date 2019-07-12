@@ -170,7 +170,7 @@ The RSP web portal displays many of the available MQTT topics (specific sets of 
 #-- See data from the gateway events topic
 mosquitto_sub -t rfid/gw/events
 ```
-	The console displays in JSON-RPC format any high-level events processed by the gateway (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic. If you don't see any events initially, try introducing or moving some tags.
+The console displays in JSON-RPC format any high-level events processed by the gateway (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic. If you don't see any events initially, try introducing or moving some tags.
 ![enter image description here](add-screenshot-URL-here)
 
 2. Press Ctrl-C to stop monitoring MQTT data on this topic.
