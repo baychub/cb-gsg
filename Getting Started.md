@@ -53,16 +53,16 @@ This getting started tutorial uses a simple network configuration, shown in the 
 In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the kit, or you can provide your own hardware.
 
 ### Hardware
- - Any PC that can run the JRE and operating system (if you have the RDK, an Intel NUC)
- - Ethernet router with DHCP enabled (if you have the RDK, model xxx)
- - Ethernet switch that supports PoE+ (if you have the RDK, model yyy)
- - At least one Intel RSP sensor unit, preferably two, from models H1000, H3000, or H4000 (if you have the RDK, one H1000 and one H3000)
+ - Any PC that can run the JRE and operating system *(if you have the RDK, an Intel NUC)*
+ - Ethernet router with DHCP enabled *(if you have the RDK, model xxx)*
+ - Ethernet switch that supports PoE+ *(if you have the RDK, model yyy)*
+ - At least one Intel RSP sensor unit, preferably two, from models H1000, H3000, or H4000 *(if you have the RDK, one H1000 and one H3000)*
  - Sample RFID tags to test with
  - Ethernet cables
 
 ### Software
- - Java Runtime Environment (JRE), version 8 or later (if you have the RDK, preinstalled)
- - Any  operating system that can run the JRE (if you have the RDK, Ubuntu 18.04)
+ - Java Runtime Environment (JRE), version 8 or later *(if you have the RDK, preinstalled)*
+ - Any  operating system that can run the JRE *(if you have the RDK, Ubuntu 18.04)*
 
 ## Setting up the Hardware
 
