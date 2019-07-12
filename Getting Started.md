@@ -8,8 +8,6 @@ The Intel RSP gateway software is open source and fully functional, so you can e
 
 Other than the web portal, all the software pieces installed in this getting started guide, including the MQTT and CLI functionality and the underlying gateway application, are core components of the platform.
 
-[TOC]
-
 ## Contents
 - System Overview
 	- Solution Structure
