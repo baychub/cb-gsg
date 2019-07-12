@@ -87,12 +87,12 @@ This section assumes an Ubuntu 18.04 installation, preinstalled on the RDK, but 
 2. If you provided your own gateway PC, carry out all of the following steps.
 
 ### Install prerequisites (not needed for RDK)
-1. Run these commands to get software required for building the gateway application. *--((HTML version of the GSG will need to remove the automatic coloring for git, which is misleading.))*
+1. Run these commands to get software required for building the gateway application. 
 ```
 #-- install development dependencies
 sudo apt-get install default-jdk git gradle
 ```
-2. Run these commands to get software required for the gateway to communicate. *--((HTML version of the GSG will need to remove the automatic coloring for ssh, which is misleading.))*
+2. Run these commands to get software required for the gateway to communicate. 
 ```
 #-- install runtime dependencies
 sudo apt-get install mosquitto mosquitto-clients avahi-daemon ntp ssh
