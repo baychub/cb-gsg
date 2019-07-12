@@ -31,10 +31,8 @@ Other than the web portal, all the software pieces installed in this getting sta
 	- Explore the command-line interface
 - Next Steps
 
-<a id="system_overview">
 ## System Overview
 
-<a id="solution_structure">
 ### Solution Structure
 
 The image below is an example of a robust inventory management system built on Intel RSP. The RSP reader activates the RFID tags within its range and passes tag data, along with information from other on-board sensors, to the gateway software running on a PC. The gateway aggregates the high volume of raw data and generates meaningful inventory events (e.g., "item exited"), alerts, and system status notifications. It publishes them to MQTT topics on an upstream channel, available to applications running in a customer’s cloud infrastructure.
