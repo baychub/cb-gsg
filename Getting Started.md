@@ -1,4 +1,4 @@
-﻿# Getting Started with Intel® RFID Sensor Platform (RSP)
+# Getting Started with Intel® RFID Sensor Platform (RSP)
 
 The instructions in this getting started guide will rapidly get an Intel RSP configuration up and running in your lab to prepare for solution development. The steps in this guide apply whether you provide your own hardware or buy the Intel RSP Developer Kit *(UPDATE NAME)*, available from the [atlasRFIDstore](https://www.atlasrfidstore.com/intel-rsp-h3000-integrated-rfid-reader-development-kit/).
 
@@ -10,23 +10,23 @@ Other than the web portal, all the software pieces installed in this getting sta
 
 ## Contents
 - System Overview
-	- Solution Structure
-	- Network Map for Getting Started
+	o Solution Structure
+	o Network Map for Getting Started
 - System Requirements
-	- Hardware
-	- Software
+	o Hardware
+	o Software
 - Setting up the Hardware
 - Installing and Running the Gateway on Windows
 - Installing the Gateway on Linux
-	- Install prerequisites (not needed for RDK)
-	- Clone gateway repository (not needed for RDK)
-	- Build and deploy (not needed for RDK) 
+	o Install prerequisites (not needed for RDK)
+	o Clone gateway repository (not needed for RDK)
+	o Build and deploy (not needed for RDK) 
 - Running the Gateway on Linux
-	- Start gateway software
-	- Open the web portal
+	o Start gateway software
+	o Open the web portal
 - View RFID data in other ways
-	- Subscribe to MQTT topics
-	- Explore the command-line interface
+	o Subscribe to MQTT topics
+	o Explore the command-line interface
 - Next Steps
 
 ## System Overview
@@ -55,7 +55,7 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
 ### Hardware
  - Any PC that can run the JRE and operating system *(if you have the RDK, an Intel NUC)*
  - Ethernet router with DHCP enabled *(if you have the RDK, model xxx)*
- - Ethernet switch that supports PoE+ *(if you have the RDK, model yyy)*
+ - Ethernet switch that supports PoE+ *(if you have the RDK, model yay)*
  - At least one Intel RSP sensor unit, preferably two, from models H1000, H3000, or H4000 *(if you have the RDK, one H1000 and one H3000)*
  - Sample RFID tags to test with
  - Ethernet cables
@@ -85,12 +85,12 @@ This section assumes an Ubuntu 18.04 installation, preinstalled on the RDK, but 
 2. If you provided your own gateway PC, carry out all of the following steps.
 
 ### Install prerequisites (not needed for RDK)
-1. Run these commands to get software required for building the gateway application. 
+1. Run these commands to get software required for building the gateway application. *--((HTML version of the GSG will need to remove the automatic coloring for git, which is misleading.))*
 ```
 #-- install development dependencies
 sudo apt-get install default-jdk git gradle
 ```
-2. Run these commands to get software required for the gateway to communicate. 
+2. Run these commands to get software required for the gateway to communicate. *--((HTML version of the GSG will need to remove the automatic coloring for ssh, which is misleading.))*
 ```
 #-- install runtime dependencies
 sudo apt-get install mosquitto mosquitto-clients avahi-daemon ntp ssh
@@ -108,7 +108,6 @@ git clone https://github.com/intel/rsp-sw-toolkit-gw.git
 ### Build and deploy (not needed for RDK)
 These components are preinstalled if you have the RSP Developer Kit. If you don't, go to the Linux PC you're using for the RSP gateway software and follow the steps in tthis section.
 1. Run these commands to build the gateway software, using the gradle utility.
-
 ```
 cd ~/projects/rsp-sw-toolkit-gw
 
@@ -132,7 +131,6 @@ The gateway software must be running in order to gather, process, and report dat
 
 ### Start gateway software
 A shell script starts the gateway application in the foreground. 
-
 1. Run these commands to start the application: 
 ```
 cd ~/deploy/rsp-sw-toolkit-gw
@@ -243,7 +241,7 @@ In this way you can see the syntax options progressively without referring to do
 To view command help, type the command and press Enter.
 
 ## Next Steps
-### See sample use cases
-Explore the reference use cases that are included.  
-[Retail](examples/use-cases/retail)
-
+[Use Cases](examples/use-cases/retail): Possible implementations for common use cases in areas like retail and factory floors
+[Gateway API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP gateway software
+[Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
+[Etc. (TBD)](examples/use-cases/retail): More to come
