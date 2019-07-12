@@ -11,8 +11,8 @@ Other than the web portal, all the software pieces installed in this getting sta
 [TOC]
 
 ## Contents
-- [System Overview](#system_overview)
-	o [Solution Structure](#solut
+- System Overview
+	o Solution Structure
 	o Network Map for Getting Started
 - System Requirements
 	o Hardware
