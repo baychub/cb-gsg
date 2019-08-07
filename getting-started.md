@@ -22,11 +22,12 @@ All other software installed in this getting started guide is core to the platfo
 	- Build and deploy
 - Running the RSP Controller Application on Linux
 	- Start the RSP Controller Application
-- Start the 
+- Using the Web Portal
 	- Open the web portal
-- View RFID data in other ways
+	- ((Other web portal tasks here))
+- Viewing RFID data in other ways
 	- Subscribe to MQTT topics
-	- Explore the command-line interface
+	- Use the command-line interface
 - Next Steps
 
 ## System Overview
@@ -136,7 +137,7 @@ You can run the web portal (next section) at any time after starting the RSP Con
 ![enter image description here](add-screenshot-URL-here)
 
 
-## Using the web portal
+## Using the Web Portal
 The RSP Controller Application provides, as sample software, a web-based administration interface for configuration and RFID monitoring. The home page is a dashboard showing connected sensors, tags being read, and other status information.
 
 ### Open the web portal
@@ -149,7 +150,7 @@ While the RSP Controller Application software is running, you can use the web po
 ### Other web portal tasks here
 While the RSP Controller Application software is running, you can use the web portal.
 
-## Viewing RFID data in other ways
+## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
  - **The MQTT communications protocol.** The RSP Controller uses a built-in MQTT broker to deliver data structured as JSON-RPC. Many libraries support the well-known MQTT and JSON-RPC protocols, so it's straightforward to implement data access in the code for your solution.
  - **The RSP Controller CLI.** The RSP Controller includes a simple, local command-line interface for accessing data and also for making sensor configuration changes. 
@@ -182,7 +183,7 @@ mosquitto_sub -t rfid/rsp/rsp_status/#
 ```
 Full documentation of the MQTT topics and data definitions can be found in the *[Intel® RSP Controller - Edge Computer Software Application Programming Interface (API)](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf)* guide, chapters 2 and 3.
 
-### Explore the command-line interface
+### Use the command-line interface
 The RSP Controller provides a command line interface (CLI) for configuration and monitoring, available locally on the RSP Controller PC. The CLI is ideal for troubleshooting, simple configuration changes, or a quick check on live data.
 
 1. To connect to the RSP Controller CLI:
@@ -252,5 +253,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA1NzcxMzAsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbMTg0NzQ1OTA1LDE2OTQyNTgyMDNdfQ==
 -->
