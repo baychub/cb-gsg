@@ -71,14 +71,16 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
 
 Whether you're using the RSP Developer Kit or provided your own components, the steps for setting up your environment are the same.
 1. If your RSP sensor is the H1000 model, attach the two external antennas using antenna cables or adapters.
-	The H3000 model i 
-2. Connect each RSP sensor to a PoE+ port on the switch.
-3. Connect the router to the internet.
-4. Power on the router before connecting other devices. 
-	(Each RSP sensor unit needs a DHCP server when it starts up.)
-5. Connect the PoE+ switch to the router and power it on.
-6. Connect the RSP Controller PC to the router and power it on.
-7. Attach a monitor to the RSP Controller PC and power it on.
+
+	The H3000 model has two built-in antennas. 
+2. Connect the router to the internet.
+3. Power on the router before connecting other devices. 
+	
+	RSP sensor units need a DHCP server when they start up.
+5. Connect each RSP sensor to a PoE+ port on the switch.
+6. Connect the PoE+ switch to the router and power it on.
+7. Connect the RSP Controller PC to the router and power it on.
+8. Attach a monitor to the RSP Controller PC and power it on.
 
 
 ## Installing and Running the RSP Controller on Windows
@@ -254,5 +256,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzc3ODY2MiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTA5NDA0NDQ3NywxNjk0MjU4MjAzXX0=
 -->
