@@ -17,12 +17,12 @@ All other software installed in this getting started guide is core to the platfo
 	- Software
 - Setting up the Hardware
 - Installing and Running the RSP Controller on Windows
-- Installing the RSP Controller on Linux
-	- Install prerequisites
+- Installing the RSP Controller on Linux (Recommended)
 	- Clone RSP Controller repository
 	- Build and deploy
-- Running the RSP Controller on Linux
-	- Start RSP Controller software
+- Running the RSP Controller Application on Linux
+	- Start the RSP Controller Application
+- Start the 
 	- Open the web portal
 - View RFID data in other ways
 	- Subscribe to MQTT topics
@@ -252,5 +252,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbLTEwMjA1NzcxMzAsMTY5NDI1ODIwM119
 -->
