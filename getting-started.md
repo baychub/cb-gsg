@@ -10,23 +10,23 @@ All other software installed in this getting started guide is core to the platfo
 
 ## Contents
 - System Overview
-	o Solution Structure
-	o Network Map for Getting Started
+	- Solution Structure
+	- Network Map for Getting Started
 - System Requirements
-	o Hardware
-	o Software
+	- Hardware
+	- Software
 - Setting up the Hardware
 - Installing and Running the RSP Controller on Windows
 - Installing the RSP Controller on Linux
-	o Install prerequisites
-	o Clone RSP Controller repository
-	o Build and deploy
+	- Install prerequisites
+	- Clone RSP Controller repository
+	- Build and deploy
 - Running the RSP Controller on Linux
-	o Start RSP Controller software
-	o Open the web portal
+	- Start RSP Controller software
+	- Open the web portal
 - View RFID data in other ways
-	o Subscribe to MQTT topics
-	o Explore the command-line interface
+	- Subscribe to MQTT topics
+	- Explore the command-line interface
 - Next Steps
 
 ## System Overview
@@ -251,3 +251,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY5NDI1ODIwM119
+-->
