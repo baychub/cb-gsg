@@ -60,7 +60,7 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
  - Ethernet router with DHCP enabled *(if you have the RDK, model xxx)*
  - Ethernet switch that supports PoE+ *(if you have the RDK, model yyy)*
  - At least one Intel RSP sensor unit, preferably two, from models H1000 and H3000 *(RDK includes either one H1000 or two H3000 sensors)*
- - Sample RFID tags to test with
+ - Sample RFID tags to test with *(included with RDK)*
  - Ethernet cables
 
 ### Software
@@ -253,5 +253,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjA3NjY1MSwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTc1Mjc1NDg4NSwxNjk0MjU4MjAzXX0=
 -->
