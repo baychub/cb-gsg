@@ -80,7 +80,9 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 4. Connect each RSP sensor to a PoE+ port on the switch.
 5. Connect the PoE+ switch to the router and power on the switch.
 
-	The sensor LEDs will go through a series of patterns, and after 1-2 minutes should be flashing pinkish-white. When the RSP Controller Application is running, the LEDs will then be blue or yellow. If the LEDs are not flashing as expected, repeat these connection steps and try these suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
+6. Check the LEDs on the RSP sensors.
+
+	The LEDs will go through a series of patterns, and after 1-2 minutes should be flashing pinkish-white. After the RSP Controller Application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). If the LEDs are not flashing as expected, repeat these connection steps and try these suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 6. Connect the Edge Computer to the router and power it on.
 
 	This is the PC where you will install the RSP Controller Application.
@@ -261,5 +263,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDUxMTE5MiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMjA2OTg4ODMwMywxNjk0MjU4MjAzXX0=
 -->
