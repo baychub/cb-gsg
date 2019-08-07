@@ -88,8 +88,6 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	This is the PC where you will install the RSP Controller Application.
 7. Attach a monitor to the RSP Controller PC and power it on.
 
-If 
-
 ## Installing and Running the RSP Controller on Windows
 
 To build and install in a Windows environment:
@@ -263,5 +261,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2OTg4ODMwMywxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
