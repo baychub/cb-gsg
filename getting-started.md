@@ -79,11 +79,14 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	RSP sensor units need a DHCP server when they start up.
 4. Connect each RSP sensor to a PoE+ port on the switch.
 5. Connect the PoE+ switch to the router and power on the switch.
+
+	The sensor LEDs will go through a series of patterns, and after 1-2 minutes should be ((fill in here)). 
 6. Connect the Edge Computer to the router and power it on.
 
 	This is the PC where you will install the RSP Controller Application.
-8. Attach a monitor to the RSP Controller PC and power it on.
+7. Attach a monitor to the RSP Controller PC and power it on.
 
+If 
 
 ## Installing and Running the RSP Controller on Windows
 
@@ -258,5 +261,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTU4NzM5MSwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTk2MjUyMDczLDE2OTQyNTgyMDNdfQ==
 -->
