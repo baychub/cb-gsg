@@ -59,13 +59,13 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
  - Any PC that can run the JRE and operating system *(if you have the RDK, an Intel NUC)*
  - Ethernet router with DHCP enabled *(if you have the RDK, model xxx)*
  - Ethernet switch that supports PoE+ *(if you have the RDK, model yyy)*
- - At least one Intel RSP sensor unit, preferably two, from models H1000 and H3000 *(RDK includes either one H1000 or two H3000 units)*
+ - At least one Intel RSP sensor unit, preferably two, from models H1000 and H3000 *(RDK includes either one H1000 or two H3000 sensors)*
  - Sample RFID tags to test with
  - Ethernet cables
 
 ### Software
  - Java Runtime Environment (JRE), version 8 or later *(provided as part of RSP installation)*
- - Any  operating system that can run the JRE *(if you have the RDK, Ubuntu 18.04 preinstalled)*
+ - Any operating system that can run the JRE *(if you have the RDK, Ubuntu 18.04 preinstalled)*
 
 ## Setting up the Hardware
 
@@ -253,5 +253,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzQ1OTA1LDE2OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbMTMzMjA3NjY1MSwxNjk0MjU4MjAzXX0=
 -->
