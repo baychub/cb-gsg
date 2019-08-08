@@ -18,8 +18,8 @@ Intel RSP Controller application software is open source, so you can easily buil
 - Installing the RSP Controller on Linux (Recommended)
 	- Clone RSP Controller repository
 	- Build and deploy
-- Running the RSP Controller Application on Linux
-	- Start the RSP Controller Application
+- Running the RSP Controller application on Linux
+	- Start the RSP Controller application
 - Using the Web Portal
 	- Open the web portal
 	- ((Other web portal tasks here))
@@ -80,11 +80,11 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 
 6. Check the LEDs on the RSP sensors.
 
-	The LEDs will go through a series of patterns, and after 1-2 minutes should be flashing pinkish-white. After the RSP Controller Application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). If the LEDs are not flashing as expected, repeat these connection steps and try these suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
-6. Connect the Edge Computer to the router and power it on.
+	The LEDs will go through a series of patterns, and after 1-2 minutes should be flashing pinkish-white. After the RSP Controller application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). If the LEDs are not flashing as expected, repeat these connection steps and try these suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
+6. Connect the edge computer to the router and power it on.
 
-	This is the PC where you will install the RSP Controller Application.
-7. Attach a monitor to the RSP Controller PC and power it on.
+	This is the PC where you will install the RSP Controller application.
+7. Attach a monitor to the edge computer and power it on.
 
 ## Installing and Running the RSP Controller on Windows
 
@@ -125,18 +125,18 @@ cd ~/projects/rsp-sw-toolkit-installer/native/
 When complete, the web portal will open in the default browser. If you close the browser window, you can reach the portal with this URL: http://localhost:8080/web-admin/
 
 ## <a id="run_controller_linux"></a>Running the RSP Controller Application on Linux
-The RSP Controller Application must be running in order to gather, process, and report data form RFID tags. You'll build your own solution that communicates with the RSP Controller over MQTT, but the web portal gives you an idea of what kind of data the RSP Controller Application makes available.
+The RSP Controller application must be running in order to gather, process, and report data form RFID tags. You'll build your own solution that communicates with the RSP Controller over MQTT, but the web portal gives you an idea of what kind of data the RSP Controller application makes available.
 
-The installer above runs the RSP Controller Application software and launches the web portal. If you reboot or close the terminal window, you will need to run these steps in this section.
+The installer above runs the RSP Controller application software and launches the web portal. If you reboot or close the terminal window, you will need to run these steps in this section.
 
-### Start the RSP Controller Application
-A shell script starts the RSP Controller Application in the foreground. 
+### Start the RSP Controller application
+A shell script starts the RSP Controller application in the foreground. 
 1. Run these commands to start the application: 
 ```
 cd ~/deploy/rsp-sw-toolkit-gw
 ~/deploy/rsp-sw-toolkit-gw/run.sh
 ```
-The RSP sensors listen for messages from the RSP Controller Application and initiate a connection with it. As the sensors connect, by default the RSP Controller Application schedules them to activate in round-robin sequence, one at a time. You can watch the terminal output to see connections taking place and RFID tags being read.
+The RSP sensors listen for messages from the RSP Controller application and initiate a connection with it. As the sensors connect, by default the RSP Controller application schedules them to activate in round-robin sequence, one at a time. You can watch the terminal output to see connections taking place and RFID tags being read.
 
 You can run the web portal (next section) at any time after starting the RSP Controller software because the dashboard refreshes automatically. The web portal dashboard will be ready to display RFID data when you see a screen like the following:
 
@@ -259,6 +259,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzU0NzQzMSwxNDg4MTAwOTAyLDE2OT
+eyJoaXN0b3J5IjpbLTg5ODc3MzQ4OSwxNDg4MTAwOTAyLDE2OT
 QyNTgyMDNdfQ==
 -->
