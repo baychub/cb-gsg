@@ -6,4 +6,7 @@ The topology allows many sensors to be connected to an edge computer (a PC runni
 The application can run on Linux or Windows (and potentially other operating systems that can run the Java Runtime Environment v.8 or later). Choose the getting started guide for operating system that your edge PC will run:
 
 [Getting Started with Intel&reg; RSP for Linux (Recommended)](https://github.com/baychub/cb-gsg/blob/master/getting-started.md).
-[Getting Started with Intel&reg; RSP for Windows](https://github.com/baychub/cb-gsg/blob/master/getting-started-win.md).
+[Getting Started with Intel&reg; RSP for Windows](https://github.com/baychub/cb-gsg/blob/master/getting-started-win.md).cb-gsg.github.io
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgwNjU0MjExMF19
+-->
