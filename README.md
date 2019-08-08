@@ -1,5 +1,5 @@
 # Getting Started
-The Intel&reg; RFID Sensor Platform (RSP) Software Toolkit is open source software that allows you to configure and pull data from Intel RSP sensors as part of an RFID installation. The following getting started guides tell how to quickly set up the hardware and software for a test installation. 
+The Intel&reg; RFID Sensor Platform (RSP) Software Toolkit is open source software that allows you to configure and pull data from Intel RSP sensors as part of an RFID system. The following getting started guides tell how to quickly set up the hardware and software for a test installation. 
 
 The topology allows many sensors to be connected to an edge computer (a PC running Linux or Windows) running the RSP Controller application. This software configures the sensors, filters raw RFID data for meaningful changes, and publishes the data over a message broker like MQTT. 
 
