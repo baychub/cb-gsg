@@ -68,22 +68,26 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
 ## Setting up the Hardware
 
 Whether you're using the RSP Developer Kit or provided your own components, the steps for setting up your environment are the same. The network map above shows the arrangement, but **the connection order is important**, so follow these steps.
-1. If your RSP sensor is the H1000 model, attach the two external antennas using antenna cables or adapters and point them away from each other.
+1. If your RSP sensor is the H1000 model, attach two external antennas (included if you have the RDK) using antenna cables or adapters, and point them away from each other.
 
 	This step is not needed for the H3000 model, which has two built-in antennas. 
+	
 2. Connect the router to the internet.
 3. Power on the router before connecting other devices. 
 	
 	RSP sensor units need a DHCP server when they start up.
+	
 4. Connect each RSP sensor to a PoE+ port on the switch.
 5. Connect the PoE+ switch to the router and power on the switch.
 
 6. Check the LEDs on the RSP sensors.
 
 	The LEDs will go through a series of patterns, and after 1-2 minutes should be flashing pinkish-white. After the RSP Controller application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). If the LEDs are not flashing as expected, repeat these connection steps and try these suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
+	
 6. Connect the edge computer to the router and power it on.
 
 	This is the PC where you will install the RSP Controller application.
+	
 7. Attach a monitor to the edge computer and power it on.
 
 ## Installing and Running the RSP Controller on Windows
@@ -259,6 +263,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Njc3NDU2LDE0ODgxMDA5MDIsMTY5ND
-I1ODIwM119
+eyJoaXN0b3J5IjpbLTM5NjIwNTE5MiwtNjc2Nzc0NTYsMTQ4OD
+EwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
