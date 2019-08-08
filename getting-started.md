@@ -2,11 +2,9 @@
 
 The instructions in this getting started guide will rapidly get an Intel RSP configuration up and running in your lab to prepare for solution development. The steps in this guide apply whether you provide your own hardware or buy the Intel RSP Developer Kit (RDK), available from the [atlasRFIDstore](https://www.atlasrfidstore.com/intel-rsp-h3000-integrated-rfid-reader-development-kit/).
 
-Intel RSP Controller Application software is open source, so you can easily build out your own solution. The web-based application included in the distribution demonstrates the capabilities of Intel RSP by building on the API to collect and process RFID tag information.
+Intel RSP Controller application software is open source, so you can easily build out your own solution. The web-based portal included in the distribution demonstrates the capabilities of Intel RSP by building on the API to collect and process RFID tag information.
 
-##### *The web admin portal shown in this guide is not intended to be a complete end-to-end inventory management solution. It is a demonstration of what the platform can do.*
-
-All other software installed in this getting started guide is core to the platform.
+*The web admin portal shown in this guide is not intended to be a complete end-to-end inventory management solution.* It is a demonstration of what the platform can do.* All other software installed in this getting started guide is production software.
 
 ## Contents
 - System Overview
@@ -261,5 +259,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTM4NzU0NzQzMSwxNDg4MTAwOTAyLDE2OT
+QyNTgyMDNdfQ==
 -->
