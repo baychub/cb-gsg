@@ -1,4 +1,4 @@
-﻿# Getting Started with Intel® RFID Sensor Platform (RSP)
+# Getting Started with Intel® RFID Sensor Platform (RSP)
 
 The instructions in this getting started guide will rapidly get an Intel RSP configuration up and running in your lab to prepare for solution development. The steps in this guide apply whether you provide your own hardware or buy the Intel RSP Developer Kit (RDK), available from the [atlasRFIDstore](https://www.atlasrfidstore.com/intel-rsp-h3000-integrated-rfid-reader-development-kit/).
 
@@ -68,9 +68,9 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
 ## Setting up the Hardware
 
 Whether you're using the RSP Developer Kit or provided your own components, the steps for setting up your environment are the same. The network map above shows the arrangement, but **the connection order is important**, so follow these steps.
-1. If your RSP sensor is the H1000 model, attach the two external antennas using antenna cables or adapters.
+1. If your RSP sensor is the H1000 model, attach the two external antennas using antenna cables or adapters and point them away from each other.
 
-	The H3000 model has two built-in antennas. 
+	This step is not needed for the H3000 model, which has two built-in antennas. 
 2. Connect the router to the internet.
 3. Power on the router before connecting other devices. 
 	
@@ -259,6 +259,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMTE3MDk5LDE0ODgxMDA5MDIsMTY5ND
+eyJoaXN0b3J5IjpbLTY3Njc3NDU2LDE0ODgxMDA5MDIsMTY5ND
 I1ODIwM119
 -->
