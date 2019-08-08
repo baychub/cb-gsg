@@ -83,7 +83,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 
 6. Check the LEDs on the RSP sensors.
 
-	The LEDs will go through a series of patterns, and after 1-2 minutes should be flashing pinkish-white. After the RSP Controller application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). If the LEDs are not flashing as expected, repeat these connection steps and try these suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
+	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. After the RSP Controller application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). If the LEDs are not flashing as expected, repeat these connection steps and try these suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 	
 6. Connect the edge computer to the router and power it on.
 
@@ -264,6 +264,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODYyNTgwMywtNjc2Nzc0NTYsMTQ4OD
-EwMDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgxMD
+A5MDIsMTY5NDI1ODIwM119
 -->
