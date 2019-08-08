@@ -1,90 +1,6 @@
-# Getting Started with Intel® RFID Sensor Platform (RSP)
+# Getting Started with Intel® RFID Sensor Platform (RSP) for Windows
 
-The instructions in this getting started guide will rapidly get an Intel RSP configuration up and running in your lab to prepare for solution development. The steps in this guide apply whether you provide your own hardware or buy the Intel RSP Developer Kit (RDK), available from the [atlasRFIDstore](https://www.atlasrfidstore.com/intel-rsp-h3000-integrated-rfid-reader-development-kit/).
-
-Intel RSP Controller application software is open source, so you can easily build out your own solution. The web-based portal included in the distribution demonstrates the capabilities of Intel RSP by building on the API to collect and process RFID tag information.
-
-*The web admin portal shown in this guide is not intended to be a complete end-to-end inventory management solution.* It is a demonstration of what the platform can do.* All other software installed in this getting started guide is production software.
-
-## Contents
-- System Overview
-	- Solution Structure
-	- Network Map for Getting Started
-- System Requirements
-	- Hardware
-	- Software
-- Setting up the Hardware
-- Installing and Running the RSP Controller on Windows
-- Installing the RSP Controller on Linux (Recommended)
-	- Clone RSP Controller repository
-	- Build and deploy
-- Running the RSP Controller application on Linux
-	- Start the RSP Controller application
-- Using the Web Portal
-	- Open the web portal
-	- ((Other web portal tasks here))
-- Viewing RFID data in other ways
-	- Subscribe to MQTT topics
-	- Use the command-line interface
-- Next Steps
-
-## System Overview
-
-### Solution Structure
-
-The image below is an example of a robust inventory management system built on Intel RSP. The RSP reader activates the RFID tags within its range and passes tag data, along with information from other on-board sensors, to the RSP Controller gateway software running on a PC. The RSP Controller aggregates the high volume of raw data and generates meaningful inventory events (e.g., "item exited"), alerts, and system status notifications. It publishes them to MQTT topics on an upstream channel, available to applications running in a customer’s cloud infrastructure.
-
-The PC doesn't need to be dedicated to running RSP Controller software. It can also run other workloads and be available for future expansion.
-
-![](https://baychub.github.io/cb-gsg/solution-map.png)
-
-### Network Map for Getting Started
-This getting started tutorial uses a simple network configuration, shown in the image below. Key points about the setup:
-
- - RSP sensor units are powered by a PoE+ switch and get their IP address from a DHCP-enabled router that the switch is connected to.
- - RSP Controller gateway software runs on a PC, which must be on the same network segment.
- - RSP Controller software automatically pairs with the RSP sensors. 
- - A simple command-line interface on the edge computer enables troubleshooting and low-level data monitoring.
- - (Demo only, not meant for production) A web-based portal displays data gathered by the RSP Controller software over an MQTT channel. The web portal allows you to make configuration changes as well. 
-
-![](https://baychub.github.io/cb-gsg/demo-map.png)
-
-
-## System Requirements
-In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the kit, or you can provide your own hardware.
-
-### Hardware
- - Any PC that can run the JRE and operating system *(if you have the RDK, an Intel NUC)*
- - Ethernet router with DHCP enabled *(if you have the RDK, model xxx)*
- - Ethernet switch that supports PoE+ *(if you have the RDK, model yyy)*
- - At least one Intel RSP sensor unit, preferably two, from models H1000 and H3000 *(RDK includes either one H1000 or two H3000 sensors)*
- - Sample RFID tags to test with *(included with RDK)*
- - Ethernet cables
-
-### Software
- - Java Runtime Environment (JRE), version 8 or later *(provided as part of RSP installation)*
- - Any operating system that can run the JRE *(if you have the RDK, Ubuntu 18.04 preinstalled)*
-
-## Setting up the Hardware
-
-Whether you're using the RSP Developer Kit or provided your own components, the steps for setting up your environment are the same. The network map above shows the arrangement, but **the connection order is important**, so follow these steps.
-1. If your RSP sensor is the H1000 model, attach the two external antennas using antenna cables or adapters and point them away from each other.
-
-	This step is not needed for the H3000 model, which has two built-in antennas. 
-2. Connect the router to the internet.
-3. Power on the router before connecting other devices. 
-	
-	RSP sensor units need a DHCP server when they start up.
-4. Connect each RSP sensor to a PoE+ port on the switch.
-5. Connect the PoE+ switch to the router and power on the switch.
-
-6. Check the LEDs on the RSP sensors.
-
-	The LEDs will go through a series of patterns, and after 1-2 minutes should be flashing pinkish-white. After the RSP Controller application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). If the LEDs are not flashing as expected, repeat these connection steps and try these suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
-6. Connect the edge computer to the router and power it on.
-
-	This is the PC where you will install the RSP Controller application.
-7. Attach a monitor to the edge computer and power it on.
+(((Note from Colin: Copy from the Linux guide, remove all Linux-specific material, and include the steps shown in the linked guide below.)))
 
 ## Installing and Running the RSP Controller on Windows
 
@@ -232,5 +148,5 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMjMwODI4XX0=
+eyJoaXN0b3J5IjpbLTY2NTQ0OTY3MF19
 -->
