@@ -130,13 +130,13 @@ The RSP Controller application must be running in order to gather, process, and 
 The installer above runs the RSP Controller application software and launches the web portal. If you reboot or close the terminal window, you will need to run these steps in this section.
 
 ### Start the RSP Controller application
-A shell script starts the RSP Controller application in the foreground. 
+A shell script starts the RSP Controller in the foreground. 
 1. Run these commands to start the application: 
 ```
 cd ~/deploy/rsp-sw-toolkit-gw
 ~/deploy/rsp-sw-toolkit-gw/run.sh
 ```
-The RSP sensors listen for messages from the RSP Controller application and initiate a connection with it. As the sensors connect, by default the RSP Controller application schedules them to activate in round-robin sequence, one at a time. You can watch the terminal output to see connections taking place and RFID tags being read.
+The RSP sensors listen for messages from the RSP Controller application and initiate a connection with it. As the sensors connect, by default the RSP Controller schedules them to activate in round-robin sequence, one at a time. You can watch the terminal output to see connections taking place and RFID tags being read.
 
 You can run the web portal (next section) at any time after starting the RSP Controller software because the dashboard refreshes automatically. The web portal dashboard will be ready to display RFID data when you see a screen like the following:
 
@@ -144,10 +144,10 @@ You can run the web portal (next section) at any time after starting the RSP Con
 
 
 ## Using the Web Portal
-The RSP Controller Application provides, as sample software, a web-based administration interface for configuration and RFID monitoring. The home page is a dashboard showing connected sensors, tags being read, and other status information.
+Along w the RSP Controller application, Intel provides as sample software a web-based administration interface for configuration and RFID monitoring. The home page is a dashboard showing connected sensors, tags being read, and other status information.
 
 ### Open the web portal
-While the RSP Controller Application software is running, you can use the web portal.
+While the RSP Controller application software is running, you can use the web portal.
 1. If the web portal is not already open, open it from the Edge Computer by going to http://localhost:8080/web-admin/ in a browser.
 2. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
 
@@ -259,6 +259,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODc3MzQ4OSwxNDg4MTAwOTAyLDE2OT
-QyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbOTk0MTU2MTA1LDE0ODgxMDA5MDIsMTY5ND
+I1ODIwM119
 -->
