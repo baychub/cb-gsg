@@ -97,10 +97,10 @@ To build and install in a Windows environment:
 The remainder of this document assumes a Linux installation.
 
 ## Installing the RSP Controller on Linux (Recommended)
-This document assumes an Edge Computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (You can also [install manually](manual-install-link) or [install with Docker](docker-install-link).)
+This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (You can also [install manually](manual-install-link) or [install with Docker](docker-install-link).)
 
 ### Clone RSP Installer repository
-1. Open a terminal window on the Edge Computer.
+1. Open a terminal window on the edge eomputer.
 2. Run these commands to clone the RSP Installer repository in a new directory:
 ```
 #-- create expected directories for the use case examples and documentation
@@ -148,13 +148,13 @@ Along w the RSP Controller application, Intel provides as sample software a web-
 
 ### Open the web portal
 While the RSP Controller application software is running, you can use the web portal.
-1. If the web portal is not already open, open it from the Edge Computer by going to http://localhost:8080/web-admin/ in a browser.
+1. If the web portal is not already open, open it from the edge computer by going to http://localhost:8080/web-admin/ in a browser.
 2. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
 
 ![enter image description here](add-screenshot-URL-here)
 
 ### Other web portal tasks here
-While the RSP Controller Application software is running, you can use the web portal.
+While the RSP Controller application software is running, you can use the web portal.
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
@@ -259,6 +259,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0MTU2MTA1LDE0ODgxMDA5MDIsMTY5ND
+eyJoaXN0b3J5IjpbMTAwMTE3MDk5LDE0ODgxMDA5MDIsMTY5ND
 I1ODIwM119
 -->
