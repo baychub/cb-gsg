@@ -63,7 +63,8 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
 
 ### Software
  - Java Runtime Environment (JRE), version 8 or later *(provided as part of RSP installation)*
- - Ubuntu 18.04 (preinstalled if you have the RDK), Debian 9, or Windows 10Any operating system that can run the JRE *(if you have the RDK, Ubuntu 18.04 preinstalled)*
+ - Ubuntu 18.04 *(preinstalled if you have the RDK)*, Debian 9, or Windows 10
+ - Other operating systems that can run JRE v.8+ will likely work but have not been tested
 
 ## Setting up the Hardware
 
@@ -263,6 +264,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY0ODM5NDMsLTY3Njc3NDU2LDE0OD
-gxMDA5MDIsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbLTQwODYyNTgwMywtNjc2Nzc0NTYsMTQ4OD
+EwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
