@@ -187,7 +187,7 @@ For example, thousands of consecutive readings of the same tag by the same senso
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ### Assign an alias name to a sensor
-An RSP sensor and each of its antennas 
+Each RSP sensor and its antennas has an ID, e.g., RSP-150994-0 and RSP-150994-1. Those aren't very meaningful, so you can add a
 1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
 	[insert zoomed pic]
 
@@ -292,8 +292,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI5MjYwOTMsMTkwOTE1MzExOSwyOD
-Y2NDE0MDEsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUx
-MzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxND
-g4MTAwOTAyLDE2OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbODIyMjc5MDE4LDE5MDkxNTMxMTksMjg2Nj
+QxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMw
+MywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4OD
+EwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
