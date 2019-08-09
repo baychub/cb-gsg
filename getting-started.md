@@ -184,7 +184,7 @@ For example, 2,000 consecutive reads of a given tag by the same sensor can be co
 1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
 2. Click Inventory.
 ![Inventory page](https://baychub.github.io/cb-gsg/inventory.png)
-3. Try moving a tag 
+3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
@@ -287,8 +287,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0MTAwMzI2LDE5MDkxNTMxMTksMjg2Nj
-QxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMw
-MywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4OD
-EwMDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTUxNDc0MjgwNiwxOTA5MTUzMTE5LDI4Nj
+Y0MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEz
+MDMsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0OD
+gxMDA5MDIsMTY5NDI1ODIwM119
 -->
