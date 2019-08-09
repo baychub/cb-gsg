@@ -158,9 +158,9 @@ While the RSP Controller application software is running, you can use the web po
 2. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
 
 ![Dashboard page](https://baychub.github.io/cb-gsg/dashboard.png)
-The dashboard page shows summary information about tags and sensors connected to this edge computer, along with the names of MQTT topics you c streaming data or sending configuration changes using an MQTT client.
+The dashboard page shows summary information about tags and sensors connected to this edge computer, along with the names of MQTT topics you can use to stream data or send configuration changes using an MQTT client.
 
-### Other web portal tasks here
+### Understand dashboard information
 mm.
 
 ## Viewing RFID data in Other Ways
@@ -264,7 +264,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDAyNjk0OSwxMjU5MzUxMzAzLC0xNj
+eyJoaXN0b3J5IjpbMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNj
 Q4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAy
 LDE2OTQyNTgyMDNdfQ==
 -->
