@@ -192,7 +192,7 @@ You've now used the RSP web portal to see a sample of some of the platform's cap
  - **The MQTT communications protocol.** The RSP Controller uses a built-in MQTT broker to deliver data structured as JSON-RPC. Many libraries support the well-known MQTT and JSON-RPC protocols, so it's straightforward to implement data access in the code for your solution.
  - **The RSP Controller CLI.** The RSP Controller includes a simple, local command-line interface for accessing data and also for making sensor configuration changes. 
 
-### Stream data with MQTT
+### Get data over MQTT
 You can open a terminal window and subscribe to the RSP Controller events topic in order to monitor tag events produced by the RSP Controller, raw RFID tag data, and other RSP system information. 
 
 The RSP web portal displays many of the available MQTT topics (specific sets of data you can subscribe to) in the Upstream MQTT and Downstream MQTT panes of the Dashboard page, e.g., "rfid/controller/alerts". The RSP Controller divides its MQTT topics into two groups:
@@ -205,7 +205,7 @@ The RSP web portal displays many of the available MQTT topics (specific sets of 
 mosquitto_sub -t rfid/gw/events
 ```
 The console displays in JSON-RPC format any high-level events processed by the RSP Controller (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic. If you don't see any events initially, try introducing or moving some tags.
-![Dashboard page](https://github.com/baychub/cb-gsg/blob/master/docs/dashboard.png)
+![Dashboard page](https://baychub.github.io/cb-gsg/dashboard.png)
 
 2. Press Ctrl-C to stop monitoring MQTT data on this topic.
 3. Try some of the other MQTT topics to see other types of data the RSP Controller publishes:
@@ -287,7 +287,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzQ1MDcwOCwtMjExODY2NTg3OSwtMT
+eyJoaXN0b3J5IjpbMTUxNDMzMDE0OSwtMjExODY2NTg3OSwtMT
 I3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQx
 NDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMy
 wtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEw
