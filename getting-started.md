@@ -154,7 +154,7 @@ Along with the RSP Controller application, Intel provides as sample software a w
 
 ### Open the web portal
 While the RSP Controller application software is running, you can use the web portal.
-1. If the web portal is not already open, open it from the edge computer by going to http://localhost:8080/web-admin/ in a browser.
+1. Open the web portal on the edge computer by going to http://localhost:8080/web-admin/ in a browser.
 2. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
 
 ![enter image description here](add-screenshot-URL-here)
@@ -265,6 +265,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Nj
-c3NDU2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbMTI1OTM1MTMwMywtMTY0ODIwNzAyMywyNT
+AxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4MjAz
+XX0=
 -->
