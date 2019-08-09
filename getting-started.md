@@ -167,7 +167,7 @@ The dashboard page shows summary information about tags and sensors connected to
 * **Downstream MQTT.** Provides *downstream* MQTT topics (i.e., data gathered directly from the RSP sensors).
 * **Scheduler.** Shows scheduling configuration. By default, RFID readings are done one sensor at a time, cycling through each connected sensor.
 
-### See live RFID tag information
+### See live RFID tag data
 The Tag Statistics window shows low-level detail about each individual tag the RSP sensors communicate with, including signal strength and when it was last read.
 1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
 	[insert zoomed pic]
@@ -177,6 +177,12 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 3. Click any data point to see the legend for these readings and colors.
 4. Experiment with moving RFID tags around the room to see how the sensor readings respond.
 
+### See digested inventory data
+The Tag Statistics window shows low-level detail about each individual tag the RSP sensors communicate with, including signal strength and when it was last read.
+1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
+	[insert zoomed pic]
+2. Click Tag Statistics.
+![Dashboard page](https://baychub.github.io/cb-gsg/tag-statistics.png)
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
@@ -279,8 +285,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTE1MzExOSwyODY2NDE0MDEsLTEwNj
-UyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3
-MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2OT
-QyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbLTEyNDY4NDUzMzMsMTkwOTE1MzExOSwyOD
+Y2NDE0MDEsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUx
+MzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxND
+g4MTAwOTAyLDE2OTQyNTgyMDNdfQ==
 -->
