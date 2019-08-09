@@ -186,6 +186,12 @@ For example, thousands of consecutive readings of the same tag by the same senso
 ![Inventory page](https://baychub.github.io/cb-gsg/inventory.png)
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
+### Turn scheduling on or off
+by d
+
+For example, thousands of consecutive readings of the same tag by the same sensor can be compressed into a state of PRESENT with that sensor. Or a tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
+1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
+
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that can be part of your own RFID solution:
@@ -287,9 +293,10 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMj
-ExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkx
-NTMxMTksMjg2NjQxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2Nj
-gsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2
-Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbLTIwNDI4NDI1NTAsLTg3OTAxMDYxNCwtMT
+MyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3
+MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxNDAxLC0xMDY1MjkzND
+I1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywy
+NTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4Mj
+AzXX0=
 -->
