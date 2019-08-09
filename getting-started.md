@@ -193,8 +193,7 @@ You've now used the RSP web portal to see a sample of some of the platform's cap
  - **The RSP Controller CLI.** The RSP Controller includes a simple, local command-line interface for accessing data and also for making sensor configuration changes. 
 
 ### Subscribe to MQTT topics
-You can open a terminal window and subscribe to the RSP Controller events topic in order to monitor 
-tag events produced by the RSP Controller, raw RFID tag data, and other RSP system information. 
+You can open a terminal window and subscribe to the RSP Controller events topic in order to monitor tag events produced by the RSP Controller, raw RFID tag data, and other RSP system information. 
 
 The RSP web portal displays many of the available MQTT topics (specific sets of data you can subscribe to) in the Upstream and Downstream panes of the Dashboard page, e.g., "rfid/gw/alerts". The RSP Controller divides its MQTT topics into two groups:
 - Downstream: data the RSP Controller pulls from or sends to the sensors
@@ -288,8 +287,9 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOT
-A5MTUzMTE5LDI4NjY0MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYw
-NjY4LDEyNTkzNTEzMDMsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLT
-Y3Njc3NDU2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbLTIxMTg2NjU4NzksLTEyNzEwNzUyMDUsLT
+UxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMSwtMTA2NTI5
+MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2NDgyMDcwMj
+MsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MDIsMTY5NDI1
+ODIwM119
 -->
