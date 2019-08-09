@@ -222,7 +222,7 @@ mosquitto_sub -t rfid/rsp/rsp_status/#
 Full documentation of the MQTT topics and data definitions can be found in the *[Intel® RSP Controller - Edge Computer Software Application Programming Interface (API)](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf)* guide, chapters 2 and 3.
 
 ## Using the command-line interface
-The RSP Controller provides a command line interface (CLI) for configuration and monitoring, available locally on the RSP Controller PC. The CLI is ideal for troubleshooting, simple configuration changes, or a quick check on live data.
+The RSP Controller provides a command line interface (CLI) for configuration and monitoring, available locally on the edge computer when the RSP Controller application is running. The CLI is ideal for troubleshooting, simple configuration changes, or a quick check on live data.
 
 ### Connect to the CLI
 
@@ -233,7 +233,9 @@ password: gwconsole
 ```
 ![enter image description here](add-screenshot-URL-here)
 
-2. To view summary information about sensors connected to this RSP Controller, enter `view sensor information`:
+### View a summary of sensors
+
+1. To view summary information about sensors connected to this RSP Controller, enter `view sensor information`:
 
 ```
 #-- view sensor information 
@@ -247,6 +249,7 @@ RSP-150005 CONNECTED    STOPPED    Default   BackStock                [RSP-15000
 ------------------------------------------
 ```
 
+### Set an 
 3. Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). To assign a human-readable name as an alias for the first antenna (`PORT_0`) of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command at the CLI prompt:
 ```
 sensor set.alias <sensorID> PORT_0 "my-new-alias"
@@ -280,7 +283,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcyMjYyOTcsLTIxMTg2NjU4NzksLT
+eyJoaXN0b3J5IjpbLTExNjA1ODQ4OTAsLTIxMTg2NjU4NzksLT
 EyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0
 MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMD
 MsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgx
