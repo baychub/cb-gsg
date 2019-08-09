@@ -257,7 +257,7 @@ sensor set.alias <sensorID> PORT_0 "my-new-alias"
 2. Return to the web admin portal and navigate to the Sensors page.
 	The alias you just assigned should appear in the Aliases column.
 
-### Get inline command help
+### Get CLI command help inline
 1. To see a list of available commands, at the RSP Controller CLI prompt press Enter with no text.
 ```
 [Show command help terminal output]
@@ -287,9 +287,9 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA2MzQ4MDAsLTIxMTg2NjU4NzksLT
-EyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0
-MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMD
-MsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgx
-MDA5MDIsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbLTg3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMj
+ExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkx
+NTMxMTksMjg2NjQxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2Nj
+gsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2
+Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
