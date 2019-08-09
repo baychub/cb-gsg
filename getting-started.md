@@ -173,7 +173,7 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 	[insert zoomed pic]
 2. Click Tag Statistics.
 ![Dashboard page](https://baychub.github.io/cb-gsg/tag-statistics.png)
-	Notice 
+	List of tags is shown in the left column. The other columns show readings from the two antennas on each sensor.  
 
 
 ## Viewing RFID data in Other Ways
@@ -277,8 +277,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM2NTk0NzYsMjg2NjQxNDAxLC0xMD
-Y1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywtMTY0ODIw
-NzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwxNj
-k0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTgxOTAyMjM4MywyODY2NDE0MDEsLTEwNj
+UyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3
+MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2OT
+QyNTgyMDNdfQ==
 -->
