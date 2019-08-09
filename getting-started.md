@@ -244,21 +244,9 @@ RSP-150005 CONNECTED    STOPPED    Default   BackStock                [RSP-15000
 ------------------------------------------
 ```
 
-3. Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). To assign a human-readable name as an alias for the first antenna of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command:
-
- `sensor set.alias <sensorID> PORT_0`.
+3. Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). To assign a human-readable name as an alias for the first antenna (`PORT_0`) of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command at the CLI prompt:
 ```
-#-- view inventory information
-rfid-gw> inventory summary 
-------------------------------------------
-- Total Tags: 26
-
-- State
-      26 PRESENT
-
-- Last Seen
-      26 within_last_01_min
-------------------------------------------
+sensor set.alias <sensorID> PORT_0 "newAlias"
 ```
 4. To see a list of available commands, at the RSP Controller CLI prompt press Enter with no text.
 ```
@@ -289,9 +277,9 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Mzc2MDg4MCwtMjExODY2NTg3OSwtMT
-I3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQx
-NDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMy
-wtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEw
-MDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbODg3MTQ0Njk5LC0yMTE4NjY1ODc5LC0xMj
+cxMDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0
+MDEsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC
+0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAw
+OTAyLDE2OTQyNTgyMDNdfQ==
 -->
