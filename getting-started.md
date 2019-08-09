@@ -180,12 +180,11 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 ### See digested inventory data
 Each RSP sensor reads each reachable RFID tag many times a second, generating a huge volume of raw data. The RSP Controller application processes that data stream into meaningful status and events. 
 
-For example, 2,000 consecutive reads of a given tag by the same sensor can be compressed into a state of PRESENT with that sensor. A tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. 
-
-The Inventory window shows these computed status values for each known tag.
-1. Click the three-bar menu button to the left of the Tag Statics page heading to open the navigation menu.
+For example, 2,000 consecutive reads of a given tag by the same sensor can be compressed into a state of PRESENT with that sensor. A tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
+1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
 2. Click Inventory.
 ![Inventory page](https://baychub.github.io/cb-gsg/inventory.png)
+3. Try moving a tag 
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
@@ -288,8 +287,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDA3MzU3OSwxOTA5MTUzMTE5LDI4Nj
-Y0MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEz
-MDMsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0OD
-gxMDA5MDIsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbOTQ0MTAwMzI2LDE5MDkxNTMxMTksMjg2Nj
+QxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMw
+MywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4OD
+EwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
