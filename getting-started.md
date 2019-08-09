@@ -192,13 +192,14 @@ You've now used the RSP web portal to see a sample of some of the platform's cap
  - **The MQTT communications protocol.** The RSP Controller uses a built-in MQTT broker to deliver data structured as JSON-RPC. Many libraries support the well-known MQTT and JSON-RPC protocols, so it's straightforward to implement data access in the code for your solution.
  - **The RSP Controller CLI.** The RSP Controller includes a simple, local command-line interface for accessing data and also for making sensor configuration changes. 
 
-### Get data over MQTT
+## Getting data over MQTT
 You can open a terminal window and subscribe to the RSP Controller events topic in order to monitor tag events produced by the RSP Controller, raw RFID tag data, and other RSP system information. 
 
 The RSP web portal displays many of the available MQTT topics (specific sets of data you can subscribe to) in the Upstream MQTT and Downstream MQTT panes of the Dashboard page, e.g., "rfid/controller/alerts". The RSP Controller divides its MQTT topics into two groups:
 - Downstream: data the RSP Controller pulls from or sends to the sensors
 - Upstream: processed data the RSP Controller makes available out on the network to go into a database, management app, etc.
 
+### Subscribe to an MQTT data topic
 To monitor RSP data over MQTT from a terminal window:
 1. Run the mosquitto_sub command and specify the MQTT topic for the data you want (in this example, controller events).
 ```
@@ -220,8 +221,10 @@ mosquitto_sub -t rfid/rsp/rsp_status/#
 ```
 Full documentation of the MQTT topics and data definitions can be found in the *[Intel® RSP Controller - Edge Computer Software Application Programming Interface (API)](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf)* guide, chapters 2 and 3.
 
-### Use the command-line interface
+## Using the command-line interface
 The RSP Controller provides a command line interface (CLI) for configuration and monitoring, available locally on the RSP Controller PC. The CLI is ideal for troubleshooting, simple configuration changes, or a quick check on live data.
+
+### Connect to the CLI
 
 1. To connect to the RSP Controller CLI:
 ```
@@ -277,9 +280,9 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDU1NzAzNywtMjExODY2NTg3OSwtMT
-I3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQx
-NDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMy
-wtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEw
-MDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbLTE5MDcyMjYyOTcsLTIxMTg2NjU4NzksLT
+EyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0
+MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMD
+MsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgx
+MDA5MDIsMTY5NDI1ODIwM119
 -->
