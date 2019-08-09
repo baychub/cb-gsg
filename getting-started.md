@@ -186,7 +186,7 @@ For example, thousands of consecutive readings of the same tag by the same senso
 ![Inventory page](https://baychub.github.io/cb-gsg/inventory.png)
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
-### See live RFID tag data
+### Assign an alias name to a sensor
 The Tag Statistics window shows low-level detail about each individual tag the RSP sensors communicate with, including signal strength and when it was last read.
 1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
 	[insert zoomed pic]
@@ -292,7 +292,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDM0MzM1MywxOTA5MTUzMTE5LDI4Nj
+eyJoaXN0b3J5IjpbLTI0NTU0NTY1OCwxOTA5MTUzMTE5LDI4Nj
 Y0MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEz
 MDMsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0OD
 gxMDA5MDIsMTY5NDI1ODIwM119
