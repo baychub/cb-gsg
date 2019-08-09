@@ -132,12 +132,12 @@ When complete, the web portal will open in the default browser. If you close the
 ## <a id="run_controller_linux"></a>Running the RSP Controller Application on Linux
 The RSP Controller application must be running in order to gather, process, and report data form RFID tags. You'll build your own solution that communicates with the RSP Controller over MQTT, but the web portal gives you an idea of what kind of data the RSP Controller application makes available.
 
-The installer above runs the RSP Controller application software and launches the web portal. If you reboot or close the terminal window, you will need to run these steps in this section.
+The installer above runs the RSP Controller application software and launches the web portal. If you reboot or close the terminal window, you will need to run the next steps in this section.
 
 ### Start the RSP Controller application
 A shell script starts the RSP Controller in the foreground. 
-1. If you just ran the installer, this task is already done and you can skip to the U
-2. Run these commands to start the application: 
+1. If you just ran the installer, this task is already done and you can skip to the Using the Web Portal section.
+2. Otherwise, run these commands to start the application: 
 ```
 cd ~/deploy/rsp-sw-toolkit-gw
 ~/deploy/rsp-sw-toolkit-gw/run.sh
@@ -265,6 +265,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzI2NDU2NCwyNTAxMzE1NSwtNjc2Nz
+eyJoaXN0b3J5IjpbMTI5MDM4MjQwNiwyNTAxMzE1NSwtNjc2Nz
 c0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
