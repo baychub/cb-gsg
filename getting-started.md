@@ -158,9 +158,10 @@ While the RSP Controller application software is running, you can use the web po
 2. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
 
 ![Dashboard page](https://baychub.github.io/cb-gsg/dashboard.png)
+The dashboard page shows summary information about tags and sensors connected 
 
 ### Other web portal tasks here
-While the RSP Controller application software is running, you can use the web portal.
+mm.
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
@@ -263,7 +264,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY5MzYwNTIsMTI1OTM1MTMwMywtMT
-Y0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkw
-MiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbLTI0Mjg0MDgzLDEyNTkzNTEzMDMsLTE2ND
+gyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MDIs
+MTY5NDI1ODIwM119
 -->
