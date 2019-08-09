@@ -132,7 +132,7 @@ When complete, the web portal will open in the default browser. If you close the
 ## <a id="run_controller_linux"></a>Running the RSP Controller Application on Linux
 The RSP Controller application must be running in order to gather, process, and report data form RFID tags. You'll build your own solution that communicates with the RSP Controller over MQTT, but the web portal gives you an idea of what kind of data the RSP Controller application makes available.
 
-The installer above runs the RSP Controller application software and launches the web portal. If you reboot or close the terminal window, you will need to run the next steps in this section.
+The installer above doesn't just install. It also runs the RSP Controller application software and launches the web portal. If you reboot or close the terminal window, you will need to run the next steps to start the RSP Controller.
 
 ### Start the RSP Controller application
 A shell script starts the RSP Controller in the foreground. 
@@ -150,7 +150,7 @@ You can run the web portal (next section) at any time after starting the RSP Con
 
 
 ## Using the Web Portal
-Along w the RSP Controller application, Intel provides as sample software a web-based administration interface for configuration and RFID monitoring. The home page is a dashboard showing connected sensors, tags being read, and other status information.
+Along with the RSP Controller application, Intel provides as sample software a web-based administration interface for configuration and RFID monitoring. The home page is a dashboard showing connected sensors, tags being read, and other status information.
 
 ### Open the web portal
 While the RSP Controller application software is running, you can use the web portal.
@@ -265,6 +265,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDM4MjQwNiwyNTAxMzE1NSwtNjc2Nz
-c0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Nj
+c3NDU2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM119
 -->
