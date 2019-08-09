@@ -254,21 +254,23 @@ RSP-150005 CONNECTED    STOPPED    Default   BackStock                [RSP-15000
 ```
 sensor set.alias <sensorID> PORT_0 "my-new-alias"
 ```
-2. Return to the web admin portal 
+2. Return to the web admin portal and navigate to the Sensors page.
+	The alias you just assigned should appear in the Aliases column.
 
-4. To see a list of available commands, at the RSP Controller CLI prompt press Enter with no text.
+### Get inline command help
+1. To see a list of available commands, at the RSP Controller CLI prompt press Enter with no text.
 ```
 [Show command help terminal output]
 ```
-5. Commands may have several layers of parameters, so the tab completion feature helps. At the RSP Controller CLI prompt type `inventory` and a space character, then press the Tab key.
+2. Commands may have several layers of parameters, so the tab completion feature helps. At the RSP Controller CLI prompt type `inventory` and a space character, then press the Tab key.
 ```
 [Show command help terminal output]
 ```
-6. After the CLI displays the available parameters, type `stats` and a space character, then press the Tab key.
+3. After the CLI displays the available parameters, type `stats` and a space character, then press the Tab key.
 ```
 [Show command help terminal output]
 ```
-7. After the CLI displays the available parameters, type `show` and press Enter.
+4. After the CLI displays the available parameters, type `show` and press Enter.
  ```
 [Show command help terminal output]
 ```
@@ -285,9 +287,9 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjY0MjQ1OCwtMjExODY2NTg3OSwtMT
-I3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQx
-NDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMy
-wtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEw
-MDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbLTEzMjA2MzQ4MDAsLTIxMTg2NjU4NzksLT
+EyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0
+MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMD
+MsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgx
+MDA5MDIsMTY5NDI1ODIwM119
 -->
