@@ -187,9 +187,11 @@ For example, thousands of consecutive readings of the same tag by the same senso
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ### Assign an alias name to a sensor
-Each RSP sensor and its antennas has an ID, e.g., RSP-150994-0 and RSP-150994-1. Those aren't very meaningful, so you can add a
-1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
-	[insert zoomed pic]
+Each RSP sensor and its antennas has an ID, e.g., RSP-150994-0 and RSP-150994-1. Those aren't very meaningful, so you can add a human-readable alias like "Store1-East-Exit". To add an alias:
+1. Step 1 of task.
+	[insert pic as needed]
+3. Step 2 of task.
+4. Step 3. of task.
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that can be part of your own RFID solution:
@@ -292,7 +294,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyMjc5MDE4LDE5MDkxNTMxMTksMjg2Nj
+eyJoaXN0b3J5IjpbMTc2ODI4NzY4LDE5MDkxNTMxMTksMjg2Nj
 QxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMw
 MywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4OD
 EwMDkwMiwxNjk0MjU4MjAzXX0=
