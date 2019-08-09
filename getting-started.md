@@ -136,7 +136,8 @@ The installer above runs the RSP Controller application software and launches th
 
 ### Start the RSP Controller application
 A shell script starts the RSP Controller in the foreground. 
-1. Run these commands to start the application: 
+1. If you just ran the installer, this task is already done and you can skip to the U
+2. Run these commands to start the application: 
 ```
 cd ~/deploy/rsp-sw-toolkit-gw
 ~/deploy/rsp-sw-toolkit-gw/run.sh
@@ -264,6 +265,6 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgxMD
-A5MDIsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbMTUyMzI2NDU2NCwyNTAxMzE1NSwtNjc2Nz
+c0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
