@@ -243,9 +243,8 @@ RSP-150004 CONNECTED    STOPPED    Default   SalesFloor  EXIT         [RSP-15000
 RSP-150005 CONNECTED    STOPPED    Default   BackStock                [RSP-150005-0, RSP-150005-1, RSP-150005-2, RSP-150005-3]
 ------------------------------------------
 ```
-Nearly all RFID tag readings are redundant because, for example, retail items sat on the shelf most of the time. The RSP Controller software processes the high volume of readings into useful data, e.g., this one entered, this one moved from here to here, this one exited. 
 
-3. To see a processed summary of inventory (that is, tags read very recently), enter `view inventory summary`.
+3. Sensors are referred to be their ID (To see a processed summary of inventory (that is, tags read very recently), enter `view inventory summary`.
 ```
 #-- view inventory information
 rfid-gw> inventory summary 
@@ -288,7 +287,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODQ5MjU5OCwtMjExODY2NTg3OSwtMT
+eyJoaXN0b3J5IjpbMTU5OTk2MTgzNSwtMjExODY2NTg3OSwtMT
 I3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQx
 NDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMy
 wtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEw
