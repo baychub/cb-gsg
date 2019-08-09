@@ -167,6 +167,11 @@ The dashboard page shows summary information about tags and sensors connected to
 * **Downstream MQTT.** Provides *downstream* MQTT topics (i.e., data gathered directly from the RSP sensors).
 * **Scheduler.** Shows scheduling configuration. By default, RFID readings are done one sensor at a time, cycling through each connected sensor.
 
+### Understand dashboard information
+The dashboard page shows summary information about tags and sensors connected to this edge computer, along with the names of MQTT topics you can use to stream data or send configuration changes using an MQTT client:
+1. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
+
+
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
  - **The MQTT communications protocol.** The RSP Controller uses a built-in MQTT broker to deliver data structured as JSON-RPC. Many libraries support the well-known MQTT and JSON-RPC protocols, so it's straightforward to implement data access in the code for your solution.
@@ -268,7 +273,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5MjI5MDI0LDEyMzIyNjA2NjgsMTI1OT
-M1MTMwMywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYs
-MTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMj
+U5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1
+NiwxNDg4MTAwOTAyLDE2OTQyNTgyMDNdfQ==
 -->
