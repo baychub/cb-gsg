@@ -163,7 +163,8 @@ While the RSP Controller application software is running, you can use the web po
 The dashboard page shows summary information about tags and sensors connected to this edge computer, along with the names of MQTT topics you can use to stream data or send configuration changes using an MQTT client:
 * **Sensors.** Gives number of known RSP sensors and their connection status.
 * **Tag States.** Gives counts of inventory status for recently read RFID tags.
-* **Tag Reads.** Gives counts of inventory status for recently read RFID tags.
+* **Tag Reads.** Gives counts of RFID tag readings, grouped chronologically.
+* **Upstream MQTT.** Provides "upstream" MQTT topics (i.e., between age co
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
@@ -266,7 +267,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQyNTk3NDQsMTIzMjI2MDY2OCwxMj
+eyJoaXN0b3J5IjpbLTE4MjA4MDU3ODMsMTIzMjI2MDY2OCwxMj
 U5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1
 NiwxNDg4MTAwOTAyLDE2OTQyNTgyMDNdfQ==
 -->
