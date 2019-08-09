@@ -172,17 +172,16 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
 	[insert zoomed pic]
 2. Click Tag Statistics.
-![Dashboard page](https://baychub.github.io/cb-gsg/tag-statistics.png)
+![Tag Statistics page](https://baychub.github.io/cb-gsg/tag-statistics.png)
 	List of tags is shown in the left column. The other columns show readings from each of the two antennas on each sensor.  The values are signal strength (green from strong, red for weak) and brightness or dimness for time since the last reading. The most recent and strongest reading is highlighted in gray as the most likely current location for each tag.
 3. Click any data point to see the legend for these readings and colors.
 4. Experiment with moving RFID tags around the room to see how the sensor readings respond.
 
 ### See digested inventory data
-The Tag Statistics window shows low-level detail about each individual tag the RSP sensors communicate with, including signal strength and when it was last read.
-1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
-	[insert zoomed pic]
-2. Click Tag Statistics.
-![Dashboard page](https://baychub.github.io/cb-gsg/tag-statistics.png)
+The Inventory window shows the current status for each RFID tag.
+1. Click the three-bar menu button to the left of the Tag Statics page heading to open the navigation menu.
+2. Click Inventory.
+![Inventory page](https://baychub.github.io/cb-gsg/inventory.png)
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
@@ -285,8 +284,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY4NDUzMzMsMTkwOTE1MzExOSwyOD
-Y2NDE0MDEsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUx
-MzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxND
-g4MTAwOTAyLDE2OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbNzgzNTA1MzU1LDE5MDkxNTMxMTksMjg2Nj
+QxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMw
+MywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4OD
+EwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
