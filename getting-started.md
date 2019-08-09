@@ -168,7 +168,7 @@ The dashboard page shows summary information about tags and sensors connected to
 * **Scheduler.** Shows scheduling configuration. By default, RFID readings are done one sensor at a time, cycling through each connected sensor.
 
 ### See live RFID tag information
-The Tag Statics window shows 
+The Tag Statistics window shows low-level detail about each individual tag the RSP sensors communicate with, including signal strength and when it was last read.
 1. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
 
 
@@ -273,7 +273,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NjQxNDAxLC0xMDY1MjkzNDI1LDEyMz
-IyNjA2NjgsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywyNTAxMzE1
-NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTEzNDQxODc2NSwyODY2NDE0MDEsLTEwNj
+UyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3
+MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2OT
+QyNTgyMDNdfQ==
 -->
