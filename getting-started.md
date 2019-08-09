@@ -169,7 +169,9 @@ The dashboard page shows summary information about tags and sensors connected to
 
 ### See live RFID tag information
 The Tag Statistics window shows low-level detail about each individual tag the RSP sensors communicate with, including signal strength and when it was last read.
-1. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
+1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation
+	[insert zoomed pic]
+2. 
 
 
 ## Viewing RFID data in Other Ways
@@ -273,7 +275,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDQxODc2NSwyODY2NDE0MDEsLTEwNj
+eyJoaXN0b3J5IjpbLTMyMjcwMjg3NywyODY2NDE0MDEsLTEwNj
 UyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3
 MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2OT
 QyNTgyMDNdfQ==
