@@ -201,12 +201,12 @@ The RSP web portal displays many of the available MQTT topics (specific sets of 
 
 To monitor RSP data over MQTT from a terminal window:
 1. Run the mosquitto_sub command and specify the MQTT topic for the data you want (in this example, controller events).
-```
-#-- See data from the RSP Controller events topic
-mosquitto_sub -t rfid/controller/events
-```
-The console displays in JSON-RPC format any high-level events processed by the RSP Controller (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic. If you don't see any events initially, try introducing or moving some tags to generate an event..
-![Dashboard page](https://baychub.github.io/cb-gsg/dashboard.png)
+	```
+	#-- See data from the RSP Controller events topic
+	mosquitto_sub -t rfid/controller/events
+	```
+	The console displays in JSON-RPC format any high-level events processed by the RSP Controller (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic. If you don't see any events initially, try introducing or moving some tags to generate an event.
+![Dashboard page](terminal screenshot for MQTT topic)
 
 2. Press Ctrl-C to stop monitoring MQTT data on this topic.
 3. Try some of the other MQTT topics to see other types of data the RSP Controller publishes:
@@ -288,9 +288,9 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDQzNzAwMCwtMjExODY2NTg3OSwtMT
-I3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQx
-NDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMy
-wtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEw
-MDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbLTEwMTcwMTkyNzgsLTIxMTg2NjU4NzksLT
+EyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0
+MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMD
+MsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgx
+MDA5MDIsMTY5NDI1ODIwM119
 -->
