@@ -181,7 +181,7 @@ The RSP web portal displays many of the available MQTT topics (specific sets of 
 mosquitto_sub -t rfid/gw/events
 ```
 The console displays in JSON-RPC format any high-level events processed by the RSP Controller (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic. If you don't see any events initially, try introducing or moving some tags.
-![enter image description here](add-screenshot-URL-here)
+![Dashboard page](https://github.com/baychub/cb-gsg/blob/master/docs/dashboard.png)
 
 2. Press Ctrl-C to stop monitoring MQTT data on this topic.
 3. Try some of the other MQTT topics to see other types of data the RSP Controller publishes:
@@ -262,10 +262,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - [Etc. (TBD)](examples/use-cases/retail): More to come
 - 
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTM1MTMwMywtMTY0ODIwNzAyMywyNT
-AxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4MjAz
-XX0=
+eyJoaXN0b3J5IjpbLTEzMTc4MDUyMSwxMjU5MzUxMzAzLC0xNj
+Q4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAy
+LDE2OTQyNTgyMDNdfQ==
 -->
