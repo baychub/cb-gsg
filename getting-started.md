@@ -157,7 +157,7 @@ While the RSP Controller application software is running, you can use the web po
 1. Open the web portal on the edge computer by going to http://localhost:8080/web-admin/ in a browser.
 2. Navigate through the portal by choosing a page from the three-bar menu on the upper left of the display.
 
-![enter image description here](add-screenshot-URL-here)
+![Dashboard page](https://baychub.github.io/cb-gsg/dashboard.png)
 
 ### Other web portal tasks here
 While the RSP Controller application software is running, you can use the web portal.
@@ -263,7 +263,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc4MDUyMSwxMjU5MzUxMzAzLC0xNj
-Q4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAy
-LDE2OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbLTExNTY5MzYwNTIsMTI1OTM1MTMwMywtMT
+Y0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkw
+MiwxNjk0MjU4MjAzXX0=
 -->
