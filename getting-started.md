@@ -244,7 +244,7 @@ RSP-150005 CONNECTED    STOPPED    Default   BackStock                [RSP-15000
 ------------------------------------------
 ```
 
-3. Sensors are referred to be their ID (To see a processed summary of inventory (that is, tags read very recently), enter `view inventory summary`.
+3. Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). To assign a human-readable name as an alias, enter `view inventory summary`.
 ```
 #-- view inventory information
 rfid-gw> inventory summary 
@@ -287,9 +287,9 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTk2MTgzNSwtMjExODY2NTg3OSwtMT
-I3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQx
-NDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMy
-wtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEw
-MDkwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbLTIxMjc2ODY2NjUsLTIxMTg2NjU4NzksLT
+EyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0
+MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMD
+MsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgx
+MDA5MDIsMTY5NDI1ODIwM119
 -->
