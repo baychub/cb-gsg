@@ -164,8 +164,9 @@ The dashboard page shows summary information about tags and sensors connected to
 * **Sensors.** Gives number of known RSP sensors and their connection status.
 * **Tag States.** Gives counts of inventory status for recently read RFID tags.
 * **Tag Reads.** Gives counts of RFID tag readings, grouped chronologically.
-* **Upstream MQTT.** Provides *upstream* MQTT topics (i.e., management messages sent to your cloud).
-* **Downstream MQTT.** Provides *downstream* MQTT topics (i.e., management messages sent to your cloud).
+* **Upstream MQTT.** Provides *upstream* MQTT topics (i.e., management messages processed by the RSP Controller application).
+* **Downstream MQTT.** Provides *downstream* MQTT topics (i.e., data gathered directly from the RSP sensors).
+* **Scheduler.** Provides *downstream* MQTT topics (i.e., data gathered directly from the RSP sensors).
 
 ## Viewing RFID data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that you'll use for your own RFID solution:
@@ -268,7 +269,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTU0MDUzMCwxMjMyMjYwNjY4LDEyNT
+eyJoaXN0b3J5IjpbMTg5OTkyMzYzOCwxMjMyMjYwNjY4LDEyNT
 kzNTEzMDMsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2
 LDE0ODgxMDA5MDIsMTY5NDI1ODIwM119
 -->
