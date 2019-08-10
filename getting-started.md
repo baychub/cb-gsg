@@ -191,7 +191,8 @@ By default, the RSP Controller application directs each sensor to read one at a 
 
 You can change to have all sensors reading simultaneously, for example, if the antennas are farther apart.
 
-1. Click the three-bar menu button at the top-left of the web ad.
+1. Click the three-bar menu button at the top-left of the web admin portal.
+2. Click Scheduler.
 
 
 ## Viewing RFID data in Other Ways
@@ -294,10 +295,10 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk1MjM2NjYsLTg3OTAxMDYxNCwtMT
-MyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3
-MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxNDAxLC0xMDY1MjkzND
-I1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywy
-NTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4Mj
-AzXX0=
+eyJoaXN0b3J5IjpbMTQ1NTg0ODExMywtODc5MDEwNjE0LC0xMz
+IwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcw
+NTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MDEsLTEwNjUyOTM0Mj
+UsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1
+MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2OTQyNTgyMD
+NdfQ==
 -->
