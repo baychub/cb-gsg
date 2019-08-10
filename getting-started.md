@@ -189,9 +189,9 @@ For example, thousands of consecutive readings of the same tag by the same senso
 ### Turn scheduling on or off
 By default, the RSP Controller application directs each sensor to read one at a time, from first sensor to last sensor and then repeating. This minimizes interference in case the antennas are relatively close together.
 
-You can change to have all sensors reading simultaneously if 
+You can change to have all sensors reading simultaneously, for example, if the antennas are farther apart.
 
-1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
+1. Click the three-bar menu button at the top-left of the web ad.
 
 
 ## Viewing RFID data in Other Ways
@@ -294,10 +294,10 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODYxMDMyLC04NzkwMTA2MTQsLTEzMj
-A2MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEwNzUyMDUsLTUxNzA1
-NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMSwtMTA2NTI5MzQyNS
-wxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2NDgyMDcwMjMsMjUw
-MTMxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM1
-19
+eyJoaXN0b3J5IjpbLTE3MTk1MjM2NjYsLTg3OTAxMDYxNCwtMT
+MyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3
+MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxNDAxLC0xMDY1MjkzND
+I1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywy
+NTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4Mj
+AzXX0=
 -->
