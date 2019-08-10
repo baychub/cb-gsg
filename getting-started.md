@@ -187,12 +187,13 @@ For example, thousands of consecutive readings of the same tag by the same senso
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ### Turn scheduling on or off
-By default, the RSP Controller application directs each sensor to read one at a time, from first sensor to last sensor and then repeating. This minimizes interference in case the antennas are relatively close together.
+By default, the RSP Controller application directs each RSP sensor to read one at a time, from first sensor to last sensor and then back to the first again. This minimizes interference in case the antennas are relatively close together.
 
-You can change to have all sensors reading simultaneously, for example, if the antennas are farther apart.
+You can change to have all sensors reading simultaneously, for example, if the antennas are farther apart. You can tell the pattern by observing the LEDs on the sensors.
 
 1. Click the three-bar menu button at the top-left of the web admin portal.
 2. Click Scheduler.
+3. In the blue header, click the ALL_ON option.
 
 
 ## Viewing RFID data in Other Ways
@@ -295,7 +296,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTg0ODExMywtODc5MDEwNjE0LC0xMz
+eyJoaXN0b3J5IjpbLTUwNjU2NTY4OCwtODc5MDEwNjE0LC0xMz
 IwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcw
 NTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MDEsLTEwNjUyOTM0Mj
 UsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1
