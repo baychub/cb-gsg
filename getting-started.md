@@ -297,7 +297,7 @@ Software on the RSP sensors allows you to post an update package on the edge com
 2. In a terminal window, expand the update package file and move the contents to the sensor software directory with these command:
 ````
 #-- From directory where you download the sensor update
-tar -xf <filename>
+tar -xf <filename_of_sensor_update>
 cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 ````
 3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will find and install the update. 
@@ -310,10 +310,10 @@ The links below contain practical information for getting ready to do your own i
 - [Other RSP documentation(https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU1NzE1OTIsLTEyMDY1MzkzNTIsLT
-g3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3
-MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxND
-AxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywt
-MTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMD
-kwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTk0MzU5MTAyNSwtMTg4NTU3MTU5MiwtMT
+IwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4
+NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1Mz
+ExOSwyODY2NDE0MDEsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwx
+MjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3Nz
+Q1NiwxNDg4MTAwOTAyLDE2OTQyNTgyMDNdfQ==
 -->
