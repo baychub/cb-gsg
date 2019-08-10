@@ -7,26 +7,35 @@ Intel RSP Controller application software is open source, so you can easily buil
 *The web admin portal shown in this guide is not intended to be a complete end-to-end inventory management solution.* It is a demonstration of what the platform can do.* All other software installed in this getting started guide is production software.
 
 ## Contents
-- System Overview
-	- Solution Structure
-	- Network Map for Getting Started
-- System Requirements
-	- Hardware
-	- Software
-- Setting up the Hardware
-- Installing and Running the RSP Controller on Windows
-- Installing the RSP Controller on Linux (Recommended)
-	- Clone RSP Controller repository
-	- Build and deploy
-- Running the RSP Controller application on Linux
-	- Start the RSP Controller application
-- Using the Web Portal
-	- Open the web portal
-	- ((Other web portal tasks here))
-- Viewing RFID data in other ways
-	- Subscribe to MQTT topics
-	- Use the command-line interface
-- Next Steps
+- [Getting Started with Intel® RFID Sensor Platform (RSP)](#getting-started-with-intel--rfid-sensor-platform--rsp-)
+  * [Contents](#contents)
+  * [System Overview](#system-overview)
+  * [System Requirements](#system-requirements)
+  * [Setting up the Hardware](#setting-up-the-hardware)
+  * [Installing and Running the RSP Controller on Windows](#installing-and-running-the-rsp-controller-on-windows)
+  * [Installing the RSP Controller on Linux (Recommended)](#installing-the-rsp-controller-on-linux--recommended-)
+    + [Clone RSP Installer repository](#clone-rsp-installer-repository)
+    + [Build and deploy](#build-and-deploy)
+  * [Running the RSP Controller Application on Linux](#-a-id--run-controller-linux----a-running-the-rsp-controller-application-on-linux)
+    + [Start the RSP Controller application](#start-the-rsp-controller-application)
+  * [Using the Web Portal](#using-the-web-portal)
+    + [Open the web portal](#open-the-web-portal)
+    + [Understand dashboard information](#understand-dashboard-information)
+    + [See live RFID tag data](#see-live-rfid-tag-data)
+    + [See digested inventory data](#see-digested-inventory-data)
+    + [Turn scheduling on or off](#turn-scheduling-on-or-off)
+  * [Viewing RFID Data in Other Ways](#viewing-rfid-data-in-other-ways)
+  * [Getting data over MQTT](#getting-data-over-mqtt)
+    + [Subscribe to an MQTT data topic](#subscribe-to-an-mqtt-data-topic)
+  * [Using the command-line interface](#using-the-command-line-interface)
+    + [Connect to the CLI](#connect-to-the-cli)
+    + [View a summary of sensors](#view-a-summary-of-sensors)
+    + [Assign an alias to a sensor](#assign-an-alias-to-a-sensor)
+    + [Get CLI command help inline](#get-cli-command-help-inline)
+  * [Changing the Configuration](#changing-the-configuration)
+    + [Update Sensor Software](#update-sensor-software)
+    + [Assign a personality to a sensor](#assign-a-personality-to-a-sensor)
+  * [Next Steps](#next-steps)
 
 ## System Overview
 
@@ -319,10 +328,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTIxMjg4NiwtMTg4NTU3MTU5MiwtMT
-IwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4
-NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1Mz
-ExOSwyODY2NDE0MDEsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwx
-MjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3Nz
-Q1NiwxNDg4MTAwOTAyLDE2OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NTk5NDEyMzEsMjAyNTIxMjg4NiwtMT
+g4NTU3MTU5MiwtMTIwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIw
+NjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNT
+YxMjIsMTkwOTE1MzExOSwyODY2NDE0MDEsLTEwNjUyOTM0MjUs
+MTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1MD
+EzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2OTQyNTgyMDNd
+fQ==
 -->
