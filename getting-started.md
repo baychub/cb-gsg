@@ -303,7 +303,7 @@ cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will find and install the update. 
 
 ### Assign a personality to a sensor
-Software on the RSP sensors allows you to post an update package on the edge computer and have the RSP Controller application automatically install the package on all of the sensors connected to that edge computer.
+Sensor can have on of several *personalities*, or categories that tell RSP Controller software to process data in special ways. 
 
 5. On the edge computer, get the sensor software update from **[need location or site]**.
 6. In a terminal window, expand the update package file and move the contents to the sensor software directory with these command:
@@ -322,10 +322,10 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMjY0NDIzLC0xODg1NTcxNTkyLC0xMj
-A2NTM5MzUyLC04NzkwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2
-NjU4NzksLTEyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMT
-E5LDI4NjY0MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEy
-NTkzNTEzMDMsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3ND
-U2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbMjc0NTc2NTksLTE4ODU1NzE1OTIsLTEyMD
+Y1MzkzNTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMjExODY2
+NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMT
+ksMjg2NjQxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1
+OTM1MTMwMywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NT
+YsMTQ4ODEwMDkwMiwxNjk0MjU4MjAzXX0=
 -->
