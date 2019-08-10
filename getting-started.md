@@ -192,14 +192,14 @@ By default, the RSP Controller application directs each RSP sensor to read one a
 You can change to have all sensors reading simultaneously, for example, if the antennas are farther apart. 
 1. Click the three-bar menu button at the top-left of the web admin portal.
 2. Click Scheduler.
-3. In the blue header, click the ALL_ON option.
-4. Observe the change in the LED pattern on the sensors.
+	[insert screenshot]
+4. In the blue header, click the ALL_ON option.
+5. Observe the change in the LED pattern on the sensors.
 
-
-## Viewing RFID data in Other Ways
+## Viewing RFID Data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that can be part of your own RFID solution:
- - **The MQTT communications protocol.** The RSP Controller uses a built-in MQTT broker to deliver data structured as JSON-RPC. Many libraries support the well-known MQTT and JSON-RPC protocols, so it's straightforward to implement data access in the code for your solution.
- - **The RSP Controller CLI.** The RSP Controller includes a simple, local command-line interface for accessing data and also for making sensor configuration changes. 
+ - **MQTT communications protocol.** The RSP Controller uses a built-in MQTT broker to deliver data structured as JSON-RPC. Many libraries support the well-known MQTT and JSON-RPC protocols, so it's straightforward to implement data access in the code for your solution.
+ - **RSP Controller CLI.** The RSP Controller includes a simple, local command-line interface for accessing data and also for making sensor configuration changes. 
 
 ## Getting data over MQTT
 You can open a terminal window and subscribe to the RSP Controller events topic in order to monitor tag events produced by the RSP Controller, raw RFID tag data, and other RSP system information. 
@@ -296,10 +296,10 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY1MzkzNTIsLTg3OTAxMDYxNCwtMT
-MyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3
-MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxNDAxLC0xMDY1MjkzND
-I1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywy
-NTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwxNjk0MjU4Mj
-AzXX0=
+eyJoaXN0b3J5IjpbMzQ2NDUzMjIzLC0xMjA2NTM5MzUyLC04Nz
+kwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEw
+NzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMS
+wtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2
+NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MD
+IsMTY5NDI1ODIwM119
 -->
