@@ -302,18 +302,30 @@ cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 ````
 3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will find and install the update. 
 
+### Assign a personality to a sensor
+Software on the RSP sensors allows you to post an update package on the edge computer and have the RSP Controller application automatically install the package on all of the sensors connected to that edge computer.
+
+5. On the edge computer, get the sensor software update from **[need location or site]**.
+6. In a terminal window, expand the update package file and move the contents to the sensor software directory with these command:
+````
+#-- From directory where you download the sensor update
+tar -xf <filename_of_sensor_update>
+cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
+````
+7. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will find and install the update. 
+
 ## Next Steps
-The links below contain practical information for getting ready to do your own implementation of Intel&reg; RSP sensors and software.
+The links below contain practical information for getting ready to do implement Intel&reg; RSP sensors and software.
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to batch-configure behaviors and settings for sets of RSP sensors
 - [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
 - [RSP Controller User Guide](examples/use-cases/retail): Reference for the RSP Controller application that the system is built on
-- [Other RSP documentation(https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
+- [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzU5MTAyNSwtMTg4NTU3MTU5MiwtMT
-IwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4
-NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1Mz
-ExOSwyODY2NDE0MDEsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwx
-MjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3Nz
-Q1NiwxNDg4MTAwOTAyLDE2OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbODkzMjY0NDIzLC0xODg1NTcxNTkyLC0xMj
+A2NTM5MzUyLC04NzkwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2
+NjU4NzksLTEyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMT
+E5LDI4NjY0MTQwMSwtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEy
+NTkzNTEzMDMsLTE2NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3ND
+U2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM119
 -->
