@@ -187,7 +187,9 @@ For example, thousands of consecutive readings of the same tag by the same senso
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ### Turn scheduling on or off
-By default, the RSP Controller application directs each sensor to read one at a time in a contin
+By default, the RSP Controller application directs each sensor to read one at a time, from first sensor to last sensor and then repeating. This minimizes interference in case the antennas are relatively close together.
+
+You can change to have all sensors reading simultaneously if 
 
 1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
 
@@ -292,10 +294,10 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODMxMzk5NiwtODc5MDEwNjE0LC0xMz
-IwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcw
-NTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MDEsLTEwNjUyOTM0Mj
-UsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1
-MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2OTQyNTgyMD
-NdfQ==
+eyJoaXN0b3J5IjpbMTExODYxMDMyLC04NzkwMTA2MTQsLTEzMj
+A2MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEwNzUyMDUsLTUxNzA1
+NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMSwtMTA2NTI5MzQyNS
+wxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2NDgyMDcwMjMsMjUw
+MTMxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM1
+19
 -->
