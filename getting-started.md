@@ -293,6 +293,8 @@ Between MQTT topics, the RSP Controller CLI, and the demonstration web admin por
 ### Update Sensor Software
 Software on the RSP sensors allows you to post an update package on the edge computer and have the RSP Controller application automatically install the package on all of the sensors connected to that edge computer.
 
+1. Get the sensor software update from **[need location or site]**.
+
 ## Next Steps
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
 - [Use Cases](examples/use-cases/retail): Possible implementations for common use cases in areas like retail and factory floors
@@ -301,7 +303,7 @@ Software on the RSP sensors allows you to post an update package on the edge com
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzUyMTM0MSwtMTIwNjUzOTM1MiwtOD
+eyJoaXN0b3J5IjpbLTQ3MjUwNDQ4MiwtMTIwNjUzOTM1MiwtOD
 c5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcx
 MDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MD
 EsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0x
