@@ -7,17 +7,13 @@ Intel RSP Controller application software is open source, so you can easily buil
 *The web admin portal shown in this guide is not intended to be a complete end-to-end inventory management solution.* It is a demonstration of what the platform can do.* All other software installed in this getting started guide is production software.
 
 ## Contents
-- [Getting Started with Intel® RFID Sensor Platform (RSP)](#getting-started-with-intel--rfid-sensor-platform--rsp-)
   * [Contents](#contents)
   * [System Overview](#system-overview)
   * [System Requirements](#system-requirements)
   * [Setting up the Hardware](#setting-up-the-hardware)
   * [Installing and Running the RSP Controller on Windows](#installing-and-running-the-rsp-controller-on-windows)
   * [Installing the RSP Controller on Linux (Recommended)](#installing-the-rsp-controller-on-linux--recommended-)
-    + [Clone RSP Installer repository](#clone-rsp-installer-repository)
-    + [Build and deploy](#build-and-deploy)
   * [Running the RSP Controller Application on Linux](#-a-id--run-controller-linux----a-running-the-rsp-controller-application-on-linux)
-    + [Start the RSP Controller application](#start-the-rsp-controller-application)
   * [Using the Web Portal](#using-the-web-portal)
     + [Open the web portal](#open-the-web-portal)
     + [Understand dashboard information](#understand-dashboard-information)
@@ -328,11 +324,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk5NDEyMzEsMjAyNTIxMjg4NiwtMT
-g4NTU3MTU5MiwtMTIwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIw
-NjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNT
-YxMjIsMTkwOTE1MzExOSwyODY2NDE0MDEsLTEwNjUyOTM0MjUs
-MTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1MD
-EzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2OTQyNTgyMDNd
-fQ==
+eyJoaXN0b3J5IjpbLTY3NTA2MzE2OSwyMDI1MjEyODg2LC0xOD
+g1NTcxNTkyLC0xMjA2NTM5MzUyLC04NzkwMTA2MTQsLTEzMjA2
+MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEwNzUyMDUsLTUxNzA1Nj
+EyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMSwtMTA2NTI5MzQyNSwx
+MjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2NDgyMDcwMjMsMjUwMT
+MxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM119
+
 -->
