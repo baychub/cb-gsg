@@ -304,17 +304,16 @@ cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 
 ## Next Steps
 The links below contain practical information for getting ready to do your own implementation of Intel&reg; RSP sensors and software.
-- [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
-- [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
+- [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to batch-configure behaviors and settings for sets of RSP sensors
 - [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
 - [RSP Controller User Guide](examples/use-cases/retail): Reference for the RSP Controller application that the system is built on
-- [Other RSP documentation(https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware, 
-
+- [Other RSP documentation(https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
+- [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjI3OTQwOSwtMTIwNjUzOTM1MiwtOD
-c5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcx
-MDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MD
-EsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0x
-NjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOT
-AyLDE2OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbLTE4ODU1NzE1OTIsLTEyMDY1MzkzNTIsLT
+g3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3
+MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxND
+AxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywt
+MTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMD
+kwMiwxNjk0MjU4MjAzXX0=
 -->
