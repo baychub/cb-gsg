@@ -303,15 +303,15 @@ cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will find and install the update. 
 
 ## Next Steps
-
+The links below contain practical information for getting ready to do your own implementation of Intel&reg; RSP sensors and software.
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
-- [Use Cases](examples/use-cases/retail): Possible implementations for common use cases in areas like retail and factory floors
+- [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 - [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
 - [Etc. (TBD)](examples/use-cases/retail): More to come
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MDU3MDQ4LC0xMjA2NTM5MzUyLC04Nz
+eyJoaXN0b3J5IjpbMTI2ODE3NzIxLC0xMjA2NTM5MzUyLC04Nz
 kwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEw
 NzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMS
 wtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2
