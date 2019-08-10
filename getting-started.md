@@ -300,9 +300,10 @@ Software on the RSP sensors allows you to post an update package on the edge com
 tar -xf <filename>
 cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 ````
-3. Sensors check this location for updates every 5 minutes. In a few m 
+3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will find and install the update. 
 
 ## Next Steps
+
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
 - [Use Cases](examples/use-cases/retail): Possible implementations for common use cases in areas like retail and factory floors
 - [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
@@ -310,10 +311,10 @@ cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTEwNTc1NSwtMTIwNjUzOTM1MiwtOD
-c5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcx
-MDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MD
-EsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0x
-NjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOT
-AyLDE2OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbNDQ4MDU3MDQ4LC0xMjA2NTM5MzUyLC04Nz
+kwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEw
+NzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMS
+wtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2
+NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MD
+IsMTY5NDI1ODIwM119
 -->
