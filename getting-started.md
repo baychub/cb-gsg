@@ -296,9 +296,11 @@ Software on the RSP sensors allows you to post an update package on the edge com
 1. On the edge computer, get the sensor software update from **[need location or site]**.
 2. In a terminal window, expand the update package file and move the contents to the sensor software directory with these command:
 ````
-#-- From 
+#-- From directory where you download the sensor update
 tar -xf <filename>
+cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 ````
+3. Sensors check this location for updates every 5 minutes. In a few m 
 
 ## Next Steps
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
@@ -308,10 +310,10 @@ tar -xf <filename>
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODYzMjY4MjksLTEyMDY1MzkzNTIsLT
-g3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3
-MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxND
-AxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywt
-MTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMD
-kwMiwxNjk0MjU4MjAzXX0=
+eyJoaXN0b3J5IjpbMTkwOTEwNTc1NSwtMTIwNjUzOTM1MiwtOD
+c5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcx
+MDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MD
+EsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0x
+NjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOT
+AyLDE2OTQyNTgyMDNdfQ==
 -->
