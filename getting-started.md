@@ -287,6 +287,8 @@ In this way you can see the syntax options progressively without referring to do
 
 Full documentation of the CLI is in the *[Intel® RSP Controller Application - Edge Computer Software Installation & User Guide](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_Installation_User_Guide.pdf)*, chapter 9.
 
+## Changing the Configuration
+Between MQTT topics, the RSP Controller CLI, and the demonstration web admin portal, there are several way
 
 ## Next Steps
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
@@ -296,7 +298,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NDUzMjIzLC0xMjA2NTM5MzUyLC04Nz
+eyJoaXN0b3J5IjpbMTIyMjAwMzA2LC0xMjA2NTM5MzUyLC04Nz
 kwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEw
 NzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMS
 wtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2
