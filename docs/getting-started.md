@@ -41,7 +41,7 @@ The image below is an example of a robust inventory management system built on I
 
 The PC doesn't need to be dedicated to running RSP Controller software. It can also run other workloads and be available for future expansion.
 
-![](https://baychub.github.io/cb-gsg/solution-map.png)
+![](https://baychub.github.io/cb-gsg/images/solution-map.png)
 
 ### Network Map for Getting Started
 This getting started tutorial uses a simple network configuration, shown in the image below. Key points about the setup:
@@ -52,7 +52,7 @@ This getting started tutorial uses a simple network configuration, shown in the 
  - A simple command-line interface on the edge computer enables troubleshooting and low-level data monitoring.
  - (Demo only, not meant for production) A web-based portal displays data gathered by the RSP Controller software over an MQTT channel. The web portal allows you to make configuration changes as well. 
 
-![](https://baychub.github.io/cb-gsg/demo-map.png)
+![](https://baychub.github.io/cb-gsg/images/demo-map.png)
 
 
 ## System Requirements
@@ -161,7 +161,7 @@ Along with the RSP Controller application, Intel provides as sample software a w
 While the RSP Controller application software is running, you can use the web portal.
 1. Open the web portal on the edge computer by going to http://localhost:8080/web-admin/ in a browser.
 
-![Dashboard page](https://baychub.github.io/cb-gsg/dashboard.png)
+![Dashboard page](https://baychub.github.io/cb-gsg/images/dashboard.png)
 
 ### Understand dashboard information
 The dashboard page shows summary information about tags and sensors connected to this edge computer, along with the names of MQTT topics you can use to stream data or send configuration changes using an MQTT client:
@@ -177,7 +177,7 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
 	[insert zoomed pic]
 2. Click Tag Statistics.
-![Tag Statistics page](https://baychub.github.io/cb-gsg/tag-statistics.png)
+![Tag Statistics page](https://baychub.github.io/cb-gsg/images/tag-statistics.png)
 	List of tags is shown in the left column. The other columns show readings from each of the two antennas on each sensor.  The values are signal strength (green from strong, red for weak) and brightness or dimness for time since the last reading. The most recent and strongest reading is highlighted in gray as the most likely current location for each tag.
 3. Click any data point to see the legend for these readings and colors.
 4. Experiment with moving RFID tags around the room to see how the sensor readings respond.
@@ -188,7 +188,7 @@ Each RSP sensor reads each reachable RFID tag many times a second, generating a 
 For example, thousands of consecutive readings of the same tag by the same sensor can be compressed into a state of PRESENT with that sensor. Or a tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
 1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
 2. Click Inventory.
-![Inventory page](https://baychub.github.io/cb-gsg/inventory.png)
+![Inventory page](https://baychub.github.io/cb-gsg/images/inventory.png)
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ### Turn scheduling on or off
