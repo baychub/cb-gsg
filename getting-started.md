@@ -290,8 +290,8 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 ## Changing the Configuration
 Between MQTT topics, the RSP Controller CLI, and the demonstration web admin portal, there are several ways to configure your sensors and RSP implementation. This section will show some examples.
 
-### Update RSP Controller Software
-
+### Update Sensor Software
+Software on the RSP sensors allows you to post an update on the 
 
 ## Next Steps
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
@@ -301,7 +301,7 @@ Between MQTT topics, the RSP Controller CLI, and the demonstration web admin por
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3OTE5OTE1LC0xMjA2NTM5MzUyLC04Nz
+eyJoaXN0b3J5IjpbMTY4ODA0MjM5LC0xMjA2NTM5MzUyLC04Nz
 kwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEw
 NzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMS
 wtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2
