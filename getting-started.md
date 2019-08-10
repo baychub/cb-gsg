@@ -308,14 +308,8 @@ Sensor can have an optional *personality*, or category that tells RSP Controller
 * The POS (point of sale) personality is intended for a retail checkout counter. A sensor with this personality generates a DEPARTED event immediately upon detection and allows re-entry into inventory after a certain amount of time.
 
 To configure a sensor with a personality:
-1. **[need location or site]**.
-2. In a terminal window, expand the update package file and move the contents to the sensor software directory with these command:
-````
-#-- From directory where you download the sensor update
-tar -xf <filename_of_sensor_update>
-cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
-````
-3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will find and install the update. 
+1. **[Need specific steps]**.
+2. Step 2.
 
 ## Next Steps
 The links below contain practical information for getting ready to do implement Intel&reg; RSP sensors and software.
@@ -325,7 +319,7 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDI5NjI3MSwtMTg4NTU3MTU5MiwtMT
+eyJoaXN0b3J5IjpbMjAyNTIxMjg4NiwtMTg4NTU3MTU5MiwtMT
 IwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4
 NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1Mz
 ExOSwyODY2NDE0MDEsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwx
