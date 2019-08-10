@@ -291,7 +291,7 @@ Full documentation of the CLI is in the *[Intel® RSP Controller Application - E
 Between MQTT topics, the RSP Controller CLI, and the demonstration web admin portal, there are several ways to configure your sensors and RSP implementation. This section will show some examples.
 
 ### Update Sensor Software
-Software on the RSP sensors allows you to post an update on the 
+Software on the RSP sensors allows you to post an update package on the edge computer and have the RSP Controller application automatically install the package on all of the sensors connected to that edge computer.
 
 ## Next Steps
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
@@ -301,10 +301,10 @@ Software on the RSP sensors allows you to post an update on the
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODA0MjM5LC0xMjA2NTM5MzUyLC04Nz
-kwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEw
-NzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMS
-wtMTA2NTI5MzQyNSwxMjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2
-NDgyMDcwMjMsMjUwMTMxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MD
-IsMTY5NDI1ODIwM119
+eyJoaXN0b3J5IjpbMTY4MzUyMTM0MSwtMTIwNjUzOTM1MiwtOD
+c5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcx
+MDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MD
+EsLTEwNjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0x
+NjQ4MjA3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOT
+AyLDE2OTQyNTgyMDNdfQ==
 -->
