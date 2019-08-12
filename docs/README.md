@@ -8,8 +8,8 @@ The topology allows many sensors to be connected to an edge computer (a Linux or
 Choose the getting started guide for operating system of your edge computer:
 
 * [Getting Started with Intel&reg; RSP for Linux (Recommended)](https://baychub.github.io/cb-gsg/getting-started.md)
-* [Getting Started with Intel&reg; RSP for Windows](https://github.com/baychub/cb-gsg/blob/master/getting-started-win.md)
+* [Getting Started with Intel&reg; RSP for Windows](https://baychub.github.io/cb-gsg/Getting-Started-Guide-Windows.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1MDUzNTA4LDI5NzA0MTU2OSwtMjEwOT
-MxNTI3NywtMTk2ODA3MThdfQ==
+eyJoaXN0b3J5IjpbLTE0ODkyMzEwMzMsMjk3MDQxNTY5LC0yMT
+A5MzE1Mjc3LC0xOTY4MDcxOF19
 -->
