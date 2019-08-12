@@ -138,15 +138,17 @@ In this way you can see the syntax options progressively without referring to do
 Full documentation of the CLI is in the *[Intel® RSP Controller Application - Edge Computer Software Installation & User Guide](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_Installation_User_Guide.pdf)*, chapter 9.
 
 
+
 ## Next Steps
-- [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to configure behaviors and settings for multiple sets of RSP sensors
-- [Use Cases](examples/use-cases/retail): Possible implementations for common use cases in areas like retail and factory floors
+The links below contain practical information for getting ready to do implement Intel&reg; RSP sensors and software.
+- [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to batch-configure behaviors and settings for sets of RSP sensors
 - [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
-- [Etc. (TBD)](examples/use-cases/retail): More to come
-- 
+- [RSP Controller User Guide](examples/use-cases/retail): Reference for the RSP Controller application that the system is built on
+- [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
+- [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTQ0OTY3MF19
+eyJoaXN0b3J5IjpbMTYzMDU4MDM5NCwtNjY1NDQ5NjcwXX0=
 -->
