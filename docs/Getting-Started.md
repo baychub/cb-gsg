@@ -107,7 +107,7 @@ To build and install in a Windows environment:
 The remainder of this document assumes a Linux installation.
 
 ## Installing the RSP Controller on Linux (Recommended)
-This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (You can also [install manually](manual-install-link) or [install with Docker](docker-install-link).)
+This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (You can also [install manually](https://github.com/baychub/cb-gsg/tree/master/docs) or [install with Docker](docker-install-link).)
 
 ### Clone RSP Installer repository
 1. Open a terminal window on the edge eomputer.
@@ -324,11 +324,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTA2MzE2OSwyMDI1MjEyODg2LC0xOD
-g1NTcxNTkyLC0xMjA2NTM5MzUyLC04NzkwMTA2MTQsLTEzMjA2
-MzQ4MDAsLTIxMTg2NjU4NzksLTEyNzEwNzUyMDUsLTUxNzA1Nj
-EyMiwxOTA5MTUzMTE5LDI4NjY0MTQwMSwtMTA2NTI5MzQyNSwx
-MjMyMjYwNjY4LDEyNTkzNTEzMDMsLTE2NDgyMDcwMjMsMjUwMT
-MxNTUsLTY3Njc3NDU2LDE0ODgxMDA5MDIsMTY5NDI1ODIwM119
-
+eyJoaXN0b3J5IjpbLTU5Njg2ODkxNywtNjc1MDYzMTY5LDIwMj
+UyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1MzkzNTIsLTg3OTAx
+MDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3MTA3NT
+IwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxNDAxLC0x
+MDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MTMwMywtMTY0OD
+IwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4ODEwMDkwMiwx
+Njk0MjU4MjAzXX0=
 -->
