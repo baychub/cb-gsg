@@ -4,7 +4,7 @@ The automatic installation script for Linux downloads, builds, and starts the th
 You'll need know the specific commands for those tasks when you do the following:
 
  - Control details of the installation
- - Reboot the Edge Computer or close the terminal with the RSP Controller Application process
+ - Reboot the edge computer or close the terminal with the RSP Controller Application process
  - Close the browser running the web admin portal
 
 This document gives the commands for manually downloading, building, and starting the software to use Intel RSP.
@@ -40,7 +40,7 @@ git clone https://github.com/intel/rsp-sw-toolkit-gw.git
 ```
 
 ### Build and deploy
-The commands below will build the RSP Controller Application software and then create credentials so RSP sensors can connect to the Edge Computer. Without these credentials, you can't communicate with the sensors.
+The commands below will build the RSP Controller Application software and then create credentials so RSP sensors can connect to the edge computer. Without these credentials, you can't communicate with the sensors.
 1. Build the application software with these commands in a terminal window:
 ```
 cd ~/projects/rsp-sw-toolkit-gw
@@ -72,7 +72,7 @@ cd ~/deploy/rsp-sw-toolkit-gw
 ### Launch web admin portal reference software
 
 The Intel&reg; RSP Controller Application provides a web-based administration interface for configuration and monitoring. Follow these steps to run the web admin portal.
-1. Launch a web browser on the Edge Computer. 
+1. Launch a web browser on the edge computer. 
 2. Enter this URL in your browser:
 	http://localhost:8080/web-admin/
 
