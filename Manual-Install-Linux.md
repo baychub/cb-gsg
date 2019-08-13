@@ -78,6 +78,3 @@ The Intel&reg; RSP Controller Application provides a web-based administration in
 
 ### Use web admin portal, CLI, or MQTT to manage sensors
 For details, go to the [Getting Started Guide](https://github.com/baychub/cb-gsg/blob/master/docs/Getting-Started.md).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDE2NzExOV19
--->
