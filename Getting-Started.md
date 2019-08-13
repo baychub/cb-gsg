@@ -98,6 +98,8 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	
 7. Attach a monitor to the edge computer and power it on.
 
+[Insert LED table here.]
+
 ## Installing and Running the RSP Controller on Windows
 
 To build and install in a Windows environment:
