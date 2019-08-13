@@ -88,7 +88,8 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 
 6. Check the LEDs on the RSP sensors.
 
-	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. After the RSP Controller application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). If the LEDs are not flashing as expected, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
+	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. After the RSP Controller application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). 
+	If the LEDs are not flashing as expected, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 	
 6. Connect the edge computer to the router and power it on.
 
