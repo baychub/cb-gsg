@@ -1,7 +1,7 @@
 ![QSR H3000 Use Case](../images/QSR_H3000.png)
 
 This use case demonstrates configuring the Intel&reg; RSP H3000 Devkit Sensors and Intel&reg; RSP 
-Controller Application as deployed in a typical quick serve restaurant (qsr) environment.
+Controller Application as deployed in a typical quick serve restaurant (QSR) environment.
 
 ## Goals
 - Manage a deployment with two separate facilities of interest ... Receiving-Exiting and DryGoods
