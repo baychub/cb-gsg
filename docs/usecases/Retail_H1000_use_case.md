@@ -1,4 +1,4 @@
-![Retail H1000 Use Case](./Retail_H1000.png)
+![Retail H1000 Use Case](../images/Retail_H1000.png)
 
 This use case demonstrates configuring the Intel&reg; RSP H1000 Devkit Sensor and Intel&reg; RSP 
 Controller Application as deployed in a typical retail environment.
