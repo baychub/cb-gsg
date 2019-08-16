@@ -1,6 +1,6 @@
 ![QSR H1000 Use Case](../images/QSR_H1000.png)
 
-This use case demonstrates configuring the Intel&reg; RSP H1000 Devkit Sensor and Intel&reg; RSP 
+This use case demonstrates configuring the Intel&reg; RSP H1000 Dev Kit sensor and Intel&reg; RSP 
 Controller Application as deployed in a typical quick serve restaurant (qsr) environment.
 
 ## Goals  
