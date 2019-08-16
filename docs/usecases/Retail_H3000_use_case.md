@@ -1,4 +1,4 @@
-![Retail H3000 Use Case](./Retail_H3000.png)
+![Retail H3000 Use Case](../images/Retail_H3000.png)
 
 This use case demonstrates configuring the Intel&reg; RSP H3000 Devkit Sensors and Intel&reg; RSP 
 Controller Application as deployed in a typical retail environment.
