@@ -74,7 +74,7 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
 ## Setting up the Hardware
 
 Whether you're using the RSP Developer Kit or provided your own components, the steps for setting up your environment are the same. The network map above shows the arrangement, but **the connection order is important**, so follow these steps.
-1. If your RSP sensor is the H1000 model, attach two external antennas (included if you have the RDK) using antenna cables or adapters, and point them away from each other.
+1. If your RSP sensor is the H1000 model, attach two external antennas using antenna cables or adapters, and point them away from each other. (If you have the RDK, antennas are preassembled.)
 
 	This step is not needed for the H3000 model, which has two built-in antennas. 
 	
