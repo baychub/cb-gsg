@@ -96,6 +96,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	This is the PC where you will install the RSP Controller application.
 	
 8. Attach a monitor to the edge computer and power it on. LED patterns show startup progress.
+
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
 ## Installing and Running the RSP Controller on Windows
@@ -325,7 +326,7 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTQ3OTk4MSwxMzY5MTgzNzY2LC05Nj
+eyJoaXN0b3J5IjpbMjA3NjEwNzQyOSwxMzY5MTgzNzY2LC05Nj
 Q1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMxODc1LDIzMTgxNzky
 NSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1Njk1Nyw5Nj
 YxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMxNjksMjAyNTIxMjg4
