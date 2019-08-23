@@ -57,7 +57,7 @@ This getting started tutorial uses a simple network configuration, shown in the 
 In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the kit, or you can provide your own hardware.
 
 ### Hardware
- - Any PC that can run the JRE and operating system *(if you have the RDK, an Intel NUC)*
+ - Any computer that can run the JRE and operating system *(if you have the RDK, an Intel NUC)*
  - Ethernet router with DHCP enabled *(if you have the RDK, model xxx)*
  - Ethernet switch that supports PoE+ *(if you have the RDK, model yyy)*
  - At least one Intel RSP sensor unit, preferably two, from models H1000 and H3000 *(RDK includes either one H1000 or two H3000 sensors)*
@@ -319,11 +319,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzcwMzEzOSw0NzIwNTY0NjEsLTQzNj
-M2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0Mjks
-MTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MD
-MzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3
-LC04NzY1NTY5NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MD
-YzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1Mzkz
-NTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00Mz
+YzNjQwODEsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5
+LDEzNjkxODM3NjYsLTk2NDUwODg4MiwxNjE4NDA2MjczLC0zOT
+AzMzE4NzUsMjMxODE3OTI1LDk2NDkyNTQ4NiwtMjEyNDEyODg0
+NywtODc2NTU2OTU3LDk2NjEwNzI5Niw1NjI0ODA2MzAsLTY3NT
+A2MzE2OSwyMDI1MjEyODg2LC0xODg1NTcxNTkyLC0xMjA2NTM5
+MzUyXX0=
 -->
