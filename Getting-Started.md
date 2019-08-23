@@ -188,14 +188,14 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 ### See digested inventory data
 Each RSP sensor reads each RFID tag that it can reach many times per second, generating a huge volume of raw data. The RSP Controller application processes that raw data stream into meaningful events and status. 
 
-For example, thousands of consecutive readings of the same tag by the same sensor can be compressed into a state of PRESENT with that tag on that sensor for that tag. Or a tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
+For example, thousands of consecutive readings of the same tag by the same sensor can be compressed into a state of PRESENT with that tag on that sensor. Or a tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
 1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
 2. Click Inventory.
 ![Inventory page](https://baychub.github.io/cb-gsg/images/inventory.png)
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ### Turn scheduling on or off
-By default, the RSP Controller application directs each RSP sensor to read one at a time, from first sensor to last sensor and then back to the first again. This minimizes interference in case the antennas are relatively close together.
+By default, the RSP Controller application directs each RSP sensor to read one at a time, from first sensor to last sensor and then back to the first again. This minimizes interference in case the antennas are relatively close together with significant overlaps.
 
 You can change to have all sensors reading simultaneously, for example, if the antennas are farther apart. 
 1. Click the three-bar menu button at the top-left of the web admin portal.
@@ -326,11 +326,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDA2NTI1OCwtOTY0NTA4ODgyLDE2MT
-g0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2
-LC0yMTI0MTI4ODQ3LC04NzY1NTY5NTcsOTY2MTA3Mjk2LDU2Mj
-Q4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1
-OTIsLTEyMDY1MzkzNTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMC
-wtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5
-MDkxNTMxMTldfQ==
+eyJoaXN0b3J5IjpbNjIwNTQzMjQxLC05NjQ1MDg4ODIsMTYxOD
+QwNjI3MywtMzkwMzMxODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYs
+LTIxMjQxMjg4NDcsLTg3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyND
+gwNjMwLC02NzUwNjMxNjksMjAyNTIxMjg4NiwtMTg4NTU3MTU5
+MiwtMTIwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC
+0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNTYxMjIsMTkw
+OTE1MzExOV19
 -->
