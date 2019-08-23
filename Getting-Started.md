@@ -181,7 +181,8 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 	![](https://baychub.github.io/cb-gsg/images/menu.png)
 	
 2. Click Tag Statistics.
-![Tag Statistics page](https://baychub.github.io/cb-gsg/images/tag-statistics.png)
+
+	![Tag Statistics page](https://baychub.github.io/cb-gsg/images/tag-statistics.png)
 	List of tags is shown in the left column. The other columns show readings from each of the two antennas on each sensor.  The values are signal strength (green from strong, red for weak) and brightness or dimness for time since the last reading. The most recent and strongest reading is highlighted in gray as the most likely current location for each tag.
 3. Click any data point to see the legend for these readings and colors.
 4. Experiment with moving RFID tags around the room to see how the sensor readings respond.
@@ -192,7 +193,8 @@ Each RSP sensor reads each RFID tag that it can reach many times per second, gen
 For example, thousands of consecutive readings of the same tag by the same sensor can be compressed into a state of PRESENT with that tag on that sensor. Or a tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
 1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
 2. Click Inventory.
-![Inventory page](https://baychub.github.io/cb-gsg/images/inventory.png)
+
+	![Inventory page](https://baychub.github.io/cb-gsg/images/inventory.png)
 3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ### Turn scheduling on or off
@@ -201,6 +203,7 @@ By default, the RSP Controller application directs each RSP sensor to read one a
 You can change to have all sensors reading simultaneously, for example, if the antennas are farther apart. 
 1. Click the three-bar menu button at the top-left of the web admin portal.
 2. Click Scheduler.
+
 	![](https://baychub.github.io/cb-gsg/images/scheduler.png)
 4. In the blue header, click the ALL_ON option.
 5. Observe the change in the LED pattern on the sensors.
@@ -327,11 +330,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI2MDAzMTAsMjA3NjEwNzQyOSwxMz
-Y5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMx
-ODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLT
-g3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMx
-NjksMjAyNTIxMjg4NiwtMTg4NTU3MTU5MiwtMTIwNjUzOTM1Mi
-wtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0x
-MjcxMDc1MjA1XX0=
+eyJoaXN0b3J5IjpbOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OT
+E4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MDMzMTg3
+NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3LC04Nz
+Y1NTY5NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MDYzMTY5
+LDIwMjUyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1MzkzNTIsLT
+g3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3
+MTA3NTIwNV19
 -->
