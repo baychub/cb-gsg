@@ -315,7 +315,7 @@ Sensor can have an optional *personality*, or category that tells RSP Controller
 * The EXIT personality is for a sensor near the exit of a facility and generates a DEPARTED event when this sensor was the last to detect a tag and a certain amount of time has elapsed.
 * The POS (point of sale) personality is intended for a retail checkout counter. A sensor with this personality generates a DEPARTED event immediately upon detection and allows re-entry into inventory after a certain amount of time.
 
-To configure a sensor with a personality:
+You can learn how to assign 
 1. **[Need specific steps]**.
 2. Step 2.
 
@@ -328,11 +328,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODQwNjI3MywtMzkwMzMxODc1LDIzMT
-gxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1Njk1
-Nyw5NjYxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMxNjksMjAyNT
-IxMjg4NiwtMTg4NTU3MTU5MiwtMTIwNjUzOTM1MiwtODc5MDEw
-NjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1Mj
-A1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MDEsLTEw
-NjUyOTM0MjVdfQ==
+eyJoaXN0b3J5IjpbLTEyMjk3MTQ3ODEsMTYxODQwNjI3MywtMz
+kwMzMxODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4
+NDcsLTg3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgwNjMwLC02Nz
+UwNjMxNjksMjAyNTIxMjg4NiwtMTg4NTU3MTU5MiwtMTIwNjUz
+OTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1OD
+c5LC0xMjcxMDc1MjA1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwy
+ODY2NDE0MDFdfQ==
 -->
