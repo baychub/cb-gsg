@@ -325,9 +325,9 @@ The links below contain practical information for getting ready to do implement 
 - [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
 - [RSP Controller User Guide](examples/use-cases/retail): Reference for the RSP Controller application that the system is built on
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
-- [Use Cases](docs/usecases/use_cases.md): Implementation guidance for common use cases in areas like quick-service restaurants and retail floors
+- [Use Cases](docs/usecases/use_cases.md): Implementation guidance for common use cases in quick-service restaurants and retail floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTE4NTA1MCwyMzE4MTc5MjUsOTY0OT
+eyJoaXN0b3J5IjpbLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OT
 I1NDg2LC0yMTI0MTI4ODQ3LC04NzY1NTY5NTcsOTY2MTA3Mjk2
 LDU2MjQ4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4OD
 U1NzE1OTIsLTEyMDY1MzkzNTIsLTg3OTAxMDYxNCwtMTMyMDYz
