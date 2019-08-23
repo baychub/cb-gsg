@@ -186,9 +186,9 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 4. Experiment with moving RFID tags around the room to see how the sensor readings respond.
 
 ### See digested inventory data
-Each RSP sensor reads each reachable RFID tag many times a second, generating a huge volume of raw data. The RSP Controller application processes that raw data stream into meaningful status and events. 
+Each RSP sensor reads each RFID tag that it can reach many times per second, generating a huge volume of raw data. The RSP Controller application processes that raw data stream into meaningful events and status. 
 
-For example, thousands of consecutive readings of the same tag by the same sensor can be compressed into a state of PRESENT with that sensor. Or a tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
+For example, thousands of consecutive readings of the same tag by the same sensor can be compressed into a state of PRESENT with that tag on that sensor for that tag. Or a tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
 1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
 2. Click Inventory.
 ![Inventory page](https://baychub.github.io/cb-gsg/images/inventory.png)
@@ -326,11 +326,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDUwODg4MiwxNjE4NDA2MjczLC0zOT
-AzMzE4NzUsMjMxODE3OTI1LDk2NDkyNTQ4NiwtMjEyNDEyODg0
-NywtODc2NTU2OTU3LDk2NjEwNzI5Niw1NjI0ODA2MzAsLTY3NT
-A2MzE2OSwyMDI1MjEyODg2LC0xODg1NTcxNTkyLC0xMjA2NTM5
-MzUyLC04NzkwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2NjU4Nz
-ksLTEyNzEwNzUyMDUsLTUxNzA1NjEyMiwxOTA5MTUzMTE5LDI4
-NjY0MTQwMV19
+eyJoaXN0b3J5IjpbLTc0NDA2NTI1OCwtOTY0NTA4ODgyLDE2MT
+g0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2
+LC0yMTI0MTI4ODQ3LC04NzY1NTY5NTcsOTY2MTA3Mjk2LDU2Mj
+Q4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1
+OTIsLTEyMDY1MzkzNTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMC
+wtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5
+MDkxNTMxMTldfQ==
 -->
