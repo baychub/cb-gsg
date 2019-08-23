@@ -11,8 +11,8 @@ Intel RSP Controller application software is open source, so you can easily buil
   * [System Requirements](#system-requirements)
   * [Setting up the Hardware](#setting-up-the-hardware)
   * [Installing and Running the RSP Controller on Windows](#installing-and-running-the-rsp-controller-on-windows)
-  * [Installing the RSP Controller on Linux (Recommended)](#installing-the-rsp-controller-on-linux--recommended-)
-  * [Running the RSP Controller Application on Linux](#-a-id--run-controller-linux----a-running-the-rsp-controller-application-on-linux)
+  * [Installing the RSP Controller on Linux (Recommended)](#installing-the-rsp-controller-on-linux-recommended)
+  * [Running the RSP Controller Application on Linux](#running-the-rsp-controller-application-on-linux)
   * [Using the Web Portal](#using-the-web-portal)
     + [Open the web portal](#open-the-web-portal)
     + [Understand dashboard information](#understand-dashboard-information)
@@ -327,11 +327,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzkyMjI2MDAsOTY2MTA3Mjk2LDU2Mj
-Q4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1
-OTIsLTEyMDY1MzkzNTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMC
-wtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5
-MDkxNTMxMTksMjg2NjQxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNj
-A2NjgsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywyNTAxMzE1NSwt
-Njc2Nzc0NTZdfQ==
+eyJoaXN0b3J5IjpbLTg3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyND
+gwNjMwLC02NzUwNjMxNjksMjAyNTIxMjg4NiwtMTg4NTU3MTU5
+MiwtMTIwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC
+0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNTYxMjIsMTkw
+OTE1MzExOSwyODY2NDE0MDEsLTEwNjUyOTM0MjUsMTIzMjI2MD
+Y2OCwxMjU5MzUxMzAzLC0xNjQ4MjA3MDIzLDI1MDEzMTU1LC02
+NzY3NzQ1Nl19
 -->
