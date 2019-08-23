@@ -98,7 +98,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
 ## Installing the RSP Controller on Linux (Recommended)
-This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (You can also [install manually](https://baychub.github.io/cb-gsg/Manual-Install-Linux.md) or [install with Docker](docker-install-link).)
+This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (Alternatively, you can [install manually](https://baychub.github.io/cb-gsg/Manual-Install-Linux.md) or [install with Docker](docker-install-link).)
 
 ### Clone RSP Installer repository
 1. Open a terminal window on the edge eomputer.
@@ -318,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMT
-gwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0
-MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3NjEwNzQyOSwxMz
-Y5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMx
-ODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLT
-g3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMx
-NjldfQ==
+eyJoaXN0b3J5IjpbLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLT
+EyNDkwMDgzNiwxMTgwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1
+NjQ2MSwtNDM2MzY0MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMj
+A3NjEwNzQyOSwxMzY5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQw
+NjI3MywtMzkwMzMxODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLT
+IxMjQxMjg4NDcsLTg3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgw
+NjMwXX0=
 -->
