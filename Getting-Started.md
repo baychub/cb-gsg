@@ -315,7 +315,7 @@ Sensor can have an optional *personality*, or category that tells RSP Controller
 * The EXIT personality is for a sensor near the exit of a facility and generates a DEPARTED event when this sensor was the last to detect a tag and a certain amount of time has elapsed.
 * The POS (point of sale) personality is intended for a retail checkout counter. A sensor with this personality generates a DEPARTED event immediately upon detection and allows re-entry into inventory after a certain amount of time.
 
-You can learn how to assign a personality to a sensor by carrying out one of the retail or QSR tutorials under Next Steps, below. You'll have options for whichever Intel&reg; RSP hardware you have, either H1000 or 
+You can learn how to assign a personality to a sensor by carrying out one of the retail or QSR tutorials under Next Steps, below. You'll have options for whichever Intel&reg; RSP hardware you have, either the H1000 or H3000 sensor models.
 
 ## Next Steps
 The links below contain practical information for getting ready to do implement Intel&reg; RSP sensors and software.
@@ -326,7 +326,7 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Njc2MjA0MCwxNjE4NDA2MjczLC0zOT
+eyJoaXN0b3J5IjpbLTk2NDUwODg4MiwxNjE4NDA2MjczLC0zOT
 AzMzE4NzUsMjMxODE3OTI1LDk2NDkyNTQ4NiwtMjEyNDEyODg0
 NywtODc2NTU2OTU3LDk2NjEwNzI5Niw1NjI0ODA2MzAsLTY3NT
 A2MzE2OSwyMDI1MjEyODg2LC0xODg1NTcxNTkyLC0xMjA2NTM5
