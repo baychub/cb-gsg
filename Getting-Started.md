@@ -218,14 +218,10 @@ mosquitto_sub -t rfid/controller/events
 ![Dashboard page](terminal screenshot for MQTT topic)
 
 2. Press Ctrl-C to stop monitoring MQTT data on this topic.
-3. Try some of the other MQTT topics to see other types of data the RSP Controller publishes:
+3. Try another MQTT topic to see other types of data the RSP Controller publishes:
 ```
 #-- See raw data from all tag reads
 mosquitto_sub -t rfid/rsp/data/#
-#-- See changes in RSP Controller status, e.g., RSP Controller app starts or shuts down
-mosquitto_sub -t rfid/rsp/data/#
-#-- See the status of all connected RSP sensors
-mosquitto_sub -t rfid/rsp/rsp_status/#
 ```
 Full documentation of the MQTT topics and data definitions can be found in the *[Intel® RSP Controller - Edge Computer Software Application Programming Interface (API)](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf)* guide, chapters 2 and 3.
 
@@ -317,7 +313,7 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNTEzMzQ3LC0yMzg1MTM3MjUsLTEzND
+eyJoaXN0b3J5IjpbMzExMDUwMzc5LC0yMzg1MTM3MjUsLTEzND
 c3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0NzI4MDc4
 NjYsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgwNzA1NjYxLC
 0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0MDgxLDM2NTU0
