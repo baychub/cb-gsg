@@ -322,13 +322,13 @@ To configure a sensor with a personality:
 ## Next Steps
 The links below contain practical information for getting ready to do implement Intel&reg; RSP sensors and software.
 - [Batch configuration tutorial](examples/use-cases/retail): Walkthrough of creating cluster files to batch-configure behaviors and settings for sets of RSP sensors
-- [Retail and QSR tutorials](docs/usecases/use_cases.md): Implementation guidance for common use cases of retail quick-service restaurants (QSR) and retail floors 
+- [Retail and QSR tutorials](docs/usecases/use_cases.md): Implementation guidance for common use cases of retail floors and quick-service restaurants (QSR) 
 - [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
 - [RSP Controller User Guide](examples/use-cases/retail): Reference for the RSP Controller application that the system is built on
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTczNTM5NDYsLTM5MDMzMTg3NSwyMz
+eyJoaXN0b3J5IjpbLTE5NjYwMDU4MDEsLTM5MDMzMTg3NSwyMz
 E4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3LC04NzY1NTY5
 NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MDYzMTY5LDIwMj
 UyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1MzkzNTIsLTg3OTAx
