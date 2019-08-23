@@ -200,7 +200,7 @@ By default, the RSP Controller application directs each RSP sensor to read one a
 You can change to have all sensors reading simultaneously, for example, if the antennas are farther apart. 
 1. Click the three-bar menu button at the top-left of the web admin portal.
 2. Click Scheduler.
-	[insert screenshot]
+	![](https://baychub.github.io/cb-gsg/images/scheduler.png)
 4. In the blue header, click the ALL_ON option.
 5. Observe the change in the LED pattern on the sensors.
 
@@ -326,11 +326,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNTQzMjQxLC05NjQ1MDg4ODIsMTYxOD
-QwNjI3MywtMzkwMzMxODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYs
-LTIxMjQxMjg4NDcsLTg3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyND
-gwNjMwLC02NzUwNjMxNjksMjAyNTIxMjg4NiwtMTg4NTU3MTU5
-MiwtMTIwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC
-0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01MTcwNTYxMjIsMTkw
-OTE1MzExOV19
+eyJoaXN0b3J5IjpbMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MT
+g0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2
+LC0yMTI0MTI4ODQ3LC04NzY1NTY5NTcsOTY2MTA3Mjk2LDU2Mj
+Q4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1
+OTIsLTEyMDY1MzkzNTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMC
+wtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5
+MDkxNTMxMTldfQ==
 -->
