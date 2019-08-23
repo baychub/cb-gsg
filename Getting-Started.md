@@ -311,16 +311,16 @@ You can learn how to assign a personality to a sensor by carrying out one of the
 ## Next Steps
 The links below contain practical information for getting ready to do implement Intel&reg; RSP sensors and software.
 - [Retail and QSR tutorials](docs/usecases/use_cases.md): Implementation guidance for batch configuration of sensors on retail floors and quick-service restaurants (QSR)
-- [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
 - [RSP Controller User Guide](examples/use-cases/retail): Reference for the RSP Controller application that the system is built on
+- [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4NjYzNjIwLDIwODY4NzEwNDcsMTM4MT
-E4MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2
-MzYsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC
-0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIw
-NTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLD
-IwNzYxMDc0MjksMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0
-MDYyNzNdfQ==
+eyJoaXN0b3J5IjpbLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LDEzOD
+ExODM0ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzExMzY5
+NjM2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NS
+wtMTI0OTAwODM2LDExODA3MDU2NjEsLTIwNzAyNjg4NjksNDcy
+MDU2NDYxLC00MzYzNjQwODEsMzY1NTQwODIxLDkwNjkwNzk2MC
+wyMDc2MTA3NDI5LDEzNjkxODM3NjYsLTk2NDUwODg4MiwxNjE4
+NDA2MjczXX0=
 -->
