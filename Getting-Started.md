@@ -137,7 +137,7 @@ cd ~/projects/rsp-sw-toolkit-installer/native/
 ```
 When complete, the web portal will open in the default browser. If you close the browser window, you can reach the portal with this URL: http://localhost:8080/web-admin/
 
-## <a id="run_controller_linux"></a>Running the RSP Controller Application on Linux
+## Running the RSP Controller Application on Linux
 The RSP Controller application must be running in order to gather, process, and report data form RFID tags. You'll build your own solution that communicates with the RSP Controller over MQTT, but the web portal gives you an idea of what kind of data the RSP Controller application makes available.
 
 The installer above doesn't just install. It also runs the RSP Controller application software and launches the web portal. If you reboot or close the terminal window, you will need to run the next steps to start the RSP Controller.
@@ -327,11 +327,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MD
-YzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1Mzkz
-NTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OS
-wtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2
-NjQxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MT
-MwMywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4
-ODEwMDkwMl19
+eyJoaXN0b3J5IjpbLTE2NzkyMjI2MDAsOTY2MTA3Mjk2LDU2Mj
+Q4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1
+OTIsLTEyMDY1MzkzNTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMC
+wtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5
+MDkxNTMxMTksMjg2NjQxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNj
+A2NjgsMTI1OTM1MTMwMywtMTY0ODIwNzAyMywyNTAxMzE1NSwt
+Njc2Nzc0NTZdfQ==
 -->
