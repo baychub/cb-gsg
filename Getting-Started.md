@@ -87,7 +87,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 
 	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. The LEDs will continue flashing pinkish-white until you install and run the RSP Controller application, and it connects to the sensors. 
 	
-	If the LEDs are not flashing as expected, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
+	If the LEDs are not flashing pinkish-white as expected, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 	
 7. Connect the edge computer to the router and power it on.
 
@@ -318,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxMDY4NjE2LC0xMjQ5MDA4MzYsMTE4MD
-cwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4
-MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OT
-E4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MDMzMTg3
-NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3LC04Nz
-Y1NTY5NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MDYzMTY5
-XX0=
+eyJoaXN0b3J5IjpbLTM2MjY1Nzg1MiwtMTI0OTAwODM2LDExOD
+A3MDU2NjEsLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQw
+ODEsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNj
+kxODM3NjYsLTk2NDUwODg4MiwxNjE4NDA2MjczLC0zOTAzMzE4
+NzUsMjMxODE3OTI1LDk2NDkyNTQ4NiwtMjEyNDEyODg0NywtOD
+c2NTU2OTU3LDk2NjEwNzI5Niw1NjI0ODA2MzAsLTY3NTA2MzE2
+OV19
 -->
