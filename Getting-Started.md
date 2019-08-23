@@ -301,14 +301,14 @@ Between MQTT topics, the RSP Controller CLI, and the demonstration web admin por
 ### Update Sensor Software
 Software on the RSP sensors allows you to post an update package on the edge computer and have the RSP Controller application automatically install the package on all of the sensors connected to that edge computer.
 
-1. On the edge computer, get the sensor software update from **[need location or site]**.
-2. In a terminal window, expand the update package file and move the contents to the sensor software directory with these command:
+1. On the edge computer, get the sensor software update from **[URL for update home]**.
+2. In a terminal window, expand the update package file and move the contents to the sensor software directory with these commands:
 ````
-#-- From directory where you download the sensor update
+#-- From directory where you downloaded the sensor update
 tar -xf <filename_of_sensor_update>
 cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
 ````
-3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will find and install the update. 
+3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will automatically find and install the update. 
 
 ### Assign a personality to a sensor
 Sensor can have an optional *personality*, or category that tells RSP Controller application to process RFID data from that sensor in special ways:
@@ -328,11 +328,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYwMDU4MDEsLTM5MDMzMTg3NSwyMz
-E4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3LC04NzY1NTY5
-NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MDYzMTY5LDIwMj
-UyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1MzkzNTIsLTg3OTAx
-MDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3MTA3NT
-IwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2NjQxNDAxLC0x
-MDY1MjkzNDI1XX0=
+eyJoaXN0b3J5IjpbMTYxODQwNjI3MywtMzkwMzMxODc1LDIzMT
+gxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1Njk1
+Nyw5NjYxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMxNjksMjAyNT
+IxMjg4NiwtMTg4NTU3MTU5MiwtMTIwNjUzOTM1MiwtODc5MDEw
+NjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1Mj
+A1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MDEsLTEw
+NjUyOTM0MjVdfQ==
 -->
