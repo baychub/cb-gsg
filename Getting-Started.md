@@ -172,7 +172,7 @@ The Tag Statistics window shows low-level detail about each individual tag the R
 	List of tags is shown in the left column. The other columns show readings from each of the two antennas on each sensor.  The values are signal strength (green from strong, red for weak) and brightness or dimness for time since the last reading. The most recent and strongest reading is highlighted in gray as the most likely current location for each tag.
 4. Click any data point to see the legend for these readings and colors.
 
-	![](https://baychub.github.io/cb-gsg/images/tag-statistics.png)
+	![tag data](https://baychub.github.io/cb-gsg/images/tag-statistics-info.png)
 6. Experiment with moving RFID tags around the room to see how the sensor readings respond.
 
 ### See digested inventory data
@@ -318,7 +318,7 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NTg0NjgzLC0xMzQ3NzM1MDEyLC0zMT
+eyJoaXN0b3J5IjpbLTk0MzU5NzMwLC0xMzQ3NzM1MDEyLC0zMT
 EzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0Nzkz
 MjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OS
 w0NzIwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3
