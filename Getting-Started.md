@@ -85,7 +85,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 
 6. Check the LEDs on the RSP sensors.
 
-	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. After the RSP Controller application starts and connects, the LEDs will be yellow (idle) or blue (reading tags). 
+	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. The LEDs will not turn yellow or blue until you install the RSP Controller application and it connects to the sensors. 
 	
 	If the LEDs are not flashing as expected, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 	
@@ -318,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0Nz
-IwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYw
-LDIwNzYxMDc0MjksMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MT
-g0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2
-LC0yMTI0MTI4ODQ3LC04NzY1NTY5NTcsOTY2MTA3Mjk2LDU2Mj
-Q4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1
-OTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNDkwMDgzNiwxMTgwNzA1NjYxLC0yMD
+cwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0MDgxLDM2NTU0MDgy
+MSw5MDY5MDc5NjAsMjA3NjEwNzQyOSwxMzY5MTgzNzY2LC05Nj
+Q1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMxODc1LDIzMTgxNzky
+NSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1Njk1Nyw5Nj
+YxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMxNjksMjAyNTIxMjg4
+Nl19
 -->
