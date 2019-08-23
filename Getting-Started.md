@@ -35,7 +35,7 @@ Intel RSP Controller application software is open source, so you can easily buil
 
 ### Solution Structure
 
-The image below is an example of a robust inventory management system built on Intel RSP. The RSP reader activates the RFID tags within its range and passes tag data, along with information from other on-board sensors, to the RSP Controller gateway software running on a PC. The RSP Controller aggregates the high volume of raw data and generates meaningful inventory events (e.g., "item exited"), alerts, and system status notifications. It publishes them to MQTT topics on an upstream channel, available to applications running in a customer’s cloud infrastructure.
+The image below is an example of a robust inventory management system built on Intel RSP. The RSP reader activates the RFID tags within its range and passes tag data, along with information from other on-board sensors, to the RSP Controller gateway software running on an edge computer. The RSP Controller aggregates the high volume of raw data and generates meaningful inventory events (e.g., "item exited"), alerts, and system status notifications. It publishes them to MQTT topics on an upstream channel, available to applications running in a customer’s cloud infrastructure.
 
 The PC doesn't need to be dedicated to running RSP Controller software. It can also run other workloads and be available for future expansion.
 
@@ -319,11 +319,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMDU2NDYxLC00MzYzNjQwODEsMzY1NT
-QwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNjkxODM3NjYs
-LTk2NDUwODg4MiwxNjE4NDA2MjczLC0zOTAzMzE4NzUsMjMxOD
-E3OTI1LDk2NDkyNTQ4NiwtMjEyNDEyODg0NywtODc2NTU2OTU3
-LDk2NjEwNzI5Niw1NjI0ODA2MzAsLTY3NTA2MzE2OSwyMDI1Mj
-EyODg2LC0xODg1NTcxNTkyLC0xMjA2NTM5MzUyLC04NzkwMTA2
-MTRdfQ==
+eyJoaXN0b3J5IjpbMTM1NDM4OTQ2MCw0NzIwNTY0NjEsLTQzNj
+M2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0Mjks
+MTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MD
+MzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3
+LC04NzY1NTY5NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MD
+YzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1Mzkz
+NTJdfQ==
 -->
