@@ -1,4 +1,4 @@
-# Getting Started with Intel® RFID Sensor Platform (RSP)
+# Getting Started with Intel® RFID Sensor Platform (RSP) on Linux
 
 The instructions in this getting started guide will rapidly get an Intel RSP configuration up and running in your lab to prepare for solution development. The steps in this guide apply whether you provide your own hardware or buy the Intel RSP Developer Kit (RDK), available from the [atlasRFIDstore](https://www.atlasrfidstore.com/intel-rsp-h3000-integrated-rfid-reader-development-kit/).
 
@@ -10,8 +10,8 @@ Intel RSP Controller application software is open source, so you can easily buil
   * [System Overview](#system-overview)
   * [System Requirements](#system-requirements)
   * [Setting up the Hardware](#setting-up-the-hardware)
-  * [Installing the RSP Controller on Linux (Recommended)](#installing-the-rsp-controller-on-linux-recommended)
-  * [Running the RSP Controller Application on Linux](#running-the-rsp-controller-application-on-linux)
+  * [Installing the RSP Controller](#installing-the-rsp-controller-on-linux-recommended)
+  * [Running the RSP Controller Application](#running-the-rsp-controller-application-on-linux)
   * [Using the Web Portal](#using-the-web-portal)
     + [Open the web portal](#open-the-web-portal)
     + [Understand dashboard information](#understand-dashboard-information)
@@ -319,11 +319,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTk0NzEwNCw5MDY5MDc5NjAsMjA3Nj
-EwNzQyOSwxMzY5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3
-MywtMzkwMzMxODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMj
-QxMjg4NDcsLTg3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgwNjMw
-LC02NzUwNjMxNjksMjAyNTIxMjg4NiwtMTg4NTU3MTU5MiwtMT
-IwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4
-NjY1ODc5XX0=
+eyJoaXN0b3J5IjpbMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MT
+A3NDI5LDEzNjkxODM3NjYsLTk2NDUwODg4MiwxNjE4NDA2Mjcz
+LC0zOTAzMzE4NzUsMjMxODE3OTI1LDk2NDkyNTQ4NiwtMjEyND
+EyODg0NywtODc2NTU2OTU3LDk2NjEwNzI5Niw1NjI0ODA2MzAs
+LTY3NTA2MzE2OSwyMDI1MjEyODg2LC0xODg1NTcxNTkyLC0xMj
+A2NTM5MzUyLC04NzkwMTA2MTQsLTEzMjA2MzQ4MDAsLTIxMTg2
+NjU4NzldfQ==
 -->
