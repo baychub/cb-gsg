@@ -98,7 +98,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
 ## Installing the RSP Controller on Linux (Recommended)
-This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (Alternatively, you can [install manually](https://baychub.github.io/cb-gsg/Manual-Install-Linux.md) or [install with Docker](docker-install-link).)
+This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (Alternatively, you can [install manually](https://github.com/baychub/cb-gsg/blob/master/Manual-Install-Linux.md) or [install with Docker](docker-install-link).)
 
 ### Clone RSP Installer repository
 1. Open a terminal window on the edge eomputer.
@@ -318,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLT
-EyNDkwMDgzNiwxMTgwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1
-NjQ2MSwtNDM2MzY0MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMj
-A3NjEwNzQyOSwxMzY5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQw
-NjI3MywtMzkwMzMxODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLT
-IxMjQxMjg4NDcsLTg3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgw
-NjMwXX0=
+eyJoaXN0b3J5IjpbNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOT
+k0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2
+ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOT
+A2OTA3OTYwLDIwNzYxMDc0MjksMTM2OTE4Mzc2NiwtOTY0NTA4
+ODgyLDE2MTg0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOT
+Y0OTI1NDg2LC0yMTI0MTI4ODQ3LC04NzY1NTY5NTcsOTY2MTA3
+Mjk2XX0=
 -->
