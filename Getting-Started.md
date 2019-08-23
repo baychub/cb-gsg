@@ -35,7 +35,7 @@ Intel RSP Controller application software is open source, so you can easily buil
 
 ### Solution Structure
 
-The image below is an example of a robust inventory management system built on Intel RSP. The RSP reader activates the RFID tags within its range and passes tag data, along with information from other on-board sensors, to the RSP Controller gateway software running on an edge computer. The RSP Controller aggregates the high volume of raw data and generates meaningful inventory events (e.g., "item exited"), alerts, and system status notifications. It publishes them to MQTT topics on an upstream channel, available to applications running in a customer’s cloud infrastructure.
+The image below is an example of a robust inventory management system built on Intel RSP. The RSP reader activates the RFID tags within its range and passes tag data, along with information from other on-board sensors, to the RSP Controller application running on an edge computer. The RSP Controller aggregates the high volume of raw data and generates meaningful inventory events (e.g., "item exited"), alerts, and system status notifications. It publishes them to MQTT topics on an upstream channel, available to applications running in a customer’s cloud infrastructure.
 
 The PC doesn't need to be dedicated to running RSP Controller software. It can also run other workloads and be available for future expansion.
 
@@ -45,7 +45,7 @@ The PC doesn't need to be dedicated to running RSP Controller software. It can a
 This getting started tutorial uses a simple network configuration, shown in the image below. Key points about the setup:
 
  - RSP sensor units are powered by a PoE+ switch and get their IP address from a DHCP-enabled router that the switch is connected to.
- - The RSP Controller application runs on the edge computer (an on-premises computer that functions as the gateway for connected sensors), which must be on the same network segment.
+ - The RSP Controller application runs on the edge computer (an on-premises computer that functions as the data gateway for connected sensors), which must be on the same network segment.
  - The RSP Controller application automatically pairs with the RSP sensors. 
  - A simple command-line interface on the edge computer enables troubleshooting and low-level data monitoring.
  - (Demo only, not meant for production) A web-based portal displays data gathered by the RSP Controller software over an MQTT channel. The web portal allows you to make configuration changes as well. 
@@ -319,7 +319,7 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDM4OTQ2MCw0NzIwNTY0NjEsLTQzNj
+eyJoaXN0b3J5IjpbMTI1NzcwMzEzOSw0NzIwNTY0NjEsLTQzNj
 M2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0Mjks
 MTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MD
 MzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3
