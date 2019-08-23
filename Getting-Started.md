@@ -181,7 +181,7 @@ Each RSP sensor reads each RFID tag that it can reach many times per second, gen
 For example, thousands of consecutive readings of the same tag by the same sensor can be compressed into a state of PRESENT with that tag on that sensor. Or a tag that has no current reading but whose last reading was at the exit sensor would have a status of EXIT. The Inventory window shows these computed status values for each known tag.
 1. Click the three-bar menu button to the left of the Tag Statistics page heading to open the navigation menu.
 2. Click Inventory.
-3. Try placing a tag under a thick piece of metal to simulate removing it from the site, and see how the Last Read time is earlier than the other tags.
+3. Try placing a tag under a thick piece of metal to simulate removing it from the site, and see how the Last Read time is not as recent as the other tags.
 
 	![Inventory page](https://baychub.github.io/cb-gsg/images/inventory.png)
 
@@ -318,7 +318,7 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5Mzk2NDM2LC0xMzQ3NzM1MDEyLC0zMT
+eyJoaXN0b3J5IjpbLTg1NjM2MTkzLC0xMzQ3NzM1MDEyLC0zMT
 EzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0Nzkz
 MjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OS
 w0NzIwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3
