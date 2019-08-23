@@ -13,7 +13,7 @@ Controller Application as deployed in a typical quick serve restaurant (qsr) env
 By the end of the example, you will be able to track tags as they move in and out of the different 
 cold rooms.
   
-## Prerequsites  
+## Prerequisites  
 1. It is assumed that the controller is already running and the sensor has its antennae attached, is 
 running, and is connected to the controller.
 
