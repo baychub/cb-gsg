@@ -10,7 +10,6 @@ Intel RSP Controller application software is open source, so you can easily buil
   * [System Overview](#system-overview)
   * [System Requirements](#system-requirements)
   * [Setting up the Hardware](#setting-up-the-hardware)
-  * [Installing and Running the RSP Controller on Windows](#installing-and-running-the-rsp-controller-on-windows)
   * [Installing the RSP Controller on Linux (Recommended)](#installing-the-rsp-controller-on-linux-recommended)
   * [Running the RSP Controller Application on Linux](#running-the-rsp-controller-application-on-linux)
   * [Using the Web Portal](#using-the-web-portal)
@@ -98,16 +97,6 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 8. Attach a monitor to the edge computer and power it on. LED patterns show startup progress.
 
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
-
-## Installing and Running the RSP Controller on Windows
-
-To build and install in a Windows environment:
-
-1. Install the dependencies in section 2.2 of the [RSP Controller App Installation & User's Guide](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_Installation_User_Guide.pdf).
-2. Run the [build-win10.sh](https://github.com/intel/rsp-sw-toolkit-installer/blob/master/native/build-win10.sh) script from the RSP Toolkit Installer project on GitHub.
-3. After installing, go to the "Open the web portal" section below.
-
-The remainder of this document assumes a Linux installation.
 
 ## Installing the RSP Controller on Linux (Recommended)
 This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (You can also [install manually](https://baychub.github.io/cb-gsg/Manual-Install-Linux.md) or [install with Docker](docker-install-link).)
@@ -330,11 +319,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OT
-E4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MDMzMTg3
-NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3LC04Nz
-Y1NTY5NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MDYzMTY5
-LDIwMjUyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1MzkzNTIsLT
-g3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OSwtMTI3
-MTA3NTIwNV19
+eyJoaXN0b3J5IjpbLTQyMTk0NzEwNCw5MDY5MDc5NjAsMjA3Nj
+EwNzQyOSwxMzY5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3
+MywtMzkwMzMxODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMj
+QxMjg4NDcsLTg3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgwNjMw
+LC02NzUwNjMxNjksMjAyNTIxMjg4NiwtMTg4NTU3MTU5MiwtMT
+IwNjUzOTM1MiwtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4
+NjY1ODc5XX0=
 -->
