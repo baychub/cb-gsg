@@ -178,7 +178,8 @@ The dashboard page shows summary information about tags and sensors connected to
 ### See live RFID tag data
 The Tag Statistics window shows low-level detail about each individual tag the RSP sensors communicate with, including signal strength and when it was last read.
 1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
-	[insert zoomed pic]
+	![](https://baychub.github.io/cb-gsg/images/menu.png)
+	
 2. Click Tag Statistics.
 ![Tag Statistics page](https://baychub.github.io/cb-gsg/images/tag-statistics.png)
 	List of tags is shown in the left column. The other columns show readings from each of the two antennas on each sensor.  The values are signal strength (green from strong, red for weak) and brightness or dimness for time since the last reading. The most recent and strongest reading is highlighted in gray as the most likely current location for each tag.
@@ -326,11 +327,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjEwNzQyOSwxMzY5MTgzNzY2LC05Nj
-Q1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMxODc1LDIzMTgxNzky
-NSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1Njk1Nyw5Nj
-YxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMxNjksMjAyNTIxMjg4
-NiwtMTg4NTU3MTU5MiwtMTIwNjUzOTM1MiwtODc5MDEwNjE0LC
-0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01
-MTcwNTYxMjJdfQ==
+eyJoaXN0b3J5IjpbLTE3OTI2MDAzMTAsMjA3NjEwNzQyOSwxMz
+Y5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMx
+ODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLT
+g3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMx
+NjksMjAyNTIxMjg4NiwtMTg4NTU3MTU5MiwtMTIwNjUzOTM1Mi
+wtODc5MDEwNjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0x
+MjcxMDc1MjA1XX0=
 -->
