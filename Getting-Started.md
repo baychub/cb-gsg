@@ -140,10 +140,7 @@ cd ~/deploy/rsp-sw-toolkit-gw
 ```
 The RSP sensors listen for messages from the RSP Controller application and initiate a connection with it. As the sensors connect, by default the RSP Controller schedules them to activate in round-robin sequence, one at a time. You can watch the terminal output to see connections taking place and RFID tags being read.
 
-You can run the web portal (next section) at any time after starting the RSP Controller software because the dashboard refreshes automatically. The web portal dashboard will be ready to display RFID data when you see a screen like the following:
-
-![enter image description here](ready console screenshot)
-
+You can run the web portal (next section) anytime after starting the RSP Controller software because the dashboard refreshes automatically.
 
 ## Using the Web Portal
 Along with the RSP Controller application, Intel provides as sample software a web-based administration interface for configuration and RFID monitoring. The home page is a dashboard showing connected sensors, tags being read, and other status information.
@@ -318,11 +315,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODE3MTM5LC0zMTEzNjk2MzYsNzk0Mz
-AwNzE5LC0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4
-MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLT
-QzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0
-MjksMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLT
-M5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4
-ODQ3XX0=
+eyJoaXN0b3J5IjpbMTg2Njg5MDkwMiwtMzExMzY5NjM2LDc5ND
+MwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0OTAw
+ODM2LDExODA3MDU2NjEsLTIwNzAyNjg4NjksNDcyMDU2NDYxLC
+00MzYzNjQwODEsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MTA3
+NDI5LDEzNjkxODM3NjYsLTk2NDUwODg4MiwxNjE4NDA2MjczLC
+0zOTAzMzE4NzUsMjMxODE3OTI1LDk2NDkyNTQ4NiwtMjEyNDEy
+ODg0N119
 -->
