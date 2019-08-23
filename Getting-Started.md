@@ -45,8 +45,8 @@ The PC doesn't need to be dedicated to running RSP Controller software. It can a
 This getting started tutorial uses a simple network configuration, shown in the image below. Key points about the setup:
 
  - RSP sensor units are powered by a PoE+ switch and get their IP address from a DHCP-enabled router that the switch is connected to.
- - RSP Controller application runs on the edge computer, which must be on the same network segment.
- - RSP Controller application automatically pairs with the RSP sensors. 
+ - The RSP Controller application runs on the edge computer (an on-premises computer that functions as the gateway for connected sensors), which must be on the same network segment.
+ - The RSP Controller application automatically pairs with the RSP sensors. 
  - A simple command-line interface on the edge computer enables troubleshooting and low-level data monitoring.
  - (Demo only, not meant for production) A web-based portal displays data gathered by the RSP Controller software over an MQTT channel. The web portal allows you to make configuration changes as well. 
 
@@ -319,11 +319,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODY5NDc2OCwtNDM2MzY0MDgxLDM2NT
-U0MDgyMSw5MDY5MDc5NjAsMjA3NjEwNzQyOSwxMzY5MTgzNzY2
-LC05NjQ1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMxODc1LDIzMT
-gxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1Njk1
-Nyw5NjYxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMxNjksMjAyNT
-IxMjg4NiwtMTg4NTU3MTU5MiwtMTIwNjUzOTM1MiwtODc5MDEw
-NjE0XX0=
+eyJoaXN0b3J5IjpbNDcyMDU2NDYxLC00MzYzNjQwODEsMzY1NT
+QwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNjkxODM3NjYs
+LTk2NDUwODg4MiwxNjE4NDA2MjczLC0zOTAzMzE4NzUsMjMxOD
+E3OTI1LDk2NDkyNTQ4NiwtMjEyNDEyODg0NywtODc2NTU2OTU3
+LDk2NjEwNzI5Niw1NjI0ODA2MzAsLTY3NTA2MzE2OSwyMDI1Mj
+EyODg2LC0xODg1NTcxNTkyLC0xMjA2NTM5MzUyLC04NzkwMTA2
+MTRdfQ==
 -->
