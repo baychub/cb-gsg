@@ -218,10 +218,11 @@ mosquitto_sub -t rfid/controller/events
 The console displays in JSON-RPC format any high-level events processed by the RSP Controller (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic.
 
 2. If you don't see any events initially, try introducing or moving some tags to generate an event.
-![Dashboard page](terminal screenshot for MQTT topic)
 
-3. Press Ctrl-C to stop monitoring MQTT data on this topic.
-4. Try another MQTT topic to see other types of data the RSP Controller publishes:
+	![Dashboard page](terminal screenshot for MQTT topic)
+	
+4. Press Ctrl-C to stop monitoring MQTT data on this topic.
+5. Try another MQTT topic to see other types of data the RSP Controller publishes:
 ```
 #-- See raw data from all tag reads
 mosquitto_sub -t rfid/rsp/data/#
@@ -316,11 +317,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTE4MzQ4MSwtMjM4NTEzNzI1LC0xMz
-Q3NzM1MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3
-ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MS
-wtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4MSwzNjU1
-NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OTE4Mzc2Ni
-wtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MDMzMTg3NSwyMzE4
-MTc5MjVdfQ==
+eyJoaXN0b3J5IjpbMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMz
+g1MTM3MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3
+MTksLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNi
+wxMTgwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2
+MzY0MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3NjEwNzQyOS
+wxMzY5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3MywtMzkw
+MzMxODc1XX0=
 -->
