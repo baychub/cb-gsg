@@ -118,7 +118,7 @@ This guide assumes you've used the ~/projects directory, but you can change this
 2. Run these commands to build and run the Controller software:
 ```
 #-- The RSP installer builds and deploys the RSP Controller software on your edge computer 
-The build script will trigger a full build and deployment
+#-- The build script will trigger a full build and deployment
 #-- to the directory ~/deploy/rsp-sw-toolkit-gw 
 cd ~/projects/rsp-sw-toolkit-installer/native/
 ./build.sh
@@ -318,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1MzExNTMyLC0xMjQ5MDA4MzYsMTE4MD
-cwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4
-MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OT
-E4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MDMzMTg3
-NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3LC04Nz
-Y1NTY5NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MDYzMTY5
-XX0=
+eyJoaXN0b3J5IjpbLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMT
+gwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0
+MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3NjEwNzQyOSwxMz
+Y5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMx
+ODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLT
+g3NjU1Njk1Nyw5NjYxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMx
+NjldfQ==
 -->
