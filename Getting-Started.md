@@ -91,13 +91,12 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	
 	If the LEDs are not flashing as expected, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 	
-6. Connect the edge computer to the router and power it on.
+7. Connect the edge computer to the router and power it on.
 
 	This is the PC where you will install the RSP Controller application.
 	
-7. Attach a monitor to the edge computer and power it on.
-
-[Insert LED table here.]
+8. Attach a monitor to the edge computer and power it on.
+	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
 ## Installing and Running the RSP Controller on Windows
 
@@ -326,11 +325,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MT
-g0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2
-LC0yMTI0MTI4ODQ3LC04NzY1NTY5NTcsOTY2MTA3Mjk2LDU2Mj
-Q4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1
-OTIsLTEyMDY1MzkzNTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMC
-wtMjExODY2NTg3OSwtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5
-MDkxNTMxMTldfQ==
+eyJoaXN0b3J5IjpbLTYwOTM1NTc5MiwxMzY5MTgzNzY2LC05Nj
+Q1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMxODc1LDIzMTgxNzky
+NSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1Njk1Nyw5Nj
+YxMDcyOTYsNTYyNDgwNjMwLC02NzUwNjMxNjksMjAyNTIxMjg4
+NiwtMTg4NTU3MTU5MiwtMTIwNjUzOTM1MiwtODc5MDEwNjE0LC
+0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1MjA1LC01
+MTcwNTYxMjJdfQ==
 -->
