@@ -163,14 +163,17 @@ The dashboard page shows summary information about tags and sensors connected to
 ### See live RFID tag data
 The Tag Statistics window shows low-level detail about each individual tag the RSP sensors communicate with, including signal strength and when it was last read.
 1. Click the three-bar menu button to the left of the Dashboard page heading to open the navigation menu.
+2. 
 	![](https://baychub.github.io/cb-gsg/images/menu.png)
 	
-2. Click Tag Statistics.
+3. Click Tag Statistics.
 
 	![Tag Statistics page](https://baychub.github.io/cb-gsg/images/tag-statistics.png)
 	List of tags is shown in the left column. The other columns show readings from each of the two antennas on each sensor.  The values are signal strength (green from strong, red for weak) and brightness or dimness for time since the last reading. The most recent and strongest reading is highlighted in gray as the most likely current location for each tag.
-3. Click any data point to see the legend for these readings and colors.
-4. Experiment with moving RFID tags around the room to see how the sensor readings respond.
+4. Click any data point to see the legend for these readings and colors.
+
+	![](https://baychub.github.io/cb-gsg/images/tag-statistics.png)
+6. Experiment with moving RFID tags around the room to see how the sensor readings respond.
 
 ### See digested inventory data
 Each RSP sensor reads each RFID tag that it can reach many times per second, generating a huge volume of raw data. The RSP Controller application processes that raw data stream into meaningful events and status. 
@@ -315,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OT
-QzMDA3MTksLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEyNDkw
-MDgzNiwxMTgwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MS
-wtNDM2MzY0MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3NjEw
-NzQyOSwxMzY5MTgzNzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3My
-wtMzkwMzMxODc1LDIzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMjQx
-Mjg4NDddfQ==
+eyJoaXN0b3J5IjpbNjk4NTg0NjgzLC0xMzQ3NzM1MDEyLC0zMT
+EzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0Nzkz
+MjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OS
+w0NzIwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3
+OTYwLDIwNzYxMDc0MjksMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLD
+E2MTg0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1
+NDg2XX0=
 -->
