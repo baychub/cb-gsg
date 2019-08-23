@@ -7,7 +7,6 @@ Intel RSP Controller application software is open source, so you can easily buil
 *The web admin portal shown in this guide is not intended to be a complete end-to-end inventory management solution.* It is a demonstration of what the platform can do.* All other software installed in this getting started guide is production software.
 
 ## Contents
-  * [Contents](#contents)
   * [System Overview](#system-overview)
   * [System Requirements](#system-requirements)
   * [Setting up the Hardware](#setting-up-the-hardware)
@@ -328,11 +327,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Use Cases](examples/use-cases/retail): Implementation guidance for common use cases in areas like retail and factory floors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNDgwNjMwLC02NzUwNjMxNjksMjAyNT
-IxMjg4NiwtMTg4NTU3MTU5MiwtMTIwNjUzOTM1MiwtODc5MDEw
-NjE0LC0xMzIwNjM0ODAwLC0yMTE4NjY1ODc5LC0xMjcxMDc1Mj
-A1LC01MTcwNTYxMjIsMTkwOTE1MzExOSwyODY2NDE0MDEsLTEw
-NjUyOTM0MjUsMTIzMjI2MDY2OCwxMjU5MzUxMzAzLC0xNjQ4Mj
-A3MDIzLDI1MDEzMTU1LC02NzY3NzQ1NiwxNDg4MTAwOTAyLDE2
-OTQyNTgyMDNdfQ==
+eyJoaXN0b3J5IjpbOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MD
+YzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1OTIsLTEyMDY1Mzkz
+NTIsLTg3OTAxMDYxNCwtMTMyMDYzNDgwMCwtMjExODY2NTg3OS
+wtMTI3MTA3NTIwNSwtNTE3MDU2MTIyLDE5MDkxNTMxMTksMjg2
+NjQxNDAxLC0xMDY1MjkzNDI1LDEyMzIyNjA2NjgsMTI1OTM1MT
+MwMywtMTY0ODIwNzAyMywyNTAxMzE1NSwtNjc2Nzc0NTYsMTQ4
+ODEwMDkwMl19
 -->
