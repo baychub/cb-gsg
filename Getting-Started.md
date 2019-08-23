@@ -91,7 +91,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	
 7. Connect the edge computer to the router and power it on.
 
-	This is the PC where you will install the RSP Controller application.
+	This is the computer where you will install the RSP Controller application.
 	
 8. Attach a monitor to the edge computer and power it on. LED patterns show startup progress.
 
@@ -318,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjY1Nzg1MiwtMTI0OTAwODM2LDExOD
-A3MDU2NjEsLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQw
-ODEsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNj
-kxODM3NjYsLTk2NDUwODg4MiwxNjE4NDA2MjczLC0zOTAzMzE4
-NzUsMjMxODE3OTI1LDk2NDkyNTQ4NiwtMjEyNDEyODg0NywtOD
-c2NTU2OTU3LDk2NjEwNzI5Niw1NjI0ODA2MzAsLTY3NTA2MzE2
-OV19
+eyJoaXN0b3J5IjpbNDg1MzExNTMyLC0xMjQ5MDA4MzYsMTE4MD
+cwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4
+MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OT
+E4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MDMzMTg3
+NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3LC04Nz
+Y1NTY5NTcsOTY2MTA3Mjk2LDU2MjQ4MDYzMCwtNjc1MDYzMTY5
+XX0=
 -->
