@@ -142,7 +142,7 @@ The RSP sensors listen for messages from the RSP Controller application and init
 
 You can run the web portal (next section) at any time after starting the RSP Controller software because the dashboard refreshes automatically. The web portal dashboard will be ready to display RFID data when you see a screen like the following:
 
-![enter image description here](add-screenshot-URL-here)
+![enter image description here](./docs/images/dashboard.png)
 
 
 ## Using the Web Portal
@@ -318,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0Nz
-I4MDc4NjYsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgwNzA1
-NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0MDgxLD
-M2NTU0MDgyMSw5MDY5MDc5NjAsMjA3NjEwNzQyOSwxMzY5MTgz
-NzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMxODc1LD
-IzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1
-Njk1N119
+eyJoaXN0b3J5IjpbOTM2Nzc5NTE4LC0zMTEzNjk2MzYsNzk0Mz
+AwNzE5LC0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4
+MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLT
+QzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0
+MjksMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLT
+M5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4
+ODQ3XX0=
 -->
