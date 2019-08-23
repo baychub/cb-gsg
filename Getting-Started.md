@@ -183,7 +183,6 @@ For example, thousands of consecutive readings of the same tag by the same senso
 2. Click Inventory.
 
 	![Inventory page](https://baychub.github.io/cb-gsg/images/inventory.png)
-3. Try placing a tag some distance away or under a thick piece of metal to simulate exiting, and see how the display changes for that tag's EPC number.
 
 ### Turn scheduling on or off
 By default, the RSP Controller application directs each RSP sensor to read one at a time, from first sensor to last sensor and then back to the first again. This minimizes interference in case the antennas are relatively close together with significant overlaps.
@@ -318,11 +317,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzU5NzMwLC0xMzQ3NzM1MDEyLC0zMT
-EzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0Nzkz
-MjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OS
-w0NzIwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3
-OTYwLDIwNzYxMDc0MjksMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLD
-E2MTg0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1
-NDg2XX0=
+eyJoaXN0b3J5IjpbLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMz
+ExMzY5NjM2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5
+MzI2NSwtMTI0OTAwODM2LDExODA3MDU2NjEsLTIwNzAyNjg4Nj
+ksNDcyMDU2NDYxLC00MzYzNjQwODEsMzY1NTQwODIxLDkwNjkw
+Nzk2MCwyMDc2MTA3NDI5LDEzNjkxODM3NjYsLTk2NDUwODg4Mi
+wxNjE4NDA2MjczLC0zOTAzMzE4NzUsMjMxODE3OTI1LDk2NDky
+NTQ4Nl19
 -->
