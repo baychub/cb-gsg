@@ -65,7 +65,6 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
  - Ethernet cables
 
 ### Software
- - Java Runtime Environment (JRE), version 8 or later *(provided as part of RSP installation)*
  - Ubuntu 18.04 *(preinstalled if you have the RDK)*, Debian 9, or Windows 10
  - Other operating systems that can run JRE v.8+ will likely work but have not been tested
 
@@ -319,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00Mz
-YzNjQwODEsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5
-LDEzNjkxODM3NjYsLTk2NDUwODg4MiwxNjE4NDA2MjczLC0zOT
-AzMzE4NzUsMjMxODE3OTI1LDk2NDkyNTQ4NiwtMjEyNDEyODg0
-NywtODc2NTU2OTU3LDk2NjEwNzI5Niw1NjI0ODA2MzAsLTY3NT
-A2MzE2OSwyMDI1MjEyODg2LC0xODg1NTcxNTkyLC0xMjA2NTM5
-MzUyXX0=
+eyJoaXN0b3J5IjpbMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0Nz
+IwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYw
+LDIwNzYxMDc0MjksMTM2OTE4Mzc2NiwtOTY0NTA4ODgyLDE2MT
+g0MDYyNzMsLTM5MDMzMTg3NSwyMzE4MTc5MjUsOTY0OTI1NDg2
+LC0yMTI0MTI4ODQ3LC04NzY1NTY5NTcsOTY2MTA3Mjk2LDU2Mj
+Q4MDYzMCwtNjc1MDYzMTY5LDIwMjUyMTI4ODYsLTE4ODU1NzE1
+OTJdfQ==
 -->
