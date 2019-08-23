@@ -98,7 +98,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
 ## Installing the RSP Controller on Linux (Recommended)
-This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (Alternatively, you can [install manually](https://github.com/baychub/cb-gsg/blob/master/Manual-Install-Linux.md) or [install with Docker](https://github.com/intel/rsp-sw-toolkit-installer/README.md).)
+This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (Alternatively, you can [install manually](https://github.com/baychub/cb-gsg/blob/master/Manual-Install-Linux.md) or [install with Docker](https://github.com/intel/rsp-sw-toolkit-installer/).)
 
 ### Clone RSP Installer repository
 1. Open a terminal window on the edge eomputer.
@@ -318,11 +318,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc3NjU4NDEsNzk0MzAwNzE5LC0xND
-cyODA3ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4MDcw
-NTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4MS
-wzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OTE4
-Mzc2NiwtOTY0NTA4ODgyLDE2MTg0MDYyNzMsLTM5MDMzMTg3NS
-wyMzE4MTc5MjUsOTY0OTI1NDg2LC0yMTI0MTI4ODQ3LC04NzY1
-NTY5NTddfQ==
+eyJoaXN0b3J5IjpbLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0Nz
+I4MDc4NjYsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgwNzA1
+NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0MDgxLD
+M2NTU0MDgyMSw5MDY5MDc5NjAsMjA3NjEwNzQyOSwxMzY5MTgz
+NzY2LC05NjQ1MDg4ODIsMTYxODQwNjI3MywtMzkwMzMxODc1LD
+IzMTgxNzkyNSw5NjQ5MjU0ODYsLTIxMjQxMjg4NDcsLTg3NjU1
+Njk1N119
 -->
