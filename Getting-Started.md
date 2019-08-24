@@ -337,13 +337,14 @@ The links below contain practical information for getting ready to do implement 
 - [RSP Controller User Guide](examples/use-cases/retail): Reference for the RSP Controller application that the system is built on
 - [RSP Controller API](examples/use-cases/retail): Reference for getting data from and configuration commands to the RSP Controller software
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
+- [Update sensor software](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMD
-cyMDIzNDYwLC0xODYyODczMTgxLDEzNDkzNzA5MTIsLTQ4MjE0
-NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcyNS
-wtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMTQ3
-MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDExODA3MD
-U2NjEsLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQwODEs
-MzY1NTQwODIxXX0=
+eyJoaXN0b3J5IjpbLTUxNzUxNjM3MCwxNzQyOTQzODMwLDE0Mz
+A2MDIzMzIsLTEwNzIwMjM0NjAsLTE4NjI4NzMxODEsMTM0OTM3
+MDkxMiwtNDgyMTQ0NTA4LDIwODY4NzEwNDcsMTM4MTE4MzQ4MS
+wtMjM4NTEzNzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2MzYsNzk0
+MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MD
+A4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEs
+LTQzNjM2NDA4MV19
 -->
