@@ -41,17 +41,13 @@ The PC doesn't need to be dedicated to running RSP Controller software. It can a
 
 ![](https://baychub.github.io/cb-gsg/images/solution-map.png)
 
-### Getting Started
+### Getting Started Components
 This getting started tutorial uses a simple network configuration, shown in the image below. Key points about the setup:
 
  - RSP sensor units are powered by a PoE+ switch and get their IP address from a DHCP-enabled router that the switch is connected to.
- - The RSP Controller application runs on the edge computer (an on-premises computer that functions as the data gateway for connected sensors), which must be on the same network segment.
- - The RSP Controller application automatically pairs with the RSP sensors. 
+ - The RSP Controller application runs on the edge computer (an on-premises computer that functions as the data gateway for connected sensors), which must be on the same network segment. This application automatically pairs with RSP sensors. 
  - A simple command-line interface on the edge computer enables troubleshooting and low-level data monitoring.
  - (Demo only, not meant for production) A web-based portal displays data gathered by the RSP Controller software over an MQTT channel. The web portal allows you to make configuration changes as well. 
-
-![](https://baychub.github.io/cb-gsg/images/demo-map.png)
-
 
 ## System Requirements
 In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the kit, or you can provide your own hardware.
@@ -316,11 +312,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0ODYzNzg5LDEzNDkzNzA5MTIsLTQ4Mj
-E0NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcy
-NSwtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMT
-Q3MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDExODA3
-MDU2NjEsLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQwOD
-EsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNjkx
-ODM3NjZdfQ==
+eyJoaXN0b3J5IjpbLTEzMTgwMzc3NTIsMTM0OTM3MDkxMiwtND
+gyMTQ0NTA4LDIwODY4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEz
+NzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC
+0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4
+MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2ND
+A4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2
+OTE4Mzc2Nl19
 -->
