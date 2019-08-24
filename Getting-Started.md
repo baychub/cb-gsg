@@ -73,7 +73,7 @@ Connections are slightly different depending on whether you have the RSP H1000 s
 
 **RSP H3000 Sensor**
 ![Network Map](https://baychub.github.io/cb-gsg/images/demo-map-h3000.png)
-Whether you're using the RSP Developer Kit or provide your own components, the steps for setting up your environment are the same. The network map above shows the arrangement, but **the connection order is important**, so follow these steps in order.
+Whether you're using the RSP Developer Kit or provide your own components, the steps for setting up your environment are the same. The network map above shows the arrangement, but **the connection order is important**, so follow these steps in order:
 
 1. If your RSP sensor is the H1000 model, attach two external antennas using antenna cables or adapters, and point them away from each other. (If you have the RDK, antennas are preassembled.)
 
@@ -82,7 +82,7 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 2. Connect the router to the internet.
 3. Power on the router before connecting other devices. 
 	
-	RSP sensor units need a DHCP server when they start up.
+	RSP sensor units need a DHCP server when they start up to get an IP address and communicate with the RSP Controller application.
 	
 4. Connect each RSP sensor to a PoE+ port on the switch.
 5. Connect the PoE+ switch to the router and power on the switch.
@@ -95,7 +95,7 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 	
 7. Connect the edge computer to the router and power it on.
 
-	This is the computer where you will install the RSP Controller application.
+	This is the computer where you will next install the RSP Controller application.
 	
 8. Attach a monitor to the edge computer and power it on. LED patterns show startup progress.
 
@@ -320,11 +320,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMDAwNjExLDEzNDkzNzA5MTIsLTQ4Mj
-E0NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcy
-NSwtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMT
-Q3MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDExODA3
-MDU2NjEsLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQwOD
-EsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNjkx
-ODM3NjZdfQ==
+eyJoaXN0b3J5IjpbLTE4NjI4NzMxODEsMTM0OTM3MDkxMiwtND
+gyMTQ0NTA4LDIwODY4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEz
+NzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC
+0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4
+MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2ND
+A4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2
+OTE4Mzc2Nl19
 -->
