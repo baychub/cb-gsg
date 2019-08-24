@@ -270,11 +270,11 @@ RSP-150005 CONNECTED    STOPPED    Default   BackStock                [RSP-15000
 ```
 
 ### See tag data
-You can see the same data in the CLI that is available over MQTT. For example, you can 
+You can see the same data in the CLI that is available over MQTT. 
 
-1. Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). To assign a human-readable name as an alias for the first antenna (`PORT_0`) of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command at the CLI prompt:
+1. For example, you can see the raw data from all tags with this command, replacing <sensor_id> with the sensor:
 ```
-sensor set.alias <sensorID> PORT_0 "my-new-alias"
+sensor get.data <sensorID>
 ```
 2. Return to the web admin portal and navigate to the Sensors page.
 	The alias you just assigned should appear in the Aliases column.
@@ -338,11 +338,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwNTYzMTE4LDE0MzA2MDIzMzIsLTEwNz
-IwMjM0NjAsLTE4NjI4NzMxODEsMTM0OTM3MDkxMiwtNDgyMTQ0
-NTA4LDIwODY4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEzNzI1LC
-0xMzQ3NzM1MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC0xNDcy
-ODA3ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4MDcwNT
-Y2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4MSwz
-NjU1NDA4MjFdfQ==
+eyJoaXN0b3J5IjpbLTE1MzU4MzYyNDUsMTQzMDYwMjMzMiwtMT
+A3MjAyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIx
+NDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3Mj
+UsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0
+NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgwNz
+A1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0MDgx
+LDM2NTU0MDgyMV19
 -->
