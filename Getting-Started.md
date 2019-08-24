@@ -91,17 +91,19 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 
 	RSP sensors will get their IP addresses from the DHCP server on the router.
 
-7. Check the LEDs on the RSP sensors.
+6. Check the LEDs on the RSP sensors.
 
 	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. The LEDs will continue flashing pinkish-white until you install and run the RSP Controller application, which will connect to the sensors and enable them to begin reading tags.
 	
 	If the LEDs are not flashing pinkish-white as expected in this step, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 	
-8. Connect the edge computer to the router and power it on.
+7. Connect the edge computer to the router and power it on.
 
 	This is the computer where you will install the RSP Controller application next.
 	
-9. Attach a monitor to the edge computer and power it on. LED patterns show startup progress.
+8. Attach a monitor to the edge computer and power it on.
+
+	In the meantime, LED patterns on the RSP sensors show startup progress.
 
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
@@ -324,11 +326,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDg5MTg3MjIsLTE4NjI4NzMxODEsMT
-M0OTM3MDkxMiwtNDgyMTQ0NTA4LDIwODY4NzEwNDcsMTM4MTE4
-MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2Mz
-YsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0x
-MjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNT
-Y0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIw
-NzYxMDc0MjldfQ==
+eyJoaXN0b3J5IjpbMjAxNzkwMzgwMSwtMTg2Mjg3MzE4MSwxMz
+Q5MzcwOTEyLC00ODIxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgz
+NDgxLC0yMzg1MTM3MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNi
+w3OTQzMDA3MTksLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEy
+NDkwMDgzNiwxMTgwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1Nj
+Q2MSwtNDM2MzY0MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3
+NjEwNzQyOV19
 -->
