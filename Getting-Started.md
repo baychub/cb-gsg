@@ -81,7 +81,7 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 
 	This step is not needed for the H3000 model, which has two built-in antennas. 
 	
-2. Connect the router's Internet/WAN/Uplink port (they go by different names) to o internet.
+2. Connect the router's Internet/WAN/Uplink port to your internet connection with an Ethernet cable.
 3. Power on the router before connecting other devices. 
 	
 	RSP sensor units need a DHCP server when they start up to get an IP address and communicate with the RSP Controller application.
@@ -89,17 +89,19 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 4. Connect each RSP sensor to a PoE+ port on the switch.
 5. Connect the PoE+ switch to the router and power on the switch.
 
-6. Check the LEDs on the RSP sensors.
+	a
+
+7. Check the LEDs on the RSP sensors.
 
 	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. The LEDs will continue flashing pinkish-white until you install and run the RSP Controller application, and it connects to the sensors. 
 	
 	If the LEDs are not flashing pinkish-white as expected, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 	
-7. Connect the edge computer to the router and power it on.
+8. Connect the edge computer to the router and power it on.
 
 	This is the computer where you will next install the RSP Controller application.
 	
-8. Attach a monitor to the edge computer and power it on. LED patterns show startup progress.
+9. Attach a monitor to the edge computer and power it on. LED patterns show startup progress.
 
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
@@ -322,11 +324,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzg4Njc4NiwtMTg2Mjg3MzE4MSwxMz
-Q5MzcwOTEyLC00ODIxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgz
-NDgxLC0yMzg1MTM3MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNi
-w3OTQzMDA3MTksLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEy
-NDkwMDgzNiwxMTgwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1Nj
-Q2MSwtNDM2MzY0MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3
-NjEwNzQyOV19
+eyJoaXN0b3J5IjpbOTQ3NTI4NjAyLC0xODYyODczMTgxLDEzND
+kzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0
+ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzExMzY5NjM2LD
+c5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0
+OTAwODM2LDExODA3MDU2NjEsLTIwNzAyNjg4NjksNDcyMDU2ND
+YxLC00MzYzNjQwODEsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2
+MTA3NDI5XX0=
 -->
