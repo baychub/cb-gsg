@@ -35,7 +35,7 @@ Intel RSP Controller application software is open source, so you can easily buil
 
 ### Solution Structure
 
-The image below is an example of a robust inventory management system built on Intel RSP. The RSP reader activates the RFID tags within its range and passes tag data, along with information from other on-board sensors, to the RSP Controller application running on a computer. This guide refers to the computer and RSP Controller together as the *edge computer*
+The image below is an example of a robust inventory management system built on Intel RSP. The RSP reader activates the RFID tags within its range and passes tag data, along with information from other on-board sensors, to the RSP Controller application running on an on-premises computer. The computer and RSP Controller together are known as the *edge computer*, which functions as a data gateway for connected RSP sensors.
 
 The RSP Controller aggregates the high volume of raw data and generates meaningful inventory events (e.g., "item exited"), alerts, and system status notifications. It publishes them to MQTT topics on an upstream channel, available to applications running in a customer’s cloud infrastructure.
 
@@ -322,11 +322,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ5ODM0MDEsLTE4NjI4NzMxODEsMT
-M0OTM3MDkxMiwtNDgyMTQ0NTA4LDIwODY4NzEwNDcsMTM4MTE4
-MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2Mz
-YsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0x
-MjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNT
-Y0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIw
-NzYxMDc0MjldfQ==
+eyJoaXN0b3J5IjpbMTk0NDkyNzE5MSwtMTg2Mjg3MzE4MSwxMz
+Q5MzcwOTEyLC00ODIxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgz
+NDgxLC0yMzg1MTM3MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNi
+w3OTQzMDA3MTksLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEy
+NDkwMDgzNiwxMTgwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1Nj
+Q2MSwtNDM2MzY0MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3
+NjEwNzQyOV19
 -->
