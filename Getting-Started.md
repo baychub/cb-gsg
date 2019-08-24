@@ -66,9 +66,11 @@ In the items below, *RDK* refers to the Intel RSP Developer Kit. You can buy the
 
 ## Setting up the Hardware
 
+Connections are slightly different depending on whether you have the RSP H1000 sensor (left or the RSP H3000 sensor.
 ![Network Map](https://baychub.github.io/cb-gsg/images/demo-map-h1000.png)
-
+![Network Map](https://baychub.github.io/cb-gsg/images/demo-map-h3000.png)
 Whether you're using the RSP Developer Kit or provided your own components, the steps for setting up your environment are the same. The network map above shows the arrangement, but **the connection order is important**, so follow these steps in order.
+
 1. If your RSP sensor is the H1000 model, attach two external antennas using antenna cables or adapters, and point them away from each other. (If you have the RDK, antennas are preassembled.)
 
 	This step is not needed for the H3000 model, which has two built-in antennas. 
@@ -314,11 +316,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MDM5MjgwLDEzNDkzNzA5MTIsLTQ4Mj
-E0NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcy
-NSwtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMT
-Q3MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDExODA3
-MDU2NjEsLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQwOD
-EsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNjkx
-ODM3NjZdfQ==
+eyJoaXN0b3J5IjpbMTI5ODgxNjk5OCwxMzQ5MzcwOTEyLC00OD
+IxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3
+MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLT
+E0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgw
+NzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0MD
+gxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3NjEwNzQyOSwxMzY5
+MTgzNzY2XX0=
 -->
