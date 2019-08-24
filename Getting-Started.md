@@ -278,7 +278,7 @@ What is the right command, team?<sensorID>
 ```
 2. The data scrolls by in the terminal.
 
-Other information
+Other information can similarly be viewed in the CLI.
 
 ### Assign an alias to a sensor
 1. Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). To assign a human-readable name as an alias for the first antenna (`PORT_0`) of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command at the CLI prompt:
@@ -339,11 +339,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI4NTUwNTEsMTQzMDYwMjMzMiwtMT
-A3MjAyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIx
-NDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3Mj
-UsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0
-NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgwNz
-A1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0MDgx
-LDM2NTU0MDgyMV19
+eyJoaXN0b3J5IjpbMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMD
+cyMDIzNDYwLC0xODYyODczMTgxLDEzNDkzNzA5MTIsLTQ4MjE0
+NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcyNS
+wtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMTQ3
+MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDExODA3MD
+U2NjEsLTIwNzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQwODEs
+MzY1NTQwODIxXX0=
 -->
