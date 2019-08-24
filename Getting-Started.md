@@ -202,8 +202,10 @@ You can change to have all sensors reading simultaneously, for example, if the a
 2. Click Scheduler.
 
 	![](https://baychub.github.io/cb-gsg/images/scheduler.png)
-4. In the blue header, click the ALL_ON option.
-5. Observe the change in the LED pattern on the sensors.
+3. In the blue header, click the ALL_ON option.
+4. Observe the change in the LED pattern on the sensors.
+
+**Troubleshooting:** If you click the FROM_CONFIG option but haven't set up a configuration, the sensor will 
 
 ## Viewing RFID Data in Other Ways
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that can be part of your own RFID solution:
@@ -326,11 +328,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjU4OTg0OSwtMTA3MjAyMzQ2MCwtMT
-g2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIxNDQ1MDgsMjA4Njg3
-MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3MjUsLTEzNDc3MzUwMT
-IsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0NzI4MDc4NjYsLTE5
-OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgwNzA1NjYxLC0yMDcwMj
-Y4ODY5LDQ3MjA1NjQ2MSwtNDM2MzY0MDgxLDM2NTU0MDgyMSw5
-MDY5MDc5NjBdfQ==
+eyJoaXN0b3J5IjpbMzAyNDE3ODczLC0xMDcyMDIzNDYwLC0xOD
+YyODczMTgxLDEzNDkzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2ODcx
+MDQ3LDEzODExODM0ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMi
+wtMzExMzY5NjM2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5
+NDc5MzI2NSwtMTI0OTAwODM2LDExODA3MDU2NjEsLTIwNzAyNj
+g4NjksNDcyMDU2NDYxLC00MzYzNjQwODEsMzY1NTQwODIxLDkw
+NjkwNzk2MF19
 -->
