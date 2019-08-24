@@ -39,7 +39,7 @@ The image below is an example of a robust inventory management system built on I
 
 The PC doesn't need to be dedicated to running RSP Controller software. It can also run other workloads and be available for future expansion.
 
-![](https://baychub.github.io/cb-gsg/images/solution-map.png)
+![](https://github.com/cb-gsg/blob/master/docs/images/solution-map.png)
 
 ### Network Map for Getting Started
 This getting started tutorial uses a simple network configuration, shown in the image below. Key points about the setup:
@@ -316,11 +316,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTM3MDkxMiwtNDgyMTQ0NTA4LDIwOD
-Y4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3NzM1
-MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC
-0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3
-MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4Mj
-EsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OTE4Mzc2NiwtOTY0
-NTA4ODgyXX0=
+eyJoaXN0b3J5IjpbLTE5OTg1OTE1NjYsMTM0OTM3MDkxMiwtND
+gyMTQ0NTA4LDIwODY4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEz
+NzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC
+0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4
+MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2ND
+A4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2
+OTE4Mzc2Nl19
 -->
