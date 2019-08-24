@@ -89,11 +89,11 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 4. Connect each RSP sensor to a PoE+ port on the switch.
 5. Connect the PoE+ switch to the router and power on the switch.
 
-	a
+	RSP sensors will get their IP addresses from the DHCP server on the router.
 
 7. Check the LEDs on the RSP sensors.
 
-	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. The LEDs will continue flashing pinkish-white until you install and run the RSP Controller application, and it connects to the sensors. 
+	The LEDs will go through a series of patterns, and after 1-2 minutes they should be flashing pinkish-white. The LEDs will continue flashing pinkish-white until you install and run the RSP Controller application, which will connect to the sensors and allow them to finish th.
 	
 	If the LEDs are not flashing pinkish-white as expected, disconnect and reconnect the sensors. If that doesn't work, repeat this whole section. Next, try the suggestions in the LED section of [this FAQ](https://01.org/rsp-sw-toolkit/faq-0). 
 	
@@ -324,11 +324,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NTI4NjAyLC0xODYyODczMTgxLDEzND
-kzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0
-ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzExMzY5NjM2LD
-c5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0
-OTAwODM2LDExODA3MDU2NjEsLTIwNzAyNjg4NjksNDcyMDU2ND
-YxLC00MzYzNjQwODEsMzY1NTQwODIxLDkwNjkwNzk2MCwyMDc2
-MTA3NDI5XX0=
+eyJoaXN0b3J5IjpbLTE1NzMzNzE3OTgsLTE4NjI4NzMxODEsMT
+M0OTM3MDkxMiwtNDgyMTQ0NTA4LDIwODY4NzEwNDcsMTM4MTE4
+MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2Mz
+YsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0x
+MjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNT
+Y0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIw
+NzYxMDc0MjldfQ==
 -->
