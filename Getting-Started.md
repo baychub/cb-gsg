@@ -10,8 +10,8 @@ Intel RSP Controller application software is open source, so you can easily buil
   * [System Overview](#system-overview)
   * [System Requirements](#system-requirements)
   * [Setting up the Hardware](#setting-up-the-hardware)
-  * [Installing the RSP Controller](#installing-the-rsp-controller-on-linux-recommended)
-  * [Running the RSP Controller Application](#running-the-rsp-controller-application-on-linux)
+  * [Installing the RSP Controller](#installing-the-rsp-controller)
+  * [Running the RSP Controller Application](#running-the-rsp-controller-application)
   * [Using the Web Portal](#using-the-web-portal)
     + [Open the web portal](#open-the-web-portal)
     + [Understand dashboard information](#understand-dashboard-information)
@@ -97,7 +97,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
-## Installing the RSP Controller on Linux (Recommended)
+## Installing the RSP Controller (Recommended)
 This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (Alternatively, you can [install manually](https://github.com/baychub/cb-gsg/blob/master/Manual-Install-Linux.md) or [install with Docker](https://github.com/intel/rsp-sw-toolkit-installer/).)
 
 ### Clone RSP Installer repository
@@ -125,7 +125,7 @@ cd ~/projects/rsp-sw-toolkit-installer/native/
 ```
 When complete, the web portal will open in the default browser. If you close the browser window, you can reach the portal with this URL: http://localhost:8080/web-admin/
 
-## Running the RSP Controller Application on Linux
+## Running the RSP Controller Application
 The RSP Controller application must be running in order to gather, process, and report data form RFID tags. You'll build your own solution that communicates with the RSP Controller over MQTT, but the web portal gives you an idea of what kind of data the RSP Controller application makes available.
 
 The installer above doesn't just install. It also runs the RSP Controller application software and launches the web portal. If you reboot or close the terminal window, you will need to run the next steps to start the RSP Controller.
@@ -316,11 +316,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LDEzOD
-ExODM0ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzExMzY5
-NjM2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NS
-wtMTI0OTAwODM2LDExODA3MDU2NjEsLTIwNzAyNjg4NjksNDcy
-MDU2NDYxLC00MzYzNjQwODEsMzY1NTQwODIxLDkwNjkwNzk2MC
-wyMDc2MTA3NDI5LDEzNjkxODM3NjYsLTk2NDUwODg4MiwxNjE4
-NDA2MjczXX0=
+eyJoaXN0b3J5IjpbLTEzNzAzNTY5MzgsLTQ4MjE0NDUwOCwyMD
+g2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcyNSwtMTM0Nzcz
+NTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2Ni
+wtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDExODA3MDU2NjEsLTIw
+NzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQwODEsMzY1NTQwOD
+IxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNjkxODM3NjYsLTk2
+NDUwODg4Ml19
 -->
