@@ -97,7 +97,7 @@ Whether you're using the RSP Developer Kit or provided your own components, the 
 
 	![LED Reference](https://baychub.github.io/cb-gsg/images/led-reference.png)
 
-## Installing the RSP Controller (Recommended)
+## Installing the RSP Controller
 This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (Alternatively, you can [install manually](https://github.com/baychub/cb-gsg/blob/master/Manual-Install-Linux.md) or [install with Docker](https://github.com/intel/rsp-sw-toolkit-installer/).)
 
 ### Clone RSP Installer repository
@@ -316,11 +316,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAzNTY5MzgsLTQ4MjE0NDUwOCwyMD
-g2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcyNSwtMTM0Nzcz
-NTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2Ni
-wtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDExODA3MDU2NjEsLTIw
-NzAyNjg4NjksNDcyMDU2NDYxLC00MzYzNjQwODEsMzY1NTQwOD
-IxLDkwNjkwNzk2MCwyMDc2MTA3NDI5LDEzNjkxODM3NjYsLTk2
-NDUwODg4Ml19
+eyJoaXN0b3J5IjpbMTM0OTM3MDkxMiwtNDgyMTQ0NTA4LDIwOD
+Y4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3NzM1
+MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC
+0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3
+MDI2ODg2OSw0NzIwNTY0NjEsLTQzNjM2NDA4MSwzNjU1NDA4Mj
+EsOTA2OTA3OTYwLDIwNzYxMDc0MjksMTM2OTE4Mzc2NiwtOTY0
+NTA4ODgyXX0=
 -->
