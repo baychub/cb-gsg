@@ -111,7 +111,7 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 This document assumes an edge computer running Ubuntu 18.04, which is preinstalled on the RDK, but other Linux distributions compatible with JRE 8+ should also be compatible with RSP. The steps here enable a quick installation with the RSP Installer software. (Alternatively, you can [install manually](https://github.com/baychub/cb-gsg/blob/master/Manual-Install-Linux.md) or [install with Docker](https://github.com/intel/rsp-sw-toolkit-installer/).)
 
 ### Clone RSP Installer repository
-1. Open a terminal window on the edge eomputer.
+1. Open a terminal window on the edge computer.
 2. Run these commands to clone the RSP Installer repository in a new directory:
 ```
 #-- create expected directories for the use case examples and documentation
@@ -142,7 +142,7 @@ The installer above doesn't just install. It also runs the RSP Controller applic
 
 ### Start the RSP Controller application
 A shell script starts the RSP Controller in the foreground. 
-1. If you just ran the installer, this task is already done and you can skip to the Using the Web Portal section.
+1. If you just ran the installer, this task is already done and you should skip to the Using the Web Portal section.
 2. Otherwise, run these commands to start the application: 
 ```
 cd ~/deploy/rsp-sw-toolkit-gw
@@ -326,11 +326,11 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzkwMzgwMSwtMTg2Mjg3MzE4MSwxMz
-Q5MzcwOTEyLC00ODIxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgz
-NDgxLC0yMzg1MTM3MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNi
-w3OTQzMDA3MTksLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEy
-NDkwMDgzNiwxMTgwNzA1NjYxLC0yMDcwMjY4ODY5LDQ3MjA1Nj
-Q2MSwtNDM2MzY0MDgxLDM2NTU0MDgyMSw5MDY5MDc5NjAsMjA3
-NjEwNzQyOV19
+eyJoaXN0b3J5IjpbLTEwNzIwMjM0NjAsLTE4NjI4NzMxODEsMT
+M0OTM3MDkxMiwtNDgyMTQ0NTA4LDIwODY4NzEwNDcsMTM4MTE4
+MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3NzM1MDEyLC0zMTEzNjk2Mz
+YsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0xOTk0NzkzMjY1LC0x
+MjQ5MDA4MzYsMTE4MDcwNTY2MSwtMjA3MDI2ODg2OSw0NzIwNT
+Y0NjEsLTQzNjM2NDA4MSwzNjU1NDA4MjEsOTA2OTA3OTYwLDIw
+NzYxMDc0MjldfQ==
 -->
