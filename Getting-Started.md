@@ -47,7 +47,7 @@ The PC doesn't need to be dedicated to running RSP Controller software. It can a
 This getting started tutorial uses a simple network configuration. Key points about the components:
 
  - **RSP sensor** units are powered by a PoE+ switch and get their IP address from a DHCP-enabled router that the switch is connected to.
- - The **RSP Controller application** runs on the edge computer (an on-premises computer that functions as the data gateway for connected sensors), which must be on the same network segment. This application automatically pairs with RSP sensors. 
+ - The **RSP Controller application** runs on the edge computer (an on-premises computer that controls and processes data from connected sensors), which must be on the same network segment. This application automatically pairs with RSP sensors. 
  - A simple **command-line interface** on the edge computer enables troubleshooting and low-level data monitoring.
  - (Demo only, not meant for production) A **web-based admin** portal displays data gathered by the RSP Controller software over an MQTT channel. The web admin portal allows you to make configuration changes as well. 
 
@@ -81,7 +81,7 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 
 	This step is not needed for the H3000 model, which has two built-in antennas. 
 	
-2. Connect the router to the internet.
+2. Connect the router's Internet/WAN/Uplink port (they go by different names) to o internet.
 3. Power on the router before connecting other devices. 
 	
 	RSP sensor units need a DHCP server when they start up to get an IP address and communicate with the RSP Controller application.
@@ -322,7 +322,7 @@ The links below contain practical information for getting ready to do implement 
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDkyNzE5MSwtMTg2Mjg3MzE4MSwxMz
+eyJoaXN0b3J5IjpbLTYzNzg4Njc4NiwtMTg2Mjg3MzE4MSwxMz
 Q5MzcwOTEyLC00ODIxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgz
 NDgxLC0yMzg1MTM3MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNi
 w3OTQzMDA3MTksLTE0NzI4MDc4NjYsLTE5OTQ3OTMyNjUsLTEy
