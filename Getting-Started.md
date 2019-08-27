@@ -268,10 +268,10 @@ RSP-150005 CONNECTED    STOPPED    Default   BackStock                [RSP-15000
 ------------------------------------------
 ```
 
-### See tag data
+### See tag events
 You can see the same data in the CLI that is available over MQTT. 
 
-1. For example, you can see the raw data from all tags with this command, replacing <sensor_id> with the sensor ID from the previous `sensor show` command:
+1. For example, you can see the events (e.g., a new tag entering the facility) for all tags with this command:
 ```
 What is the right command, team?<sensorID>
 ```
@@ -339,11 +339,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg2MDMwMDEsLTM3NzQxMTczMSw5Mj
-k4MjkwNjEsODI2NzM5MDQsLTE2NDg2MDExMDUsMTc0Mjk0Mzgz
-MCwxNDMwNjAyMzMyLC0xMDcyMDIzNDYwLC0xODYyODczMTgxLD
-EzNDkzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LDEzODEx
-ODM0ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzExMzY5Nj
-M2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NSwt
-MTI0OTAwODM2XX0=
+eyJoaXN0b3J5IjpbMTMwMzQyNDY1MSwtMTc2ODYwMzAwMSwtMz
+c3NDExNzMxLDkyOTgyOTA2MSw4MjY3MzkwNCwtMTY0ODYwMTEw
+NSwxNzQyOTQzODMwLDE0MzA2MDIzMzIsLTEwNzIwMjM0NjAsLT
+E4NjI4NzMxODEsMTM0OTM3MDkxMiwtNDgyMTQ0NTA4LDIwODY4
+NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3NzM1MD
+EyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3ODY2LC0x
+OTk0NzkzMjY1XX0=
 -->
