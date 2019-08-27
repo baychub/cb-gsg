@@ -281,10 +281,9 @@ Other information can similarly be viewed in the CLI by giving the appropriate c
 
 ### Assign an alias to a sensor
 1. Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). To assign a human-readable name as an alias for the first antenna (`PORT_0`) of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command at the CLI prompt:
-```
-sensor set.alias <sensorID> PORT_0 "my-new-alias"
-```
-2. Return to the web admin portal and navigate to the Sensors page.
+
+
+3. Return to the web admin portal and navigate to the Sensors page.
 	The alias you just assigned should appear in the Aliases column.
 
 ### Get CLI command help inline
@@ -339,7 +338,7 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg1MTAyODksMTMwMzQyNDY1MSwtMT
+eyJoaXN0b3J5IjpbLTEwNTg0MzA1NTMsMTMwMzQyNDY1MSwtMT
 c2ODYwMzAwMSwtMzc3NDExNzMxLDkyOTgyOTA2MSw4MjY3Mzkw
 NCwtMTY0ODYwMTEwNSwxNzQyOTQzODMwLDE0MzA2MDIzMzIsLT
 EwNzIwMjM0NjAsLTE4NjI4NzMxODEsMTM0OTM3MDkxMiwtNDgy
