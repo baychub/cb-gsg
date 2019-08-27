@@ -230,8 +230,7 @@ mosquitto_sub -t rfid/controller/events
 The console displays in JSON-RPC format any high-level events processed by the RSP Controller (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic.
 
 2. If you don't see any events initially, try introducing or moving some tags to generate an event.
-
-	![MQTT events results](terminal screenshot for MQTT topic)
+	![Console login](https://baychub.github.io/cb-gsg/images/mosquitto_sub_events.jpg)
 	
 4. Press Ctrl-C to stop monitoring MQTT data on this topic.
 5. Try another MQTT topic to see other types of data the RSP Controller publishes:
@@ -340,11 +339,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzQxMTczMSw5Mjk4MjkwNjEsODI2Nz
-M5MDQsLTE2NDg2MDExMDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMy
-LC0xMDcyMDIzNDYwLC0xODYyODczMTgxLDEzNDkzNzA5MTIsLT
-Q4MjE0NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUx
-MzcyNSwtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOS
-wtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDEx
-ODA3MDU2NjFdfQ==
+eyJoaXN0b3J5IjpbLTE3Njg2MDMwMDEsLTM3NzQxMTczMSw5Mj
+k4MjkwNjEsODI2NzM5MDQsLTE2NDg2MDExMDUsMTc0Mjk0Mzgz
+MCwxNDMwNjAyMzMyLC0xMDcyMDIzNDYwLC0xODYyODczMTgxLD
+EzNDkzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LDEzODEx
+ODM0ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzExMzY5Nj
+M2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NSwt
+MTI0OTAwODM2XX0=
 -->
