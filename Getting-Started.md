@@ -251,7 +251,7 @@ The RSP Controller provides a command line interface (CLI) for configuration and
 ssh -p5222 console@localhost
 password: console
 ```
-![Console login](cli.jpg)
+![Console login](https://baychub.github.io/cb-gsg/images/cli.jpg)
 
 ### View a summary of sensors
 
@@ -340,11 +340,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjkwNDkyNyw4MjY3MzkwNCwtMTY0OD
-YwMTEwNSwxNzQyOTQzODMwLDE0MzA2MDIzMzIsLTEwNzIwMjM0
-NjAsLTE4NjI4NzMxODEsMTM0OTM3MDkxMiwtNDgyMTQ0NTA4LD
-IwODY4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3
-NzM1MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3OD
-Y2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwt
-MjA3MDI2ODg2OV19
+eyJoaXN0b3J5IjpbOTI5ODI5MDYxLDgyNjczOTA0LC0xNjQ4Nj
+AxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMTA3MjAyMzQ2
+MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIxNDQ1MDgsMj
+A4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3MjUsLTEzNDc3
+MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0NzI4MDc4Nj
+YsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgwNzA1NjYxLC0y
+MDcwMjY4ODY5XX0=
 -->
