@@ -302,14 +302,12 @@ Replace *newname* with the alias name you want, and replace *sensorid* with the 
  ![inventory tab help](https://baychub.github.io/cb-gsg/images/cli_tab.jpg)
 
 4. After the CLI displays the available parameters, type `stats` and a space character, then press the Tab key.
-```
-[Show command help terminal output]
-```
+
 5. After the CLI displays the available parameters, type `show` and press Enter.
- ```
-[Show command help terminal output]
-```
-In this way you can see the syntax options progressively without referring to documentation. To view command help, type the command and press Enter.
+
+![inventory tab help](https://baychub.github.io/cb-gsg/images/inventory_stats_show.jpg)
+
+	In this way you can see the syntax options progressively without referring to documentation. To view command help, type the command and press Enter.
 
 Full documentation of the CLI is in the *[Intel® RSP Controller Application - Edge Computer Software Installation & User Guide](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_Installation_User_Guide.pdf)*, chapter 9.
 
@@ -344,11 +342,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyMTIxNDA3LDEzMDM0MjQ2NTEsLTE3Nj
-g2MDMwMDEsLTM3NzQxMTczMSw5Mjk4MjkwNjEsODI2NzM5MDQs
-LTE2NDg2MDExMDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMD
-cyMDIzNDYwLC0xODYyODczMTgxLDEzNDkzNzA5MTIsLTQ4MjE0
-NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcyNS
-wtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMTQ3
-MjgwNzg2Nl19
+eyJoaXN0b3J5IjpbLTg0MjIxMzAzNCwxMzAzNDI0NjUxLC0xNz
+Y4NjAzMDAxLC0zNzc0MTE3MzEsOTI5ODI5MDYxLDgyNjczOTA0
+LC0xNjQ4NjAxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMT
+A3MjAyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIx
+NDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3Mj
+UsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0
+NzI4MDc4NjZdfQ==
 -->
