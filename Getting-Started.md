@@ -248,10 +248,10 @@ The RSP Controller provides a command line interface (CLI) for configuration and
 
 1. To connect to the RSP Controller CLI:
 ```
-ssh -p5222 gwconsole@localhost
-password: gwconsole
+ssh -p5222 console@localhost
+password: console
 ```
-![enter image description here](add-screenshot-URL-here)
+![Console login](cli.jpg)
 
 ### View a summary of sensors
 
@@ -340,11 +340,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NzM5MDQsLTE2NDg2MDExMDUsMTc0Mj
-k0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIzNDYwLC0xODYyODcz
-MTgxLDEzNDkzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LD
-EzODExODM0ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzEx
-MzY5NjM2LDc5NDMwMDcxOSwtMTQ3MjgwNzg2NiwtMTk5NDc5Mz
-I2NSwtMTI0OTAwODM2LDExODA3MDU2NjEsLTIwNzAyNjg4Njks
-NDcyMDU2NDYxXX0=
+eyJoaXN0b3J5IjpbLTg3MjkwNDkyNyw4MjY3MzkwNCwtMTY0OD
+YwMTEwNSwxNzQyOTQzODMwLDE0MzA2MDIzMzIsLTEwNzIwMjM0
+NjAsLTE4NjI4NzMxODEsMTM0OTM3MDkxMiwtNDgyMTQ0NTA4LD
+IwODY4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEzNzI1LC0xMzQ3
+NzM1MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC0xNDcyODA3OD
+Y2LC0xOTk0NzkzMjY1LC0xMjQ5MDA4MzYsMTE4MDcwNTY2MSwt
+MjA3MDI2ODg2OV19
 -->
