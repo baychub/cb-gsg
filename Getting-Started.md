@@ -281,7 +281,7 @@ Other information can similarly be viewed in the CLI by giving the appropriate c
 
 ### Assign an alias to a sensor
 Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). 
-1. To assign a human-readable name as an alias for the first antenna (`PORT_0`) of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command at the CLI prompt:
+1. To assign a human-readable name as an alias for both antenna ports of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command at the CLI prompt:
 
 ```
 sensor set.alias newname ALL_PORTS sensorid
@@ -343,11 +343,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5NzYwNzcsMTMwMzQyNDY1MSwtMTc2OD
-YwMzAwMSwtMzc3NDExNzMxLDkyOTgyOTA2MSw4MjY3MzkwNCwt
-MTY0ODYwMTEwNSwxNzQyOTQzODMwLDE0MzA2MDIzMzIsLTEwNz
-IwMjM0NjAsLTE4NjI4NzMxODEsMTM0OTM3MDkxMiwtNDgyMTQ0
-NTA4LDIwODY4NzEwNDcsMTM4MTE4MzQ4MSwtMjM4NTEzNzI1LC
-0xMzQ3NzM1MDEyLC0zMTEzNjk2MzYsNzk0MzAwNzE5LC0xNDcy
-ODA3ODY2XX0=
+eyJoaXN0b3J5IjpbNjMzMTMxNiwxMzAzNDI0NjUxLC0xNzY4Nj
+AzMDAxLC0zNzc0MTE3MzEsOTI5ODI5MDYxLDgyNjczOTA0LC0x
+NjQ4NjAxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMTA3Mj
+AyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIxNDQ1
+MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3MjUsLT
+EzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0NzI4
+MDc4NjZdfQ==
 -->
