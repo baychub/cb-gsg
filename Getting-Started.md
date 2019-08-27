@@ -296,13 +296,10 @@ Replace *newname* with the alias name you want, and replace *sensorid* with the 
 
 ### Get CLI command help inline
 1. To see a list of available commands, at the RSP Controller CLI prompt press Enter with no text.
-```
-[Show command help terminal output]
-```
+
 2. Commands may have several layers of parameters, so the tab completion feature helps. At the RSP Controller CLI prompt type `inventory` and a space character, then press the Tab key.
-```
-[Show command help terminal output]
-```
+
+
 3. After the CLI displays the available parameters, type `stats` and a space character, then press the Tab key.
 ```
 [Show command help terminal output]
@@ -346,11 +343,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMTM3NTAwLDEzMDM0MjQ2NTEsLTE3Nj
-g2MDMwMDEsLTM3NzQxMTczMSw5Mjk4MjkwNjEsODI2NzM5MDQs
-LTE2NDg2MDExMDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMD
-cyMDIzNDYwLC0xODYyODczMTgxLDEzNDkzNzA5MTIsLTQ4MjE0
-NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcyNS
-wtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOSwtMTQ3
-MjgwNzg2Nl19
+eyJoaXN0b3J5IjpbMTczMDY1NTk1MiwxMzAzNDI0NjUxLC0xNz
+Y4NjAzMDAxLC0zNzc0MTE3MzEsOTI5ODI5MDYxLDgyNjczOTA0
+LC0xNjQ4NjAxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMT
+A3MjAyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIx
+NDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3Mj
+UsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0
+NzI4MDc4NjZdfQ==
 -->
