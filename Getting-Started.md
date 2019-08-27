@@ -277,7 +277,7 @@ You can see the same data in the CLI that is available over MQTT.
 What is the right command, team?<sensorID>
 ```
 2. The data scrolls by in the terminal.
-
+	
 Other information can similarly be viewed in the CLI.
 
 ### Assign an alias to a sensor
@@ -340,11 +340,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5ODI5MDYxLDgyNjczOTA0LC0xNjQ4Nj
-AxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMTA3MjAyMzQ2
-MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIxNDQ1MDgsMj
-A4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3MjUsLTEzNDc3
-MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0NzI4MDc4Nj
-YsLTE5OTQ3OTMyNjUsLTEyNDkwMDgzNiwxMTgwNzA1NjYxLC0y
-MDcwMjY4ODY5XX0=
+eyJoaXN0b3J5IjpbLTM3NzQxMTczMSw5Mjk4MjkwNjEsODI2Nz
+M5MDQsLTE2NDg2MDExMDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMy
+LC0xMDcyMDIzNDYwLC0xODYyODczMTgxLDEzNDkzNzA5MTIsLT
+Q4MjE0NDUwOCwyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUx
+MzcyNSwtMTM0NzczNTAxMiwtMzExMzY5NjM2LDc5NDMwMDcxOS
+wtMTQ3MjgwNzg2NiwtMTk5NDc5MzI2NSwtMTI0OTAwODM2LDEx
+ODA3MDU2NjFdfQ==
 -->
