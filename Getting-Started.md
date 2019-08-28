@@ -224,7 +224,7 @@ To monitor RSP data over MQTT from a terminal window:
 1. Run the mosquitto_sub command and specify the MQTT topic for the data you want (in this example, controller events).
 ```
 #-- See data from the RSP Controller events topic
-mosquitto_sub -t rfid/controller/events
+mosquitto_sub -t x`
 ```
 
 The console displays in JSON-RPC format any high-level events processed by the RSP Controller (e.g., an RFID tag has appeared for the first time) while you're monitoring this topic.
@@ -343,11 +343,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMTMxNiwxMzAzNDI0NjUxLC0xNzY4Nj
-AzMDAxLC0zNzc0MTE3MzEsOTI5ODI5MDYxLDgyNjczOTA0LC0x
-NjQ4NjAxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMTA3Mj
-AyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIxNDQ1
-MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3MjUsLT
-EzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQzMDA3MTksLTE0NzI4
-MDc4NjZdfQ==
+eyJoaXN0b3J5IjpbLTEzNDY3NTQxODQsNjMzMTMxNiwxMzAzND
+I0NjUxLC0xNzY4NjAzMDAxLC0zNzc0MTE3MzEsOTI5ODI5MDYx
+LDgyNjczOTA0LC0xNjQ4NjAxMTA1LDE3NDI5NDM4MzAsMTQzMD
+YwMjMzMiwtMTA3MjAyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5Mzcw
+OTEyLC00ODIxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC
+0yMzg1MTM3MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQz
+MDA3MTldfQ==
 -->
