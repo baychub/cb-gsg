@@ -43,7 +43,7 @@ This getting started tutorial uses a simple network configuration. Key points ab
 
  - **RSP sensor** units are powered by a PoE+ switch and get their IP address from a DHCP-enabled router that the switch is connected to.
  - The **RSP Controller application** runs on the edge computer (an on-premises computer that controls and processes data from connected sensors), which must be on the same network segment. This application automatically pairs with RSP sensors. 
- - An **MQTT interface** on the edge computer, provided by the RSP Controller application, enables troubleshooting and low-level data monitoring.
+ - An **MQTT interface** on the edge computer, provided by the RSP Controller application, enables standards-based access to data from RFID.
  - (Demo only, not meant for production) A **web-based admin** portal displays data gathered by the RSP Controller software over an MQTT channel. The web admin portal allows you to make configuration changes as well. 
 
 ## System Requirements
@@ -339,11 +339,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTUwOTc0LC04NjI3OTY0ODAsLTEzND
-Y3NTQxODQsNjMzMTMxNiwxMzAzNDI0NjUxLC0xNzY4NjAzMDAx
-LC0zNzc0MTE3MzEsOTI5ODI5MDYxLDgyNjczOTA0LC0xNjQ4Nj
-AxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMTA3MjAyMzQ2
-MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIxNDQ1MDgsMj
-A4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3MjUsLTEzNDc3
-MzUwMTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMzU3OTg0NTAsLTg2Mjc5NjQ4MCwtMT
+M0Njc1NDE4NCw2MzMxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMw
+MDEsLTM3NzQxMTczMSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2ND
+g2MDExMDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIz
+NDYwLC0xODYyODczMTgxLDEzNDkzNzA5MTIsLTQ4MjE0NDUwOC
+wyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcyNSwtMTM0
+NzczNTAxMl19
 -->
