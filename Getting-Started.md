@@ -251,14 +251,14 @@ The links below contain practical information for getting ready to do implement 
 - [RSP Controller User Guide](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_Installation_User_Guide.pdf): Reference for the RSP Controller application that the system is built on
 - [RSP Controller API](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf): Reference for getting data from and configuration commands to the RSP Controller software
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
-- [Updating sensor software](https://github.com/baychub/cb-gsg/blob/master/update_sensor.md): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
+- [Updating sensor software](https://github.com/baychub/cb-gsg/blob/master/update_sensor.md): Instructions for installing updates to RSP sensor software, also found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Nzc0NzE2OCwtNzUyNDc4MDIxLC01NT
-U2NTUxMDEsNDY3NTAyNzg2LC0yMDU5MjY3MjU1LC04NjI3OTY0
-ODAsLTEzNDY3NTQxODQsNjMzMTMxNiwxMzAzNDI0NjUxLC0xNz
-Y4NjAzMDAxLC0zNzc0MTE3MzEsOTI5ODI5MDYxLDgyNjczOTA0
-LC0xNjQ4NjAxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMT
-A3MjAyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIx
-NDQ1MDhdfQ==
+eyJoaXN0b3J5IjpbNzA0NDM1NjMzLDEzNTc3NDcxNjgsLTc1Mj
+Q3ODAyMSwtNTU1NjU1MTAxLDQ2NzUwMjc4NiwtMjA1OTI2NzI1
+NSwtODYyNzk2NDgwLC0xMzQ2NzU0MTg0LDYzMzEzMTYsMTMwMz
+QyNDY1MSwtMTc2ODYwMzAwMSwtMzc3NDExNzMxLDkyOTgyOTA2
+MSw4MjY3MzkwNCwtMTY0ODYwMTEwNSwxNzQyOTQzODMwLDE0Mz
+A2MDIzMzIsLTEwNzIwMjM0NjAsLTE4NjI4NzMxODEsMTM0OTM3
+MDkxMl19
 -->
