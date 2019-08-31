@@ -18,14 +18,9 @@ Intel RSP Controller application software is open source, so you can easily buil
     + [See live RFID tag data](#see-live-rfid-tag-data)
     + [See digested inventory data](#see-digested-inventory-data)
     + [Turn scheduling on or off](#turn-scheduling-on-or-off)
-  * [Viewing RFID Data in Other Ways](#viewing-rfid-data-in-other-ways)
+  * [Viewing RFID Data with MQTT](#viewing-rfid-data-in-other-ways)
   * [Getting data over MQTT](#getting-data-over-mqtt)
     + [Subscribe to an MQTT data topic](#subscribe-to-an-mqtt-data-topic)
-  * [Using the command-line interface](#using-the-command-line-interface)
-    + [Connect to the CLI](#connect-to-the-cli)
-    + [View a summary of sensors](#view-a-summary-of-sensors)
-    + [Assign an alias to a sensor](#assign-an-alias-to-a-sensor)
-    + [Get CLI command help inline](#get-cli-command-help-inline)
   * [Changing the Configuration](#changing-the-configuration)
     + [Update Sensor Software](#update-sensor-software)
     + [Assign a personality to a sensor](#assign-a-personality-to-a-sensor)
@@ -48,7 +43,7 @@ This getting started tutorial uses a simple network configuration. Key points ab
 
  - **RSP sensor** units are powered by a PoE+ switch and get their IP address from a DHCP-enabled router that the switch is connected to.
  - The **RSP Controller application** runs on the edge computer (an on-premises computer that controls and processes data from connected sensors), which must be on the same network segment. This application automatically pairs with RSP sensors. 
- - A simple **command-line interface** on the edge computer enables troubleshooting and low-level data monitoring.
+ - An **MQTT interface** on the edge computer, provided by the RSP Controller application, enables troubleshooting and low-level data monitoring.
  - (Demo only, not meant for production) A **web-based admin** portal displays data gathered by the RSP Controller software over an MQTT channel. The web admin portal allows you to make configuration changes as well. 
 
 ## System Requirements
@@ -344,11 +339,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mjc5NjQ4MCwtMTM0Njc1NDE4NCw2Mz
-MxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMwMDEsLTM3NzQxMTcz
-MSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2NDg2MDExMDUsMTc0Mj
-k0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIzNDYwLC0xODYyODcz
-MTgxLDEzNDkzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LD
-EzODExODM0ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzEx
-MzY5NjM2XX0=
+eyJoaXN0b3J5IjpbMTM2MTUwOTc0LC04NjI3OTY0ODAsLTEzND
+Y3NTQxODQsNjMzMTMxNiwxMzAzNDI0NjUxLC0xNzY4NjAzMDAx
+LC0zNzc0MTE3MzEsOTI5ODI5MDYxLDgyNjczOTA0LC0xNjQ4Nj
+AxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMzMiwtMTA3MjAyMzQ2
+MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC00ODIxNDQ1MDgsMj
+A4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1MTM3MjUsLTEzNDc3
+MzUwMTJdfQ==
 -->
