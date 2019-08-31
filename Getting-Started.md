@@ -336,18 +336,19 @@ You can learn how to assign a personality to a sensor by carrying out one of the
 
 ## Next Steps
 The links below contain practical information for getting ready to do implement Intel&reg; RSP sensors and software.
-- [Retail and QSR tutorials](./docs/usecases/use_cases.md): Implementation guidance for batch configuration of sensors on retail floors and quick-service restaurants (QSR)
+- [Retail tutorial](./docs/usecases/use_cases.md): Implementation guidance for batch configuration of sensors on retail floors
+- [QSR (quick-service restaurant) tutorial](./docs/usecases/use_cases.md): Implementation guidance for batch configuration of sensors for QSR environments
 - [RSP Controller User Guide](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_Installation_User_Guide.pdf): Reference for the RSP Controller application that the system is built on
 - [RSP Controller API](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf): Reference for getting data from and configuration commands to the RSP Controller software
 - [Other RSP documentation](https://01.org/rsp-sw-toolkit/downloads/installation-user-guides): Guides for RSP hardware and an Android-based NFC application
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY3NTQxODQsNjMzMTMxNiwxMzAzND
-I0NjUxLC0xNzY4NjAzMDAxLC0zNzc0MTE3MzEsOTI5ODI5MDYx
-LDgyNjczOTA0LC0xNjQ4NjAxMTA1LDE3NDI5NDM4MzAsMTQzMD
-YwMjMzMiwtMTA3MjAyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5Mzcw
-OTEyLC00ODIxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC
-0yMzg1MTM3MjUsLTEzNDc3MzUwMTIsLTMxMTM2OTYzNiw3OTQz
-MDA3MTldfQ==
+eyJoaXN0b3J5IjpbLTg2Mjc5NjQ4MCwtMTM0Njc1NDE4NCw2Mz
+MxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMwMDEsLTM3NzQxMTcz
+MSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2NDg2MDExMDUsMTc0Mj
+k0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIzNDYwLC0xODYyODcz
+MTgxLDEzNDkzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2ODcxMDQ3LD
+EzODExODM0ODEsLTIzODUxMzcyNSwtMTM0NzczNTAxMiwtMzEx
+MzY5NjM2XX0=
 -->
