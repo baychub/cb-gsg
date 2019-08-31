@@ -202,12 +202,11 @@ You can change to have all sensors reading simultaneously, for example, if the a
 
 **Troubleshooting:** If you click the FROM_CONFIG option but haven't set up a configuration, the sensor will not read any data. Click the ALL_ON or ALL_SEQUENCED option to read data again.
 
-## Viewing RFID Data in Other Ways
+## Viewing RFID Data with MQTT
 You've now used the RSP web portal to see a sample of some of the platform's capabilities. In this section, you'll use some RSP building blocks of data that can be part of your own RFID solution:
  - **MQTT communications protocol.** The RSP Controller uses a built-in MQTT broker to deliver data structured as JSON-RPC. Many libraries support the well-known MQTT and JSON-RPC protocols, so it's straightforward to implement data access in the code for your solution.
- - **RSP Controller CLI.** The RSP Controller includes a simple, local command-line interface for accessing data and also for making sensor configuration changes. 
 
-## Getting data over MQTT
+### MQTT overview
 You can open a terminal window and subscribe to the RSP Controller events topic in order to monitor tag events produced by the RSP Controller, raw RFID tag data, and other RSP system information. 
 
 The RSP web portal displays many of the available MQTT topics (specific sets of data you can subscribe to) in the Upstream MQTT and Downstream MQTT panes of the Dashboard page, e.g., "rfid/controller/alerts". The RSP Controller divides its MQTT topics into two groups:
@@ -339,7 +338,7 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzU3OTg0NTAsLTg2Mjc5NjQ4MCwtMT
+eyJoaXN0b3J5IjpbLTE4NTE4OTcxMDksLTg2Mjc5NjQ4MCwtMT
 M0Njc1NDE4NCw2MzMxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMw
 MDEsLTM3NzQxMTczMSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2ND
 g2MDExMDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIz
