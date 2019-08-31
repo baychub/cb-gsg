@@ -234,92 +234,8 @@ mosquitto_sub -t rfid/rsp/data/#
 ```
 Full documentation of the MQTT topics and data definitions can be found in the *[Intel® RSP Controller - Edge Computer Software Application Programming Interface (API)](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf)* guide, chapters 2 and 3.
 
-## Using the command-line interface
-The RSP Controller provides a command line interface (CLI) for configuration and monitoring, available locally on the edge computer when the RSP Controller application is running. The CLI is ideal for troubleshooting, simple configuration changes, or a quick check on live data.
-
-### Connect to the CLI
-
-1. To connect to the RSP Controller CLI:
-```
-ssh -p5222 console@localhost
-password: console
-```
-![Console login](https://baychub.github.io/cb-gsg/images/cli.jpg)
-
-### View a summary of sensors
-
-1. To view summary information about sensors connected to this RSP Controller, enter `view sensor information`:
-
-```
-#-- view sensor information 
-rfid-gw> sensor show
-------------------------------------------
-device     connect      reading    behavior  facility    personality  aliases
-
-RSP-150000 CONNECTED    STOPPED    Default   SalesFloor               [RSP-150000-0, RSP-150000-1, RSP-150000-2, RSP-150000-3]
-RSP-150004 CONNECTED    STOPPED    Default   SalesFloor  EXIT         [RSP-150004-0, RSP-150004-1, RSP-150004-2, RSP-150004-3]
-RSP-150005 CONNECTED    STOPPED    Default   BackStock                [RSP-150005-0, RSP-150005-1, RSP-150005-2, RSP-150005-3]
-------------------------------------------
-```
-
-### See tag events
-You can see the same data in the CLI that is available over MQTT. 
-
-1. For example, you can see the events (e.g., a new tag entering the facility) for all tags with this command:
-```
-What is the right command, team?<sensorID>
-```
-2. The data scrolls by in the terminal.
-	
-Other information can similarly be viewed in the CLI by giving the appropriate command.
-
-### Assign an alias to a sensor
-Sensors are referred to be their ID and antenna port (e.g., RSP150944-1). 
-1. To assign a human-readable name as an alias for both antenna ports of a sensor, find the sensor's ID from the web admin Dashboard page and enter this command at the CLI prompt:
-
-```
-sensor set.alias newname ALL_PORTS sensorid
-```
-
-Replace *newname* with the alias name you want, and replace *sensorid* with the sensor ID shown in the `sensor show` command you used earlier.
-
-![Console login](https://baychub.github.io/cb-gsg/images/sensor_set_alias.jpg)
-
-2. Return to the web admin portal and navigate to the Sensors page.
-
-	The alias you just assigned should appear in the Aliases column of the Sensors page.
-
-### Get CLI command help inline
-1. To see a list of available commands, at the RSP Controller CLI prompt press Enter with no text.
-
-2. Commands may have several layers of parameters, so the tab completion feature helps. At the RSP Controller CLI prompt type `inventory` and a space character, then press the Tab key.
-
- ![inventory tab help](https://baychub.github.io/cb-gsg/images/cli_tab.jpg)
-
-4. After the CLI displays the available parameters, type `stats` and a space character, then press the Tab key.
-
-5. After the CLI displays the available parameters, type `show` and press Enter.
-
-![inventory tab help](https://baychub.github.io/cb-gsg/images/inventory_stats_show.jpg)
-
-In this way you can see the syntax options progressively without referring to documentation. To view high-level command help, type the command and press Enter.
-
-Full documentation of the CLI is in the *[Intel® RSP Controller Application - Edge Computer Software Installation & User Guide](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_Installation_User_Guide.pdf)*, chapter 9.
-
 ## Changing the Configuration
 Between MQTT topics, the RSP Controller CLI, and the demonstration web admin portal, there are several ways to configure your sensors and RSP implementation. This section will show some examples.
-
-### Update Sensor Software
-Software on the RSP sensors allows you to post an update package on the edge computer and have the RSP Controller application automatically install the package on all of the sensors connected to that edge computer.
-
-1. On the edge computer, get the sensor software update from **[URL for update home]**.
-2. In a terminal window, expand the update package file and move the contents to the sensor software directory with these commands:
-````
-#-- From directory where you downloaded the sensor update
-tar -xf <filename_of_sensor_update>
-cd ~/deploy/rsp-sw-toolkit-gw/sensor-sw-repo
-````
-3. Sensors check this location for updates every 5 minutes. In a few minutes the sensors will automatically find and install the update. 
 
 ### Assign a personality to a sensor
 Sensor can have an optional *personality*, or category that tells RSP Controller application to process RFID data from that sensor in special ways:
@@ -338,7 +254,7 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE4OTcxMDksLTg2Mjc5NjQ4MCwtMT
+eyJoaXN0b3J5IjpbLTIwNTkyNjcyNTUsLTg2Mjc5NjQ4MCwtMT
 M0Njc1NDE4NCw2MzMxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMw
 MDEsLTM3NzQxMTczMSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2ND
 g2MDExMDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIz
