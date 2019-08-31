@@ -234,8 +234,8 @@ mosquitto_sub -t rfid/rsp/data/#
 ```
 Full documentation of the MQTT topics and data definitions can be found in the *[Intel® RSP Controller - Edge Computer Software Application Programming Interface (API)](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf)* guide, chapters 2 and 3.
 
-## Changing the Configuration
-Between MQTT topics, the RSP Controller CLI, and the demonstration web admin portal, there are several ways to configure your sensors and RSP implementation. This section will show some examples.
+## Configuring RSP Controller for your Use Case
+Between MQTT topics and the demonstration web admin portal, there are several ways to configure your sensors and RSP implementation. This section will show one example, and there are others in the Next Steps section.
 
 ### Assign a personality to a sensor
 Sensor can have an optional *personality*, or category that tells RSP Controller application to process RFID data from that sensor in special ways:
@@ -254,11 +254,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTkyNjcyNTUsLTg2Mjc5NjQ4MCwtMT
-M0Njc1NDE4NCw2MzMxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMw
-MDEsLTM3NzQxMTczMSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2ND
-g2MDExMDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIz
-NDYwLC0xODYyODczMTgxLDEzNDkzNzA5MTIsLTQ4MjE0NDUwOC
-wyMDg2ODcxMDQ3LDEzODExODM0ODEsLTIzODUxMzcyNSwtMTM0
-NzczNTAxMl19
+eyJoaXN0b3J5IjpbNDY3NTAyNzg2LC0yMDU5MjY3MjU1LC04Nj
+I3OTY0ODAsLTEzNDY3NTQxODQsNjMzMTMxNiwxMzAzNDI0NjUx
+LC0xNzY4NjAzMDAxLC0zNzc0MTE3MzEsOTI5ODI5MDYxLDgyNj
+czOTA0LC0xNjQ4NjAxMTA1LDE3NDI5NDM4MzAsMTQzMDYwMjMz
+MiwtMTA3MjAyMzQ2MCwtMTg2Mjg3MzE4MSwxMzQ5MzcwOTEyLC
+00ODIxNDQ1MDgsMjA4Njg3MTA0NywxMzgxMTgzNDgxLC0yMzg1
+MTM3MjVdfQ==
 -->
