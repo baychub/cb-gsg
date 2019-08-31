@@ -238,7 +238,7 @@ Full documentation of the MQTT topics and data definitions can be found in the *
 Between MQTT topics and the demonstration web admin portal, there are several ways to configure your sensors and RSP implementation for scale deployments. This section will show one example, and there are others in the Next Steps section.
 
 ### Assign a personality to a sensor
-Sensor can have an optional *personality*, or category that tells RSP Controller application to process RFID data from that sensor in special ways that simplify your processing:
+Sensor can have an optional *personality*, or category that tells RSP Controller application to process RFID data from that sensor in special ways that vastly simplify your code for processing the raw RFID data. The RSP Controller supports these personalities:
 * The EXIT personality is for a sensor near the exit of a facility and generates a DEPARTED event when this sensor was the last to detect a tag and a certain amount of time has elapsed.
 * The POS (point of sale) personality is intended for a retail checkout counter. A sensor with this personality generates a DEPARTED event immediately upon detection and allows re-entry into inventory after a certain amount of time.
 
@@ -254,11 +254,11 @@ The links below contain practical information for getting ready to do implement 
 - [Update sensor software](URL_goes_here): Instructions for installing updates to RSP sensor software, found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE0MTE1MTksLTU1NTY1NTEwMSw0Nj
-c1MDI3ODYsLTIwNTkyNjcyNTUsLTg2Mjc5NjQ4MCwtMTM0Njc1
-NDE4NCw2MzMxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMwMDEsLT
-M3NzQxMTczMSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2NDg2MDEx
-MDUsMTc0Mjk0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIzNDYwLC
-0xODYyODczMTgxLDEzNDkzNzA5MTIsLTQ4MjE0NDUwOCwyMDg2
-ODcxMDQ3XX0=
+eyJoaXN0b3J5IjpbLTc1MjQ3ODAyMSwtNTU1NjU1MTAxLDQ2Nz
+UwMjc4NiwtMjA1OTI2NzI1NSwtODYyNzk2NDgwLC0xMzQ2NzU0
+MTg0LDYzMzEzMTYsMTMwMzQyNDY1MSwtMTc2ODYwMzAwMSwtMz
+c3NDExNzMxLDkyOTgyOTA2MSw4MjY3MzkwNCwtMTY0ODYwMTEw
+NSwxNzQyOTQzODMwLDE0MzA2MDIzMzIsLTEwNzIwMjM0NjAsLT
+E4NjI4NzMxODEsMTM0OTM3MDkxMiwtNDgyMTQ0NTA4LDIwODY4
+NzEwNDddfQ==
 -->
