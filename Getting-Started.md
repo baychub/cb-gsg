@@ -21,7 +21,7 @@ Intel RSP Controller application software is open source, so you can easily buil
   * [Viewing RFID Data with MQTT](#viewing-rfid-data-in-other-ways)
   * [Getting data over MQTT](#getting-data-over-mqtt)
     + [Subscribe to an MQTT data topic](#subscribe-to-an-mqtt-data-topic)
-  * [Changing the Configuration](#changing-the-configuration)
+  * [Configuring RSP Controller for Your Use Case](#configuring-rsp-controller-for-your-use-case)
     + [Update Sensor Software](#update-sensor-software)
     + [Assign a personality to a sensor](#assign-a-personality-to-a-sensor)
   * [Next Steps](#next-steps)
@@ -254,11 +254,11 @@ The links below contain practical information for getting ready to do implement 
 - [Updating sensor software](https://github.com/baychub/cb-gsg/blob/master/update_sensor.md): Instructions for installing updates to RSP sensor software, also found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0NDM1NjMzLDEzNTc3NDcxNjgsLTc1Mj
-Q3ODAyMSwtNTU1NjU1MTAxLDQ2NzUwMjc4NiwtMjA1OTI2NzI1
-NSwtODYyNzk2NDgwLC0xMzQ2NzU0MTg0LDYzMzEzMTYsMTMwMz
-QyNDY1MSwtMTc2ODYwMzAwMSwtMzc3NDExNzMxLDkyOTgyOTA2
-MSw4MjY3MzkwNCwtMTY0ODYwMTEwNSwxNzQyOTQzODMwLDE0Mz
-A2MDIzMzIsLTEwNzIwMjM0NjAsLTE4NjI4NzMxODEsMTM0OTM3
-MDkxMl19
+eyJoaXN0b3J5IjpbMzcyOTU4Mjc3LDcwNDQzNTYzMywxMzU3Nz
+Q3MTY4LC03NTI0NzgwMjEsLTU1NTY1NTEwMSw0Njc1MDI3ODYs
+LTIwNTkyNjcyNTUsLTg2Mjc5NjQ4MCwtMTM0Njc1NDE4NCw2Mz
+MxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMwMDEsLTM3NzQxMTcz
+MSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2NDg2MDExMDUsMTc0Mj
+k0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIzNDYwLC0xODYyODcz
+MTgxXX0=
 -->
