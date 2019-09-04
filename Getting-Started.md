@@ -22,7 +22,6 @@ Intel RSP Controller application software is open source, so you can easily buil
   * [Getting data over MQTT](#getting-data-over-mqtt)
     + [Subscribe to an MQTT data topic](#subscribe-to-an-mqtt-data-topic)
   * [Configuring RSP Controller for Your Use Case](#configuring-rsp-controller-for-your-use-case)
-    + [Update Sensor Software](#update-sensor-software)
     + [Assign a personality to a sensor](#assign-a-personality-to-a-sensor)
   * [Next Steps](#next-steps)
 
@@ -234,7 +233,7 @@ mosquitto_sub -t rfid/rsp/data/#
 ```
 Full documentation of the MQTT topics and data definitions can be found in the *[Intel® RSP Controller - Edge Computer Software Application Programming Interface (API)](https://github.com/intel/rsp-sw-toolkit-gw/blob/master/docs/Intel-RSP-Controller-App_API_Guide.pdf)* guide, chapters 2 and 3.
 
-## Configuring RSP Controller for your Use Case
+## Configuring RSP Controller for Your Use Case
 Between MQTT topics and the demonstration web admin portal, there are several ways to configure your sensors and RSP implementation for scale deployments. This section will show one example, and there are others in the Next Steps section.
 
 ### Assign a personality to a sensor
@@ -254,11 +253,11 @@ The links below contain practical information for getting ready to do implement 
 - [Updating sensor software](https://github.com/baychub/cb-gsg/blob/master/update_sensor.md): Instructions for installing updates to RSP sensor software, also found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyOTU4Mjc3LDcwNDQzNTYzMywxMzU3Nz
-Q3MTY4LC03NTI0NzgwMjEsLTU1NTY1NTEwMSw0Njc1MDI3ODYs
-LTIwNTkyNjcyNTUsLTg2Mjc5NjQ4MCwtMTM0Njc1NDE4NCw2Mz
-MxMzE2LDEzMDM0MjQ2NTEsLTE3Njg2MDMwMDEsLTM3NzQxMTcz
-MSw5Mjk4MjkwNjEsODI2NzM5MDQsLTE2NDg2MDExMDUsMTc0Mj
-k0MzgzMCwxNDMwNjAyMzMyLC0xMDcyMDIzNDYwLC0xODYyODcz
-MTgxXX0=
+eyJoaXN0b3J5IjpbMTk0MzI4NDk1Niw3MDQ0MzU2MzMsMTM1Nz
+c0NzE2OCwtNzUyNDc4MDIxLC01NTU2NTUxMDEsNDY3NTAyNzg2
+LC0yMDU5MjY3MjU1LC04NjI3OTY0ODAsLTEzNDY3NTQxODQsNj
+MzMTMxNiwxMzAzNDI0NjUxLC0xNzY4NjAzMDAxLC0zNzc0MTE3
+MzEsOTI5ODI5MDYxLDgyNjczOTA0LC0xNjQ4NjAxMTA1LDE3ND
+I5NDM4MzAsMTQzMDYwMjMzMiwtMTA3MjAyMzQ2MCwtMTg2Mjg3
+MzE4MV19
 -->
