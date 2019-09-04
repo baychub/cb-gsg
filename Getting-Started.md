@@ -80,10 +80,11 @@ Whether you're using the RSP Developer Kit or provide your own components, the s
 	
 	RSP sensor units need a DHCP server when they start up to get an IP address and communicate with the RSP Controller application.
 	
-4. Connect each RSP sensor to a PoE+ port on the switch.
-5. Connect the PoE+ switch to the router and power on the switch.
+4. Connect the PoE+ switch to the router and power on the switch.
 
 	RSP sensors will get their IP addresses from the DHCP server on the router.
+
+5. As the last connectionConnect each RSP sensor to a PoE+ port on the switch.
 
 6. Check the LEDs on the RSP sensors.
 
@@ -253,7 +254,7 @@ The links below contain practical information for getting ready to do implement 
 - [Updating sensor software](https://github.com/baychub/cb-gsg/blob/master/update_sensor.md): Instructions for installing updates to RSP sensor software, also found in "Sensor Software Update," chapter 11 of the RSP Controller User Guide.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzI4NDk1Niw3MDQ0MzU2MzMsMTM1Nz
+eyJoaXN0b3J5IjpbMjAyODQ5NjA1Myw3MDQ0MzU2MzMsMTM1Nz
 c0NzE2OCwtNzUyNDc4MDIxLC01NTU2NTUxMDEsNDY3NTAyNzg2
 LC0yMDU5MjY3MjU1LC04NjI3OTY0ODAsLTEzNDY3NTQxODQsNj
 MzMTMxNiwxMzAzNDI0NjUxLC0xNzY4NjAzMDAxLC0zNzc0MTE3
